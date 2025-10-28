@@ -14,6 +14,8 @@
         const provinces = Array.from(document.querySelectorAll('path.province'));
         if (!provinces.length) return;
 
+        const subcultureSelect = document.getElementById('subculture');
+
         const esc = (s) => String(s)
             .replace(/&/g, '&amp;')
             .replace(/</g, '&lt;')
@@ -44,7 +46,7 @@
             return key;
         }
 
-        function buildTooltipHTML(provinceId, provinceData, locData) {
+        function buildTooltipHTML(provinceId, provinceData, locData, filterSubculture) {
             const title = locRegion(provinceId, locData);
 
             // New schema: provinceData is an object of subculture -> [units]
@@ -55,6 +57,25 @@
                     '<strong>' + esc(title) + '</strong>' +
                     '<div style="opacity:.8;margin-top:.25rem">No data</div>' +
                     '</div>'
+                );
+            }
+
+            const active = (filterSubculture && String(filterSubculture).length > 0) ? String(filterSubculture) : '';
+            if (active) {
+                const label = locSubculture(active, locData);
+                const units = provinceData ? provinceData[active] : undefined;
+                if (Array.isArray(units) && units.length > 0) {
+                    const unitItems = units.map((u) => '<li>' + esc(locUnit(u, locData)) + '</li>').join('');
+                    return (
+                        '<div style="font-weight:700;margin-bottom:.25rem">' + esc(title) + '</div>' +
+                        '<div style="margin:.35rem 0 .2rem;font-weight:600">' + esc(label) + '</div>' +
+                        '<ul style="margin:.1rem 0 .4rem .9rem;padding:0;list-style:disc">' + unitItems + '</ul>'
+                    );
+                }
+                return (
+                    '<div style="font-weight:700;margin-bottom:.25rem">' + esc(title) + '</div>' +
+                    '<div style="margin:.35rem 0 .2rem;font-weight:600">' + esc(label) + '</div>' +
+                    '<div style="opacity:.8;margin-left:.9rem">(none)</div>'
                 );
             }
 
@@ -106,7 +127,7 @@
                 const pdata = hasData ? regionData[pid] : undefined;
 
                 path.addEventListener('pointerenter', (evt) => {
-                    const html = buildTooltipHTML(pid, pdata, locData);
+                    const html = buildTooltipHTML(pid, pdata, locData, (subcultureSelect && subcultureSelect.value) || '');
                     tip.innerHTML = html;
                     tip.style.display = 'block';
                     positionTip(evt);
@@ -114,7 +135,7 @@
 
                 path.addEventListener('pointermove', (evt) => {
                     if (tip.style.display !== 'block') {
-                        tip.innerHTML = buildTooltipHTML(pid, pdata, locData);
+                        tip.innerHTML = buildTooltipHTML(pid, pdata, locData, (subcultureSelect && subcultureSelect.value) || '');
                         tip.style.display = 'block';
                     }
                     positionTip(evt);
@@ -137,13 +158,67 @@
                 return null; // proceed with fallbacks
             });
 
-        Promise.all([regionFetch, locFetch])
-            .then(([regionData, locData]) => {
+        const subculturesFetch = fetch('subcultures_list.json', { cache: 'no-store' })
+            .then((r) => (r.ok ? r.json() : Promise.reject(new Error('HTTP ' + r.status))))
+            .catch((err) => {
+                console.warn('subcultures_list.json could not be loaded:', err);
+                return [];
+            });
+
+        function populateSubcultureSelect(list, locData) {
+            if (!subcultureSelect) return;
+            // Clear existing (keep the first "All" option)
+            while (subcultureSelect.options.length > 1) subcultureSelect.remove(1);
+            const opts = Array.isArray(list) ? list.slice() : [];
+            opts.sort((a, b) => locSubculture(a, locData).localeCompare(locSubculture(b, locData)));
+            for (const key of opts) {
+                const opt = document.createElement('option');
+                opt.value = key;
+                opt.textContent = locSubculture(key, locData);
+                subcultureSelect.appendChild(opt);
+            }
+        }
+
+        function setupSubcultureFilter(regionData, hasData, locData, subcultureList) {
+            if (!subcultureSelect) return;
+
+            // Fallback: if list is empty, derive from dataset
+            let options = Array.isArray(subcultureList) && subcultureList.length ? subcultureList : [];
+            if (!options.length && hasData) {
+                const s = new Set();
+                for (const val of Object.values(regionData)) {
+                    if (val && typeof val === 'object') {
+                        for (const k of Object.keys(val)) s.add(k);
+                    }
+                }
+                options = Array.from(s);
+            }
+            populateSubcultureSelect(options, locData);
+
+            function applyFilter(value) {
+                const sel = String(value || '');
+                const enable = sel.length > 0;
+                provinces.forEach((path) => {
+                    const pid = path.id || '';
+                    const pdata = hasData ? regionData[pid] : undefined;
+                    const match = enable && pdata && Object.prototype.hasOwnProperty.call(pdata, sel);
+                    path.classList.toggle('is-highlight', !!match);
+                });
+            }
+
+            subcultureSelect.addEventListener('change', () => applyFilter(subcultureSelect.value));
+            applyFilter('');
+        }
+
+        Promise.all([regionFetch, locFetch, subculturesFetch])
+            .then(([regionData, locData, subcultureList]) => {
                 attachHandlers(regionData, true, locData);
+                setupSubcultureFilter(regionData, true, locData, subcultureList);
             })
             .catch((err) => {
                 console.warn('region_data.json could not be loaded:', err);
                 attachHandlers({}, false, null);
+                setupSubcultureFilter({}, false, null, []);
             });
     }
 })();

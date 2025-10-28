@@ -292,7 +292,7 @@ def main():
     ap.add_argument("--min-area", type=int, default=80)
     ap.add_argument("--skip-sea", action="store_true")
     ap.add_argument("--supersample", type=int, default=1,
-                    help="Scale mask up N× before contouring (1=off, 2=default for smooth edges)")
+                    help="Scale mask up N* before contouring (1=off, 2=default for smooth edges)")
     args = ap.parse_args()
 
     outdir = Path(args.outdir); outdir.mkdir(exist_ok=True)
@@ -327,6 +327,13 @@ def main():
     # what I need is: for each region: the subcultures: the units available
     # we can check if a region has a resource, then find the units for that resource
     # and then for each unit, find its subculture via building -> subculture mapping
+
+    # subcultures
+    subcultures_list = list(subculture_to_building.keys())
+    # save to json
+    (outdir / "subcultures_list.json").write_text(
+        json.dumps(subcultures_list, indent=2), encoding="utf-8")
+
 
     # unit -> subculture via building
     unit_to_subculture = {}
