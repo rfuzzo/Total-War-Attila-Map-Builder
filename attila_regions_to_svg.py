@@ -285,7 +285,7 @@ def load_lookup(path: Path):
 # ------------------------------------------------------------
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--outdir", default="build")
+    ap.add_argument("--outdir", default="docs")
     ap.add_argument("--skip-svg", action="store_true")
     ap.add_argument("--tolerance", type=int, default=1)
     ap.add_argument("--simplify", type=float, default=0.3)
