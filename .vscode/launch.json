@@ -12,17 +12,6 @@
             "console": "integratedTerminal",
             "args": [
                 "--skip-svg",
-                "--outdir",
-                "out_svg",
-                "--tolerance",
-                "1",
-                "--simplify",
-                "0.3",
-                "--min-area",
-                "80",
-                "--skip-sea",
-                // "--supersample",
-                // "2"
             ]
         }
     ]

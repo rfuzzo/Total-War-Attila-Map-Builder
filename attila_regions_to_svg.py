@@ -28,7 +28,7 @@ lookup_image = "data/main_attila_lookup.tga"
 units_folder = ["data/units"]
 
 regions_csv = "data/regions.csv"
-regions_units = "data/start_pos_regions_to_unit_resources.csv"
+regions_units = "data/_rex_start_pos_regions_to_unit_resources.csv"
 lookup_factions = "data/_rex_factions.tsv"
 lookup_buildings = "data/building_culture_variants.tsv"
 lookup_building_units = "data/_rex_building_units_allowed.tsv"
@@ -285,7 +285,7 @@ def load_lookup(path: Path):
 # ------------------------------------------------------------
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--outdir", default="out_svg")
+    ap.add_argument("--outdir", default="build")
     ap.add_argument("--skip-svg", action="store_true")
     ap.add_argument("--tolerance", type=int, default=1)
     ap.add_argument("--simplify", type=float, default=0.3)
