@@ -14,7 +14,7 @@
         const provinces = Array.from(document.querySelectorAll('path.province'));
         if (!provinces.length) return;
 
-        const subcultureSelect = document.getElementById('subculture');
+        const cultureSelect = document.getElementById('culture');
 
         const esc = (s) => String(s)
             .replace(/&/g, '&amp;')
@@ -31,9 +31,9 @@
             return id;
         }
 
-        function locSubculture(key, loc) {
-            if (loc && loc.cultures && Object.prototype.hasOwnProperty.call(loc.cultures, key)) {
-                return String(loc.cultures[key]);
+        function locCulture(key, loc) {
+            if (loc && loc.factions && Object.prototype.hasOwnProperty.call(loc.factions, key)) {
+                return String(loc.factions[key]);
             }
             // Fallback: strip common prefix and prettify
             return key;
@@ -46,10 +46,10 @@
             return key;
         }
 
-        function buildTooltipHTML(provinceId, provinceData, locData, filterSubculture) {
+        function buildTooltipHTML(provinceId, provinceData, locData, filterCulture) {
             const title = locRegion(provinceId, locData);
 
-            // New schema: provinceData is an object of subculture -> [units]
+            // New schema: provinceData is an object of culture -> [units]
             const hasData = provinceData && typeof provinceData === 'object' && Object.keys(provinceData).length > 0;
             if (!hasData) {
                 return (
@@ -60,9 +60,9 @@
                 );
             }
 
-            const active = (filterSubculture && String(filterSubculture).length > 0) ? String(filterSubculture) : '';
+            const active = (filterCulture && String(filterCulture).length > 0) ? String(filterCulture) : '';
             if (active) {
-                const label = locSubculture(active, locData);
+                const label = locCulture(active, locData);
                 const units = provinceData ? provinceData[active] : undefined;
                 if (Array.isArray(units) && units.length > 0) {
                     const unitItems = units.map((u) => '<li>' + esc(locUnit(u, locData)) + '</li>').join('');
@@ -80,23 +80,23 @@
             }
 
             const sections = [];
-            // Sort sections by localized subculture label for readability
+            // Sort sections by localized culture label for readability
             const entries = Object.entries(provinceData).sort(([a], [b]) => {
-                const la = locSubculture(a, locData);
-                const lb = locSubculture(b, locData);
+                const la = locCulture(a, locData);
+                const lb = locCulture(b, locData);
                 return la.localeCompare(lb);
             });
-            for (const [subcult, units] of entries) {
-                const subcultLabel = locSubculture(subcult, locData);
+            for (const [culture, units] of entries) {
+                const cultureLabel = locCulture(culture, locData);
                 if (Array.isArray(units) && units.length > 0) {
                     const unitItems = units.map((u) => '<li>' + esc(locUnit(u, locData)) + '</li>').join('');
                     sections.push(
-                        '<div style="margin:.35rem 0 .2rem;font-weight:600">' + esc(subcultLabel) + '</div>' +
+                        '<div style="margin:.35rem 0 .2rem;font-weight:600">' + esc(cultureLabel) + '</div>' +
                         '<ul style="margin:.1rem 0 .4rem .9rem;padding:0;list-style:disc">' + unitItems + '</ul>'
                     );
                 } else {
                     sections.push(
-                        '<div style="margin:.35rem 0 .2rem;font-weight:600">' + esc(subcultLabel) + '</div>' +
+                        '<div style="margin:.35rem 0 .2rem;font-weight:600">' + esc(cultureLabel) + '</div>' +
                         '<div style="opacity:.8;margin-left:.9rem">(none)</div>'
                     );
                 }
@@ -127,7 +127,7 @@
                 const pdata = hasData ? regionData[pid] : undefined;
 
                 path.addEventListener('pointerenter', (evt) => {
-                    const html = buildTooltipHTML(pid, pdata, locData, (subcultureSelect && subcultureSelect.value) || '');
+                    const html = buildTooltipHTML(pid, pdata, locData, (cultureSelect && cultureSelect.value) || '');
                     tip.innerHTML = html;
                     tip.style.display = 'block';
                     positionTip(evt);
@@ -135,7 +135,7 @@
 
                 path.addEventListener('pointermove', (evt) => {
                     if (tip.style.display !== 'block') {
-                        tip.innerHTML = buildTooltipHTML(pid, pdata, locData, (subcultureSelect && subcultureSelect.value) || '');
+                        tip.innerHTML = buildTooltipHTML(pid, pdata, locData, (cultureSelect && cultureSelect.value) || '');
                         tip.style.display = 'block';
                     }
                     positionTip(evt);
@@ -158,32 +158,32 @@
                 return null; // proceed with fallbacks
             });
 
-        const subculturesFetch = fetch('subcultures_list.json', { cache: 'no-store' })
+        const culturesFetch = fetch('cultures_list.json', { cache: 'no-store' })
             .then((r) => (r.ok ? r.json() : Promise.reject(new Error('HTTP ' + r.status))))
             .catch((err) => {
-                console.warn('subcultures_list.json could not be loaded:', err);
+                console.warn('cultures_list.json could not be loaded:', err);
                 return [];
             });
 
-        function populateSubcultureSelect(list, locData) {
-            if (!subcultureSelect) return;
+        function populateCultureSelect(list, locData) {
+            if (!cultureSelect) return;
             // Clear existing (keep the first "All" option)
-            while (subcultureSelect.options.length > 1) subcultureSelect.remove(1);
+            while (cultureSelect.options.length > 1) cultureSelect.remove(1);
             const opts = Array.isArray(list) ? list.slice() : [];
-            opts.sort((a, b) => locSubculture(a, locData).localeCompare(locSubculture(b, locData)));
+            opts.sort((a, b) => locCulture(a, locData).localeCompare(locCulture(b, locData)));
             for (const key of opts) {
                 const opt = document.createElement('option');
                 opt.value = key;
-                opt.textContent = locSubculture(key, locData);
-                subcultureSelect.appendChild(opt);
+                opt.textContent = locCulture(key, locData);
+                cultureSelect.appendChild(opt);
             }
         }
 
-        function setupSubcultureFilter(regionData, hasData, locData, subcultureList) {
-            if (!subcultureSelect) return;
+        function setupCultureFilter(regionData, hasData, locData, cultureList) {
+            if (!cultureSelect) return;
 
             // Fallback: if list is empty, derive from dataset
-            let options = Array.isArray(subcultureList) && subcultureList.length ? subcultureList : [];
+            let options = Array.isArray(cultureList) && cultureList.length ? cultureList : [];
             if (!options.length && hasData) {
                 const s = new Set();
                 for (const val of Object.values(regionData)) {
@@ -193,7 +193,7 @@
                 }
                 options = Array.from(s);
             }
-            populateSubcultureSelect(options, locData);
+            populateCultureSelect(options, locData);
 
             function applyFilter(value) {
                 const sel = String(value || '');
@@ -206,19 +206,19 @@
                 });
             }
 
-            subcultureSelect.addEventListener('change', () => applyFilter(subcultureSelect.value));
+            cultureSelect.addEventListener('change', () => applyFilter(cultureSelect.value));
             applyFilter('');
         }
 
-        Promise.all([regionFetch, locFetch, subculturesFetch])
-            .then(([regionData, locData, subcultureList]) => {
+        Promise.all([regionFetch, locFetch, culturesFetch])
+            .then(([regionData, locData, cultureList]) => {
                 attachHandlers(regionData, true, locData);
-                setupSubcultureFilter(regionData, true, locData, subcultureList);
+                setupCultureFilter(regionData, true, locData, cultureList);
             })
             .catch((err) => {
                 console.warn('region_data.json could not be loaded:', err);
                 attachHandlers({}, false, null);
-                setupSubcultureFilter({}, false, null, []);
+                setupCultureFilter({}, false, null, []);
             });
     }
 })();

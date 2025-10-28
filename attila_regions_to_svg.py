@@ -26,12 +26,12 @@ from PIL import Image
 lookup_image = "data/main_attila_lookup.tga"
 
 units_folder = ["data/units"]
+units_to_groupings_military_permissions_tables = ["data/units_to_groupings_military_permissions_tables"]
 
 regions_csv = "data/regions.csv"
 regions_units = "data/_rex_start_pos_regions_to_unit_resources.csv"
 lookup_factions = "data/_rex_factions.tsv"
 lookup_buildings = "data/building_culture_variants.tsv"
-lookup_building_units = "data/_rex_building_units_allowed.tsv"
 
 # location TSV paths and prefixes
 loc_sources = {
@@ -39,9 +39,9 @@ loc_sources = {
         "metadata": "data/loc/__land_units.loc.tsv",
         "prefix": "land_units_onscreen_name_"
     },
-    "cultures": {
-        "metadata": "data/loc/_cultures_subcultures.loc.tsv",
-        "prefix": "cultures_subcultures_name_"
+    "factions": {
+        "metadata": "data/loc/_factions.loc.tsv",
+        "prefix": "factions_screen_name_"
     },
     "regions": {
         "metadata": "data/loc/_regions.loc.tsv",
@@ -54,8 +54,8 @@ loc_sources = {
 #  TSV mapping: 
 #  all loc tsvs:                  key -> text
 # ------------------------------------------------------------
-def load_loc_csv(csv_path, mapping, prefix):
-    with open(csv_path, newline="", encoding="utf-8", errors="replace") as f:
+def load_loc_tsv(path, mapping, prefix):
+    with open(path, newline="", encoding="utf-8", errors="replace") as f:
         reader = csv.DictReader(f, delimiter="\t")
         for row in reader:
             # csv with columns: key, text
@@ -65,79 +65,78 @@ def load_loc_csv(csv_path, mapping, prefix):
                 # strip "land_units_onscreen_name_" prefix from key
                 if key.startswith(prefix):
                     key = key[len(prefix):]
-                mapping[key] = text
+                    mapping[key] = text
 
     return mapping
 
 # ------------------------------------------------------------
 #  TSV mapping: 
-#  _rex_factions.tsv:                  faction -> subculture
+#  _rex_factions.tsv:                  faction -> military_group
 # ------------------------------------------------------------
-def load_building_unit_mapping(csv_path):
+def load_faction_mapping(path):
     mapping = {}
-    with open(csv_path, newline="", encoding="utf-8", errors="replace") as f:
+    with open(path, newline="", encoding="utf-8", errors="replace") as f:
         reader = csv.DictReader(f, delimiter="\t")
         for row in reader:
-            # csv with columns: building, unit
-            building = row.get("building", "").strip()
-            unit = row.get("unit", "").strip()
-            # one building can can have multiple units, in a new line
-            if building and unit:
-                if building not in mapping:
-                    mapping[building] = []
-                mapping[building].append(unit)
-            
+            # csv with columns: key, military_group
+            faction = row.get("key", "").strip()
+
+            # skip if starts with "bel_fact_"
+            if faction.startswith("bel_fact_"):
+                continue
+            # skip if starts with "cha_fact_"
+            if faction.startswith("cha_fact_"):
+                continue
+            # skip if starts with "att_fact_separatist_"
+            if faction.startswith("att_fact_separatist_"):
+                continue
+            # skip if starts with "att_fact_rebel_"
+            if faction.startswith("att_fact_rebel_"):
+                continue
+
+            military_group = row.get("military_group", "").strip()
+            if faction and military_group:
+                mapping[faction] = military_group
     return mapping
 
 # ------------------------------------------------------------
-#  TSV mapping: 
-#  _rex_factions.tsv:                  faction -> subculture
+#  TSV mapping:  unit -> [military_group]
 # ------------------------------------------------------------
-def load_faction_mapping(csv_path):
+def load_unit_military_mapping(folder_path):
     mapping = {}
-    with open(csv_path, newline="", encoding="utf-8", errors="replace") as f:
-        reader = csv.DictReader(f, delimiter="\t")
-        for row in reader:
-            # csv with columns: key, subculture
-            region = row.get("key", "").strip()
-            subculture = row.get("subculture", "").strip()
-            if region and subculture:
-                mapping[region] = subculture
+
+    files = []
+    for folder in folder_path:
+        p = Path(folder)
+        files.extend(p.glob("*.tsv"))
+
+    for path in files:
+        with open(path, newline="", encoding="utf-8", errors="replace") as f:
+            reader = csv.DictReader(f, delimiter="\t")
+            for row in reader:
+                # csv with columns: unit, military_group
+                unit = row.get("unit", "").strip()
+                military_group = row.get("military_group", "").strip()
+                if unit and military_group:
+                    if unit not in mapping:
+                        mapping[unit] = []
+                    mapping[unit].append(military_group)
     return mapping
 
 # ------------------------------------------------------------
-#  TSV mapping: 
-#  building_culture_variants.tsv:     subculture -> building
-# ------------------------------------------------------------
-def load_buildings_mapping(csv_path):
-    mapping = {}
-    with open(csv_path, newline="", encoding="utf-8", errors="replace") as f:
-        reader = csv.DictReader(f, delimiter="\t")
-        for row in reader:
-            # csv with columns: building, subculture
-            building = row.get("building", "").strip()
-            subculture = row.get("subculture", "").strip()
-            if building and subculture:
-                if subculture not in mapping:
-                    mapping[subculture] = []
-                mapping[subculture].append(building)
-    return mapping
-
-# ------------------------------------------------------------
-#  TSV mapping: 
-#   _rex_other_main_units.tsv:                  unit resource -> unit
+#  TSV mapping:  unit resource -> [unit]
 # ------------------------------------------------------------
 def load_unit_mappings(folder_path):
     mapping = {}
     unit_alias = {}
 
-    csv_files = []
+    files = []
     for folder in folder_path:
         p = Path(folder)
-        csv_files.extend(p.glob("*.tsv"))
+        files.extend(p.glob("*.tsv"))
     
-    for csv_path in csv_files:
-        with open(csv_path, newline="", encoding="utf-8", errors="replace") as f:
+    for path in files:
+        with open(path, newline="", encoding="utf-8", errors="replace") as f:
             reader = csv.DictReader(f, delimiter="\t")
             for row in reader:
                 # csv with columns: unit, region_unit_resource_requirement
@@ -155,8 +154,7 @@ def load_unit_mappings(folder_path):
     return mapping, unit_alias
 
 # ------------------------------------------------------------
-#  CSV mapping: 
-#   start_pos_regions_to_unit_resources.csv:    region -> unit resource
+#  CSV mapping:  region -> [unit resource]
 # ------------------------------------------------------------
 def load_auxilia_mapping(csv_path):
     mapping = {}
@@ -213,10 +211,11 @@ def find_contours(img_bgra, color_rgba, tol=1, min_area=40, use_alpha=False, alp
     upper = np.clip(upper, 0, 255).astype(np.uint8)
     mask = cv2.inRange(bgr, lower, upper)
 
-    if use_alpha:
-        a_chan = img_bgra[:, :, 3]
-        mask_alpha = cv2.inRange(a_chan, alpha_min, 255)
-        mask = cv2.bitwise_and(mask, mask_alpha)
+    # TODO MB: check
+    # if use_alpha:
+    #     a_chan = img_bgra[:, :, 3]
+    #     mask_alpha = cv2.inRange(a_chan, alpha_min, 255)
+    #     mask = cv2.bitwise_and(mask, mask_alpha)
 
      # Light cleanup to keep edges but remove pepper noise
     if min_area > 0:
@@ -309,65 +308,63 @@ def main():
     resource_to_unit, unit_alias = load_unit_mappings(units_folder)
     print(f"Loaded {len(resource_to_unit)} unit resource to unit mappings from {units_folder}")
 
-    # faction -> subculture
-    faction_to_subculture = load_faction_mapping(lookup_factions)
-    print(f"Loaded {len(faction_to_subculture)} faction to subculture mappings from {lookup_factions}")
+    # military_group -> faction
+    faction_to_military_group = load_faction_mapping(lookup_factions)
+    print(f"Loaded {len(faction_to_military_group)} faction to military_group mappings from {lookup_factions}")
 
-    # subculture -> buildings
-    subculture_to_building = load_buildings_mapping(lookup_buildings)
-    print(f"Loaded {len(subculture_to_building)} subculture to building mappings from {lookup_buildings}")
-    # building -> units
-    building_to_unit = load_building_unit_mapping(lookup_building_units)
-    print(f"Loaded {len(building_to_unit)} building to unit mappings from {lookup_building_units}")
+    # unit -> military_group
+    unit_to_military_group = load_unit_military_mapping(units_to_groupings_military_permissions_tables)
+    print(f"Loaded {len(unit_to_military_group)} unit to military_group mappings from {units_to_groupings_military_permissions_tables}")
 
     # ------------------------------------------------------------
     # REGION DATA MAPPING
     # ------------------------------------------------------------
-
-    # what I need is: for each region: the subcultures: the units available
-    # we can check if a region has a resource, then find the units for that resource
-    # and then for each unit, find its subculture via building -> subculture mapping
-
-    # subcultures
-    subcultures_list = list(subculture_to_building.keys())
-    # save to json
-    (outdir / "subcultures_list.json").write_text(
-        json.dumps(subcultures_list, indent=2), encoding="utf-8")
-
-
-    # unit -> subculture via building
-    unit_to_subculture = {}
-    for subculture, buildings in subculture_to_building.items():
-        for building in buildings:
-            units = building_to_unit.get(building, [])
-            for unit in units:
-                if unit not in unit_to_subculture:
-                    unit_to_subculture[unit] = []
-                # avoid duplicates
-                if subculture not in unit_to_subculture[unit]:
-                    unit_to_subculture[unit].append(subculture)
    
     region_data = {}
     for region, resources in region_to_resource.items():
         region_data[region] = {}
+        # go through all unit auxilia in the region
         for resource in resources:
+            # for each auxilia, get the units
             units = resource_to_unit.get(resource, [])
+            # now go through each unit and get its military group
             for unit in units:
-                subcultures = unit_to_subculture.get(unit, [])
-                for subculture in subcultures:
-                    if subculture not in region_data[region]:
-                        region_data[region][subculture] = []
-                    if unit not in region_data[region][subculture]:
+                military_groups = unit_to_military_group.get(unit, [])
+                for military_group in military_groups:
+                    # find which faction this military group belongs to
+                    faction = None
+                    for fct, mg in faction_to_military_group.items():
+                        if mg == military_group:
+                            faction = fct
+                            break
+                    if not faction:
+                        continue
 
+                    if faction not in region_data[region]:
+                        region_data[region][faction] = []
+                    if unit not in region_data[region][faction]:
                         # use the alias if available
                         if unit in unit_alias:
                             unit = unit_alias[unit]
-                        region_data[region][subculture].append(unit)
+                        region_data[region][faction].append(unit)
 
     # save to json
     (outdir / "region_data.json").write_text(
         json.dumps(region_data, indent=2), encoding="utf-8")
     print(f"✓ Wrote region data mapping → {outdir/'region_data.json'}")
+
+
+    # get all unique cultures
+    cultures_list = {}
+    for region in region_data:
+        for faction in region_data[region]:
+            if faction not in cultures_list:
+                cultures_list[faction] = True
+    cultures_list = list(cultures_list.keys())
+
+    # save to json
+    (outdir / "cultures_list.json").write_text(
+        json.dumps(cultures_list, indent=2), encoding="utf-8")
 
     # ------------------------------------------------------------
     # LOCALIZATION
@@ -378,7 +375,7 @@ def main():
     loc_data = {}
     for key in loc_sources:
         loc_data[key] = {}
-        load_loc_csv(
+        load_loc_tsv(
             loc_sources[key]["metadata"],
             loc_data[key],
             loc_sources[key]["prefix"]
@@ -402,7 +399,7 @@ def main():
     print(f"Loaded {len(mapping)} region color mappings from {regions_csv}")
 
     # this is in RGBA format
-    rgba, w, h = load_lookup(lookup_image)
+    rgba, w, h = load_lookup(Path(lookup_image))
     colors_present = {tuple(map(int, c)) for c in np.unique(rgba.reshape(-1, 4), axis=0)}
     to_process = [c for c in colors_present if c in mapping]
 
