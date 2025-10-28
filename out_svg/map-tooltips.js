@@ -28,7 +28,10 @@
 
         function buildTooltipHTML(provinceId, provinceData) {
             const title = pretty(provinceId);
-            if (!provinceData || !provinceData.resources) {
+
+            // New schema: provinceData is an object of subculture -> [units]
+            const hasData = provinceData && typeof provinceData === 'object' && Object.keys(provinceData).length > 0;
+            if (!hasData) {
                 return (
                     '<div>' +
                     '<strong>' + esc(title) + '</strong>' +
@@ -37,18 +40,25 @@
                 );
             }
 
+            const prettySubcult = (key) => {
+                // Drop common prefix and prettify words
+                const k = String(key || '').replace(/^att_sub_cult_/, '');
+                return pretty(k);
+            };
+
             const sections = [];
-            for (const [resource, units] of Object.entries(provinceData.resources)) {
-                const resourceName = pretty(resource);
+            const entries = Object.entries(provinceData).sort(([a], [b]) => a.localeCompare(b));
+            for (const [subcult, units] of entries) {
+                const label = prettySubcult(subcult);
                 if (Array.isArray(units) && units.length > 0) {
                     const unitItems = units.map((u) => '<li>' + esc(pretty(u)) + '</li>').join('');
                     sections.push(
-                        '<div style="margin:.35rem 0 .2rem;font-weight:600">' + esc(resourceName) + '</div>' +
+                        '<div style="margin:.35rem 0 .2rem;font-weight:600">' + esc(label) + '</div>' +
                         '<ul style="margin:.1rem 0 .4rem .9rem;padding:0;list-style:disc">' + unitItems + '</ul>'
                     );
                 } else {
                     sections.push(
-                        '<div style="margin:.35rem 0 .2rem;font-weight:600">' + esc(resourceName) + '</div>' +
+                        '<div style="margin:.35rem 0 .2rem;font-weight:600">' + esc(label) + '</div>' +
                         '<div style="opacity:.8;margin-left:.9rem">(none)</div>'
                     );
                 }
