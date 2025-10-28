@@ -14,11 +14,6 @@
         const provinces = Array.from(document.querySelectorAll('path.province'));
         if (!provinces.length) return;
 
-        const pretty = (s) => String(s || '')
-            .replace(/_/g, ' ')
-            .replace(/\s+/g, ' ')
-            .trim();
-
         const esc = (s) => String(s)
             .replace(/&/g, '&amp;')
             .replace(/</g, '&lt;')
@@ -26,8 +21,31 @@
             .replace(/"/g, '&quot;')
             .replace(/'/g, '&#39;');
 
-        function buildTooltipHTML(provinceId, provinceData) {
-            const title = pretty(provinceId);
+        // Localization helpers (safe fallbacks when loc data is missing)
+        function locRegion(id, loc) {
+            if (loc && loc.regions && Object.prototype.hasOwnProperty.call(loc.regions, id)) {
+                return String(loc.regions[id]);
+            }
+            return id;
+        }
+
+        function locSubculture(key, loc) {
+            if (loc && loc.cultures && Object.prototype.hasOwnProperty.call(loc.cultures, key)) {
+                return String(loc.cultures[key]);
+            }
+            // Fallback: strip common prefix and prettify
+            return key;
+        }
+
+        function locUnit(key, loc) {
+            if (loc && loc.units && Object.prototype.hasOwnProperty.call(loc.units, key)) {
+                return String(loc.units[key]);
+            }
+            return key;
+        }
+
+        function buildTooltipHTML(provinceId, provinceData, locData) {
+            const title = locRegion(provinceId, locData);
 
             // New schema: provinceData is an object of subculture -> [units]
             const hasData = provinceData && typeof provinceData === 'object' && Object.keys(provinceData).length > 0;
@@ -40,25 +58,24 @@
                 );
             }
 
-            const prettySubcult = (key) => {
-                // Drop common prefix and prettify words
-                const k = String(key || '').replace(/^att_sub_cult_/, '');
-                return pretty(k);
-            };
-
             const sections = [];
-            const entries = Object.entries(provinceData).sort(([a], [b]) => a.localeCompare(b));
+            // Sort sections by localized subculture label for readability
+            const entries = Object.entries(provinceData).sort(([a], [b]) => {
+                const la = locSubculture(a, locData);
+                const lb = locSubculture(b, locData);
+                return la.localeCompare(lb);
+            });
             for (const [subcult, units] of entries) {
-                const label = prettySubcult(subcult);
+                const subcultLabel = locSubculture(subcult, locData);
                 if (Array.isArray(units) && units.length > 0) {
-                    const unitItems = units.map((u) => '<li>' + esc(pretty(u)) + '</li>').join('');
+                    const unitItems = units.map((u) => '<li>' + esc(locUnit(u, locData)) + '</li>').join('');
                     sections.push(
-                        '<div style="margin:.35rem 0 .2rem;font-weight:600">' + esc(label) + '</div>' +
+                        '<div style="margin:.35rem 0 .2rem;font-weight:600">' + esc(subcultLabel) + '</div>' +
                         '<ul style="margin:.1rem 0 .4rem .9rem;padding:0;list-style:disc">' + unitItems + '</ul>'
                     );
                 } else {
                     sections.push(
-                        '<div style="margin:.35rem 0 .2rem;font-weight:600">' + esc(label) + '</div>' +
+                        '<div style="margin:.35rem 0 .2rem;font-weight:600">' + esc(subcultLabel) + '</div>' +
                         '<div style="opacity:.8;margin-left:.9rem">(none)</div>'
                     );
                 }
@@ -83,13 +100,13 @@
             if (overBottom > 0) tip.style.top = Math.max(0, y - overBottom - 12) + 'px';
         }
 
-        function attachHandlers(regionData, hasData) {
+        function attachHandlers(regionData, hasData, locData) {
             provinces.forEach((path) => {
                 const pid = path.id || '';
                 const pdata = hasData ? regionData[pid] : undefined;
 
                 path.addEventListener('pointerenter', (evt) => {
-                    const html = buildTooltipHTML(pid, pdata);
+                    const html = buildTooltipHTML(pid, pdata, locData);
                     tip.innerHTML = html;
                     tip.style.display = 'block';
                     positionTip(evt);
@@ -97,7 +114,7 @@
 
                 path.addEventListener('pointermove', (evt) => {
                     if (tip.style.display !== 'block') {
-                        tip.innerHTML = buildTooltipHTML(pid, pdata);
+                        tip.innerHTML = buildTooltipHTML(pid, pdata, locData);
                         tip.style.display = 'block';
                     }
                     positionTip(evt);
@@ -109,15 +126,24 @@
             });
         }
 
-        // Load region data, then attach
-        fetch('region_data.json', { cache: 'no-store' })
+        // Load region and localization data, then attach
+        const regionFetch = fetch('region_data.json', { cache: 'no-store' })
+            .then((r) => (r.ok ? r.json() : Promise.reject(new Error('HTTP ' + r.status))));
+
+        const locFetch = fetch('loc_data.json', { cache: 'no-store' })
             .then((r) => (r.ok ? r.json() : Promise.reject(new Error('HTTP ' + r.status))))
-            .then((regionData) => {
-                attachHandlers(regionData, true);
+            .catch((err) => {
+                console.warn('loc_data.json could not be loaded:', err);
+                return null; // proceed with fallbacks
+            });
+
+        Promise.all([regionFetch, locFetch])
+            .then(([regionData, locData]) => {
+                attachHandlers(regionData, true, locData);
             })
             .catch((err) => {
                 console.warn('region_data.json could not be loaded:', err);
-                attachHandlers({}, false);
+                attachHandlers({}, false, null);
             });
     }
 })();

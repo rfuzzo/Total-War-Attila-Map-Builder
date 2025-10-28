@@ -60,8 +60,8 @@
       "rex_rom_legionis_palaestinorum",
       "rex_rom_legionis_euphratensis",
       "rex_rom_equites_saraceni",
-      "rex_rom_ala_dromedariorum_z",
-      "att_rom_imperial_dromedarii",
+      "rex_rom_ala_dromedariorum",
+      "rex_rom_ala_dromedariorum",
       "rex_rom_cuneus_clibanariorum_palmirenorum"
     ],
     "att_sub_cult_roman_west": [
@@ -69,8 +69,7 @@
       "rex_rom_legionis_palaestinorum",
       "rex_rom_legionis_euphratensis",
       "rex_rom_equites_saraceni",
-      "rex_rom_ala_dromedariorum_z",
-      "att_rom_imperial_dromedarii",
+      "rex_rom_ala_dromedariorum",
       "rex_rom_cuneus_clibanariorum_palmirenorum"
     ]
   },
@@ -80,14 +79,14 @@
       "rex_rom_auxiliarii_sagittarii_orientales",
       "rex_rom_equites_sagittarii_parthi",
       "rex_rom_equites_scutarii_orientales",
-      "att_rom_clibanarii"
+      "rex_rom_equites_clibanarii_parthi"
     ],
     "att_sub_cult_roman_west": [
       "rex_rom_legionis_transtigritani",
       "rex_rom_auxiliarii_sagittarii_orientales",
       "rex_rom_equites_sagittarii_parthi",
       "rex_rom_equites_scutarii_orientales",
-      "att_rom_clibanarii"
+      "rex_rom_equites_clibanarii_parthi"
     ]
   },
   "att_reg_sarmatia_europaea_gelonus": {},
@@ -104,7 +103,7 @@
       "rex_rom_auxiliarii_thraces",
       "rex_rom_auxiliarii_tervingi",
       "rex_rom_auxiliarii_visi",
-      "att_ger_taifali_cavalry",
+      "rex_rom_equites_taifali",
       "rex_rom_legionis_moesiaci_seniores",
       "rex_rom_legionis_daci",
       "rex_goth_band_militon_tervingi_F",
@@ -124,7 +123,7 @@
       "rex_rom_auxiliarii_thraces",
       "rex_rom_auxiliarii_tervingi",
       "rex_rom_auxiliarii_visi",
-      "att_ger_taifali_cavalry",
+      "rex_rom_equites_taifali",
       "rex_rom_legionis_moesiaci_seniores",
       "rex_rom_legionis_daci",
       "rex_goth_band_militon_tervingi_F",
@@ -284,12 +283,12 @@
       "rex_celt_brit_infantry",
       "rex_celt_brit_horseman",
       "rex_celt_brit_chariot",
-      "rex_celt_pict_band_defenders2",
-      "rex_celt_pict_band_raiders2",
-      "rex_celt_caled_band_defenders2",
-      "rex_celt_caled_band_raiders2",
-      "rex_celt_scot_band_defenders2",
-      "rex_celt_scot_band_raiders2"
+      "rex_celt_pict_band_defenders",
+      "rex_celt_pict_band_raiders",
+      "rex_celt_caled_band_defenders",
+      "rex_celt_caled_band_raiders",
+      "rex_celt_scot_band_defenders",
+      "rex_celt_scot_band_raiders"
     ],
     "att_sub_cult_roman_east": [
       "rex_rom_legionis_britonum",
@@ -389,7 +388,7 @@
       "rex_rom_auxiliarii_thraces",
       "rex_rom_auxiliarii_tervingi",
       "rex_rom_auxiliarii_visi",
-      "att_ger_taifali_cavalry",
+      "rex_rom_equites_taifali",
       "rex_rom_legionis_moesiaci_seniores",
       "rex_rom_legionis_daci",
       "rex_goth_band_militon_tervingi_F",
@@ -409,7 +408,7 @@
       "rex_rom_auxiliarii_thraces",
       "rex_rom_auxiliarii_tervingi",
       "rex_rom_auxiliarii_visi",
-      "att_ger_taifali_cavalry",
+      "rex_rom_equites_taifali",
       "rex_rom_legionis_moesiaci_seniores",
       "rex_rom_legionis_daci",
       "rex_goth_band_militon_tervingi_F",
@@ -431,7 +430,7 @@
       "rex_rom_auxiliarii_thraces",
       "rex_rom_auxiliarii_tervingi",
       "rex_rom_auxiliarii_visi",
-      "att_ger_taifali_cavalry",
+      "rex_rom_equites_taifali",
       "rex_rom_legionis_moesiaci_seniores",
       "rex_rom_legionis_daci",
       "rex_goth_band_militon_tervingi_F",
@@ -451,7 +450,7 @@
       "rex_rom_auxiliarii_thraces",
       "rex_rom_auxiliarii_tervingi",
       "rex_rom_auxiliarii_visi",
-      "att_ger_taifali_cavalry",
+      "rex_rom_equites_taifali",
       "rex_rom_legionis_moesiaci_seniores",
       "rex_rom_legionis_daci",
       "rex_goth_band_militon_tervingi_F",
@@ -474,7 +473,7 @@
       "rex_rom_auxiliarii_thraces",
       "rex_rom_auxiliarii_tervingi",
       "rex_rom_auxiliarii_visi",
-      "att_ger_taifali_cavalry",
+      "rex_rom_equites_taifali",
       "rex_rom_legionis_moesiaci_seniores",
       "rex_rom_legionis_daci",
       "rex_goth_band_militon_tervingi_F",
@@ -494,7 +493,7 @@
       "rex_rom_auxiliarii_thraces",
       "rex_rom_auxiliarii_tervingi",
       "rex_rom_auxiliarii_visi",
-      "att_ger_taifali_cavalry",
+      "rex_rom_equites_taifali",
       "rex_rom_legionis_moesiaci_seniores",
       "rex_rom_legionis_daci",
       "rex_goth_band_militon_tervingi_F",
@@ -527,12 +526,12 @@
       "rex_celt_brit_infantry",
       "rex_celt_brit_horseman",
       "rex_celt_brit_chariot",
-      "rex_celt_pict_band_defenders2",
-      "rex_celt_pict_band_raiders2",
-      "rex_celt_caled_band_defenders2",
-      "rex_celt_caled_band_raiders2",
-      "rex_celt_scot_band_defenders2",
-      "rex_celt_scot_band_raiders2"
+      "rex_celt_pict_band_defenders",
+      "rex_celt_pict_band_raiders",
+      "rex_celt_caled_band_defenders",
+      "rex_celt_caled_band_raiders",
+      "rex_celt_scot_band_defenders",
+      "rex_celt_scot_band_raiders"
     ],
     "att_sub_cult_roman_east": [
       "rex_rom_legionis_britonum",
@@ -553,30 +552,30 @@
   "att_reg_aethiopia_adulis": {},
   "att_reg_arabia_magna_hira": {
     "att_sub_cult_roman_east": [
-      "rex_arab_badyia_camel0",
-      "rex_arab_badyia_ambushers0",
-      "rex_arab_badyia_horsemen0",
-      "rex_arab_arabic_dromedaries0",
-      "rex_arab_arabic_cavalry0"
+      "rex_arab_badyia_camel",
+      "rex_arab_badyia_ambushers",
+      "rex_arab_badyia_horsemen",
+      "rex_arab_arabic_dromedaries",
+      "rex_arab_arabic_cavalry"
     ],
     "att_sub_cult_roman_west": [
-      "rex_arab_badyia_camel0",
-      "rex_arab_badyia_ambushers0",
-      "rex_arab_badyia_horsemen0",
-      "rex_arab_arabic_dromedaries0",
-      "rex_arab_arabic_cavalry0"
+      "rex_arab_badyia_camel",
+      "rex_arab_badyia_ambushers",
+      "rex_arab_badyia_horsemen",
+      "rex_arab_arabic_dromedaries",
+      "rex_arab_arabic_cavalry"
     ]
   },
   "att_reg_hercynia_casurgis": {},
   "att_reg_hyperborea_kariskos": {},
   "att_reg_lugdunensis_turonum": {
     "att_sub_cult_barbarian_celtic": [
-      "rex_robb_militia_0",
-      "rex_robb_ala_0"
+      "rex_robb_militia",
+      "rex_robb_ala"
     ],
     "att_sub_cult_roman_east": [
       "rex_rom_legionis_gallorum",
-      "att_cel_mounted_spear_raiders",
+      "rex_rom_ala_gallorum",
       "rex_rom_legionis_honoriani_felices_gallicani",
       "rex_rom_legionis_lanciarii_honoriani_gallicani",
       "rex_rom_sagittarii_gallicani",
@@ -587,14 +586,14 @@
       "rex_rom_equites_brachiati_iuniores",
       "rex_rom_auxiliarii_mattiarii_honoriani_gallicani",
       "rex_rom_auxiliarii_celtae_seniores",
-      "att_rom_cornuti_seniores",
+      "rex_rom_auxiliarii_cornuti_seniores",
       "rex_rom_auxiliarii_brachiati_seniores",
       "rex_rom_equites_cornuti_seniores",
       "rex_rom_equites_brachiati_seniores"
     ],
     "att_sub_cult_roman_west": [
       "rex_rom_legionis_gallorum",
-      "att_cel_mounted_spear_raiders",
+      "rex_rom_ala_gallorum",
       "rex_rom_legionis_honoriani_felices_gallicani",
       "rex_rom_legionis_lanciarii_honoriani_gallicani",
       "rex_rom_sagittarii_gallicani",
@@ -605,7 +604,7 @@
       "rex_rom_equites_brachiati_iuniores",
       "rex_rom_auxiliarii_mattiarii_honoriani_gallicani",
       "rex_rom_auxiliarii_celtae_seniores",
-      "att_rom_cornuti_seniores",
+      "rex_rom_auxiliarii_cornuti_seniores",
       "rex_rom_auxiliarii_brachiati_seniores",
       "rex_rom_equites_cornuti_seniores",
       "rex_rom_equites_brachiati_seniores"
@@ -629,12 +628,12 @@
   },
   "att_reg_aquitania_avaricum": {
     "att_sub_cult_barbarian_celtic": [
-      "rex_robb_militia_0",
-      "rex_robb_ala_0"
+      "rex_robb_militia",
+      "rex_robb_ala"
     ],
     "att_sub_cult_roman_east": [
       "rex_rom_legionis_gallorum",
-      "att_cel_mounted_spear_raiders",
+      "rex_rom_ala_gallorum",
       "rex_rom_legionis_honoriani_felices_gallicani",
       "rex_rom_legionis_lanciarii_honoriani_gallicani",
       "rex_rom_sagittarii_gallicani",
@@ -645,14 +644,14 @@
       "rex_rom_equites_brachiati_iuniores",
       "rex_rom_auxiliarii_mattiarii_honoriani_gallicani",
       "rex_rom_auxiliarii_celtae_seniores",
-      "att_rom_cornuti_seniores",
+      "rex_rom_auxiliarii_cornuti_seniores",
       "rex_rom_auxiliarii_brachiati_seniores",
       "rex_rom_equites_cornuti_seniores",
       "rex_rom_equites_brachiati_seniores"
     ],
     "att_sub_cult_roman_west": [
       "rex_rom_legionis_gallorum",
-      "att_cel_mounted_spear_raiders",
+      "rex_rom_ala_gallorum",
       "rex_rom_legionis_honoriani_felices_gallicani",
       "rex_rom_legionis_lanciarii_honoriani_gallicani",
       "rex_rom_sagittarii_gallicani",
@@ -663,7 +662,7 @@
       "rex_rom_equites_brachiati_iuniores",
       "rex_rom_auxiliarii_mattiarii_honoriani_gallicani",
       "rex_rom_auxiliarii_celtae_seniores",
-      "att_rom_cornuti_seniores",
+      "rex_rom_auxiliarii_cornuti_seniores",
       "rex_rom_auxiliarii_brachiati_seniores",
       "rex_rom_equites_cornuti_seniores",
       "rex_rom_equites_brachiati_seniores"
@@ -671,18 +670,18 @@
   },
   "att_reg_arabia_felix_omana": {
     "att_sub_cult_roman_east": [
-      "rex_arab_badyia_camel0",
-      "rex_arab_badyia_ambushers0",
-      "rex_arab_badyia_horsemen0",
-      "rex_arab_arabic_dromedaries0",
-      "rex_arab_arabic_cavalry0"
+      "rex_arab_badyia_camel",
+      "rex_arab_badyia_ambushers",
+      "rex_arab_badyia_horsemen",
+      "rex_arab_arabic_dromedaries",
+      "rex_arab_arabic_cavalry"
     ],
     "att_sub_cult_roman_west": [
-      "rex_arab_badyia_camel0",
-      "rex_arab_badyia_ambushers0",
-      "rex_arab_badyia_horsemen0",
-      "rex_arab_arabic_dromedaries0",
-      "rex_arab_arabic_cavalry0"
+      "rex_arab_badyia_camel",
+      "rex_arab_badyia_ambushers",
+      "rex_arab_badyia_horsemen",
+      "rex_arab_arabic_dromedaries",
+      "rex_arab_arabic_cavalry"
     ]
   },
   "att_reg_britannia_inferior_lindum": {
@@ -690,12 +689,12 @@
       "rex_celt_brit_infantry",
       "rex_celt_brit_horseman",
       "rex_celt_brit_chariot",
-      "rex_celt_pict_band_defenders2",
-      "rex_celt_pict_band_raiders2",
-      "rex_celt_caled_band_defenders2",
-      "rex_celt_caled_band_raiders2",
-      "rex_celt_scot_band_defenders2",
-      "rex_celt_scot_band_raiders2"
+      "rex_celt_pict_band_defenders",
+      "rex_celt_pict_band_raiders",
+      "rex_celt_caled_band_defenders",
+      "rex_celt_caled_band_raiders",
+      "rex_celt_scot_band_defenders",
+      "rex_celt_scot_band_raiders"
     ],
     "att_sub_cult_roman_east": [
       "rex_rom_legionis_britonum",
@@ -754,12 +753,12 @@
   },
   "att_reg_aquitania_elusa": {
     "att_sub_cult_barbarian_celtic": [
-      "rex_robb_militia_0",
-      "rex_robb_ala_0"
+      "rex_robb_militia",
+      "rex_robb_ala"
     ],
     "att_sub_cult_roman_east": [
       "rex_rom_legionis_gallorum",
-      "att_cel_mounted_spear_raiders",
+      "rex_rom_ala_gallorum",
       "rex_rom_legionis_honoriani_felices_gallicani",
       "rex_rom_legionis_lanciarii_honoriani_gallicani",
       "rex_rom_sagittarii_gallicani",
@@ -770,14 +769,14 @@
       "rex_rom_equites_brachiati_iuniores",
       "rex_rom_auxiliarii_mattiarii_honoriani_gallicani",
       "rex_rom_auxiliarii_celtae_seniores",
-      "att_rom_cornuti_seniores",
+      "rex_rom_auxiliarii_cornuti_seniores",
       "rex_rom_auxiliarii_brachiati_seniores",
       "rex_rom_equites_cornuti_seniores",
       "rex_rom_equites_brachiati_seniores"
     ],
     "att_sub_cult_roman_west": [
       "rex_rom_legionis_gallorum",
-      "att_cel_mounted_spear_raiders",
+      "rex_rom_ala_gallorum",
       "rex_rom_legionis_honoriani_felices_gallicani",
       "rex_rom_legionis_lanciarii_honoriani_gallicani",
       "rex_rom_sagittarii_gallicani",
@@ -788,7 +787,7 @@
       "rex_rom_equites_brachiati_iuniores",
       "rex_rom_auxiliarii_mattiarii_honoriani_gallicani",
       "rex_rom_auxiliarii_celtae_seniores",
-      "att_rom_cornuti_seniores",
+      "rex_rom_auxiliarii_cornuti_seniores",
       "rex_rom_auxiliarii_brachiati_seniores",
       "rex_rom_equites_cornuti_seniores",
       "rex_rom_equites_brachiati_seniores"
@@ -796,12 +795,12 @@
   },
   "att_reg_narbonensis_vienna": {
     "att_sub_cult_barbarian_celtic": [
-      "rex_robb_militia_0",
-      "rex_robb_ala_0"
+      "rex_robb_militia",
+      "rex_robb_ala"
     ],
     "att_sub_cult_roman_east": [
       "rex_rom_legionis_gallorum",
-      "att_cel_mounted_spear_raiders",
+      "rex_rom_ala_gallorum",
       "rex_rom_legionis_honoriani_felices_gallicani",
       "rex_rom_legionis_lanciarii_honoriani_gallicani",
       "rex_rom_sagittarii_gallicani",
@@ -812,14 +811,14 @@
       "rex_rom_equites_brachiati_iuniores",
       "rex_rom_auxiliarii_mattiarii_honoriani_gallicani",
       "rex_rom_auxiliarii_celtae_seniores",
-      "att_rom_cornuti_seniores",
+      "rex_rom_auxiliarii_cornuti_seniores",
       "rex_rom_auxiliarii_brachiati_seniores",
       "rex_rom_equites_cornuti_seniores",
       "rex_rom_equites_brachiati_seniores"
     ],
     "att_sub_cult_roman_west": [
       "rex_rom_legionis_gallorum",
-      "att_cel_mounted_spear_raiders",
+      "rex_rom_ala_gallorum",
       "rex_rom_legionis_honoriani_felices_gallicani",
       "rex_rom_legionis_lanciarii_honoriani_gallicani",
       "rex_rom_sagittarii_gallicani",
@@ -830,7 +829,7 @@
       "rex_rom_equites_brachiati_iuniores",
       "rex_rom_auxiliarii_mattiarii_honoriani_gallicani",
       "rex_rom_auxiliarii_celtae_seniores",
-      "att_rom_cornuti_seniores",
+      "rex_rom_auxiliarii_cornuti_seniores",
       "rex_rom_auxiliarii_brachiati_seniores",
       "rex_rom_equites_cornuti_seniores",
       "rex_rom_equites_brachiati_seniores"
@@ -890,18 +889,18 @@
   },
   "att_reg_arabia_felix_zafar": {
     "att_sub_cult_roman_east": [
-      "rex_arab_badyia_camel0",
-      "rex_arab_badyia_ambushers0",
-      "rex_arab_badyia_horsemen0",
-      "rex_arab_arabic_dromedaries0",
-      "rex_arab_arabic_cavalry0"
+      "rex_arab_badyia_camel",
+      "rex_arab_badyia_ambushers",
+      "rex_arab_badyia_horsemen",
+      "rex_arab_arabic_dromedaries",
+      "rex_arab_arabic_cavalry"
     ],
     "att_sub_cult_roman_west": [
-      "rex_arab_badyia_camel0",
-      "rex_arab_badyia_ambushers0",
-      "rex_arab_badyia_horsemen0",
-      "rex_arab_arabic_dromedaries0",
-      "rex_arab_arabic_cavalry0"
+      "rex_arab_badyia_camel",
+      "rex_arab_badyia_ambushers",
+      "rex_arab_badyia_horsemen",
+      "rex_arab_arabic_dromedaries",
+      "rex_arab_arabic_cavalry"
     ]
   },
   "att_reg_carthaginensis_segobriga": {
@@ -924,14 +923,14 @@
       "rex_rom_auxiliarii_sagittarii_orientales",
       "rex_rom_equites_sagittarii_parthi",
       "rex_rom_equites_scutarii_orientales",
-      "att_rom_clibanarii"
+      "rex_rom_equites_clibanarii_parthi"
     ],
     "att_sub_cult_roman_west": [
       "rex_rom_legionis_transtigritani",
       "rex_rom_auxiliarii_sagittarii_orientales",
       "rex_rom_equites_sagittarii_parthi",
       "rex_rom_equites_scutarii_orientales",
-      "att_rom_clibanarii"
+      "rex_rom_equites_clibanarii_parthi"
     ]
   },
   "att_reg_lusitania_emerita_augusta": {
@@ -994,18 +993,18 @@
   },
   "att_reg_arabia_magna_dumatha": {
     "att_sub_cult_roman_east": [
-      "rex_arab_badyia_camel0",
-      "rex_arab_badyia_ambushers0",
-      "rex_arab_badyia_horsemen0",
-      "rex_arab_arabic_dromedaries0",
-      "rex_arab_arabic_cavalry0"
+      "rex_arab_badyia_camel",
+      "rex_arab_badyia_ambushers",
+      "rex_arab_badyia_horsemen",
+      "rex_arab_arabic_dromedaries",
+      "rex_arab_arabic_cavalry"
     ],
     "att_sub_cult_roman_west": [
-      "rex_arab_badyia_camel0",
-      "rex_arab_badyia_ambushers0",
-      "rex_arab_badyia_horsemen0",
-      "rex_arab_arabic_dromedaries0",
-      "rex_arab_arabic_cavalry0"
+      "rex_arab_badyia_camel",
+      "rex_arab_badyia_ambushers",
+      "rex_arab_badyia_horsemen",
+      "rex_arab_arabic_dromedaries",
+      "rex_arab_arabic_cavalry"
     ]
   },
   "att_reg_asorstan_arbela": {
@@ -1020,12 +1019,12 @@
   "att_reg_dacia_apulum": {},
   "att_reg_lugdunensis_rotomagus": {
     "att_sub_cult_barbarian_celtic": [
-      "rex_robb_militia_0",
-      "rex_robb_ala_0"
+      "rex_robb_militia",
+      "rex_robb_ala"
     ],
     "att_sub_cult_roman_east": [
       "rex_rom_legionis_gallorum",
-      "att_cel_mounted_spear_raiders",
+      "rex_rom_ala_gallorum",
       "rex_rom_legionis_honoriani_felices_gallicani",
       "rex_rom_legionis_lanciarii_honoriani_gallicani",
       "rex_rom_sagittarii_gallicani",
@@ -1036,14 +1035,14 @@
       "rex_rom_equites_brachiati_iuniores",
       "rex_rom_auxiliarii_mattiarii_honoriani_gallicani",
       "rex_rom_auxiliarii_celtae_seniores",
-      "att_rom_cornuti_seniores",
+      "rex_rom_auxiliarii_cornuti_seniores",
       "rex_rom_auxiliarii_brachiati_seniores",
       "rex_rom_equites_cornuti_seniores",
       "rex_rom_equites_brachiati_seniores"
     ],
     "att_sub_cult_roman_west": [
       "rex_rom_legionis_gallorum",
-      "att_cel_mounted_spear_raiders",
+      "rex_rom_ala_gallorum",
       "rex_rom_legionis_honoriani_felices_gallicani",
       "rex_rom_legionis_lanciarii_honoriani_gallicani",
       "rex_rom_sagittarii_gallicani",
@@ -1054,7 +1053,7 @@
       "rex_rom_equites_brachiati_iuniores",
       "rex_rom_auxiliarii_mattiarii_honoriani_gallicani",
       "rex_rom_auxiliarii_celtae_seniores",
-      "att_rom_cornuti_seniores",
+      "rex_rom_auxiliarii_cornuti_seniores",
       "rex_rom_auxiliarii_brachiati_seniores",
       "rex_rom_equites_cornuti_seniores",
       "rex_rom_equites_brachiati_seniores"
@@ -1066,14 +1065,14 @@
       "rex_rom_auxiliarii_sagittarii_orientales",
       "rex_rom_equites_sagittarii_parthi",
       "rex_rom_equites_scutarii_orientales",
-      "att_rom_clibanarii"
+      "rex_rom_equites_clibanarii_parthi"
     ],
     "att_sub_cult_roman_west": [
       "rex_rom_legionis_transtigritani",
       "rex_rom_auxiliarii_sagittarii_orientales",
       "rex_rom_equites_sagittarii_parthi",
       "rex_rom_equites_scutarii_orientales",
-      "att_rom_clibanarii"
+      "rex_rom_equites_clibanarii_parthi"
     ]
   },
   "att_reg_palaestinea_aila": {
@@ -1082,8 +1081,8 @@
       "rex_rom_legionis_palaestinorum",
       "rex_rom_legionis_euphratensis",
       "rex_rom_equites_saraceni",
-      "rex_rom_ala_dromedariorum_z",
-      "att_rom_imperial_dromedarii",
+      "rex_rom_ala_dromedariorum",
+      "rex_rom_ala_dromedariorum",
       "rex_rom_cuneus_clibanariorum_palmirenorum"
     ],
     "att_sub_cult_roman_west": [
@@ -1091,8 +1090,7 @@
       "rex_rom_legionis_palaestinorum",
       "rex_rom_legionis_euphratensis",
       "rex_rom_equites_saraceni",
-      "rex_rom_ala_dromedariorum_z",
-      "att_rom_imperial_dromedarii",
+      "rex_rom_ala_dromedariorum",
       "rex_rom_cuneus_clibanariorum_palmirenorum"
     ]
   },
@@ -1163,18 +1161,18 @@
   "att_reg_gothiscandza_gothiscandza": {},
   "att_reg_arabia_felix_eudaemon": {
     "att_sub_cult_roman_east": [
-      "rex_arab_badyia_camel0",
-      "rex_arab_badyia_ambushers0",
-      "rex_arab_badyia_horsemen0",
-      "rex_arab_arabic_dromedaries0",
-      "rex_arab_arabic_cavalry0"
+      "rex_arab_badyia_camel",
+      "rex_arab_badyia_ambushers",
+      "rex_arab_badyia_horsemen",
+      "rex_arab_arabic_dromedaries",
+      "rex_arab_arabic_cavalry"
     ],
     "att_sub_cult_roman_west": [
-      "rex_arab_badyia_camel0",
-      "rex_arab_badyia_ambushers0",
-      "rex_arab_badyia_horsemen0",
-      "rex_arab_arabic_dromedaries0",
-      "rex_arab_arabic_cavalry0"
+      "rex_arab_badyia_camel",
+      "rex_arab_badyia_ambushers",
+      "rex_arab_badyia_horsemen",
+      "rex_arab_arabic_dromedaries",
+      "rex_arab_arabic_cavalry"
     ]
   },
   "att_reg_asorstan_meshan": {
@@ -1190,12 +1188,12 @@
       "rex_celt_brit_infantry",
       "rex_celt_brit_horseman",
       "rex_celt_brit_chariot",
-      "rex_celt_pict_band_defenders2",
-      "rex_celt_pict_band_raiders2",
-      "rex_celt_caled_band_defenders2",
-      "rex_celt_caled_band_raiders2",
-      "rex_celt_scot_band_defenders2",
-      "rex_celt_scot_band_raiders2"
+      "rex_celt_pict_band_defenders",
+      "rex_celt_pict_band_raiders",
+      "rex_celt_caled_band_defenders",
+      "rex_celt_caled_band_raiders",
+      "rex_celt_scot_band_defenders",
+      "rex_celt_scot_band_raiders"
     ],
     "att_sub_cult_roman_east": [
       "rex_rom_legionis_britonum",
@@ -1262,28 +1260,28 @@
   },
   "att_reg_arabia_magna_yathrib": {
     "att_sub_cult_roman_east": [
-      "rex_arab_badyia_camel0",
-      "rex_arab_badyia_ambushers0",
-      "rex_arab_badyia_horsemen0",
-      "rex_arab_arabic_dromedaries0",
-      "rex_arab_arabic_cavalry0"
+      "rex_arab_badyia_camel",
+      "rex_arab_badyia_ambushers",
+      "rex_arab_badyia_horsemen",
+      "rex_arab_arabic_dromedaries",
+      "rex_arab_arabic_cavalry"
     ],
     "att_sub_cult_roman_west": [
-      "rex_arab_badyia_camel0",
-      "rex_arab_badyia_ambushers0",
-      "rex_arab_badyia_horsemen0",
-      "rex_arab_arabic_dromedaries0",
-      "rex_arab_arabic_cavalry0"
+      "rex_arab_badyia_camel",
+      "rex_arab_badyia_ambushers",
+      "rex_arab_badyia_horsemen",
+      "rex_arab_arabic_dromedaries",
+      "rex_arab_arabic_cavalry"
     ]
   },
   "att_reg_aquitania_burdigala": {
     "att_sub_cult_barbarian_celtic": [
-      "rex_robb_militia_0",
-      "rex_robb_ala_0"
+      "rex_robb_militia",
+      "rex_robb_ala"
     ],
     "att_sub_cult_roman_east": [
       "rex_rom_legionis_gallorum",
-      "att_cel_mounted_spear_raiders",
+      "rex_rom_ala_gallorum",
       "rex_rom_legionis_honoriani_felices_gallicani",
       "rex_rom_legionis_lanciarii_honoriani_gallicani",
       "rex_rom_sagittarii_gallicani",
@@ -1294,14 +1292,14 @@
       "rex_rom_equites_brachiati_iuniores",
       "rex_rom_auxiliarii_mattiarii_honoriani_gallicani",
       "rex_rom_auxiliarii_celtae_seniores",
-      "att_rom_cornuti_seniores",
+      "rex_rom_auxiliarii_cornuti_seniores",
       "rex_rom_auxiliarii_brachiati_seniores",
       "rex_rom_equites_cornuti_seniores",
       "rex_rom_equites_brachiati_seniores"
     ],
     "att_sub_cult_roman_west": [
       "rex_rom_legionis_gallorum",
-      "att_cel_mounted_spear_raiders",
+      "rex_rom_ala_gallorum",
       "rex_rom_legionis_honoriani_felices_gallicani",
       "rex_rom_legionis_lanciarii_honoriani_gallicani",
       "rex_rom_sagittarii_gallicani",
@@ -1312,7 +1310,7 @@
       "rex_rom_equites_brachiati_iuniores",
       "rex_rom_auxiliarii_mattiarii_honoriani_gallicani",
       "rex_rom_auxiliarii_celtae_seniores",
-      "att_rom_cornuti_seniores",
+      "rex_rom_auxiliarii_cornuti_seniores",
       "rex_rom_auxiliarii_brachiati_seniores",
       "rex_rom_equites_cornuti_seniores",
       "rex_rom_equites_brachiati_seniores"
@@ -1375,8 +1373,8 @@
       "rex_rom_legionis_palaestinorum",
       "rex_rom_legionis_euphratensis",
       "rex_rom_equites_saraceni",
-      "rex_rom_ala_dromedariorum_z",
-      "att_rom_imperial_dromedarii",
+      "rex_rom_ala_dromedariorum",
+      "rex_rom_ala_dromedariorum",
       "rex_rom_cuneus_clibanariorum_palmirenorum"
     ],
     "att_sub_cult_roman_west": [
@@ -1384,8 +1382,7 @@
       "rex_rom_legionis_palaestinorum",
       "rex_rom_legionis_euphratensis",
       "rex_rom_equites_saraceni",
-      "rex_rom_ala_dromedariorum_z",
-      "att_rom_imperial_dromedarii",
+      "rex_rom_ala_dromedariorum",
       "rex_rom_cuneus_clibanariorum_palmirenorum"
     ]
   },
@@ -1408,12 +1405,12 @@
       "rex_celt_brit_infantry",
       "rex_celt_brit_horseman",
       "rex_celt_brit_chariot",
-      "rex_celt_pict_band_defenders2",
-      "rex_celt_pict_band_raiders2",
-      "rex_celt_caled_band_defenders2",
-      "rex_celt_caled_band_raiders2",
-      "rex_celt_scot_band_defenders2",
-      "rex_celt_scot_band_raiders2"
+      "rex_celt_pict_band_defenders",
+      "rex_celt_pict_band_raiders",
+      "rex_celt_caled_band_defenders",
+      "rex_celt_caled_band_raiders",
+      "rex_celt_scot_band_defenders",
+      "rex_celt_scot_band_raiders"
     ],
     "att_sub_cult_roman_east": [
       "rex_rom_legionis_britonum",
@@ -1432,12 +1429,12 @@
   },
   "att_reg_lugdunensis_lugdunum": {
     "att_sub_cult_barbarian_celtic": [
-      "rex_robb_militia_0",
-      "rex_robb_ala_0"
+      "rex_robb_militia",
+      "rex_robb_ala"
     ],
     "att_sub_cult_roman_east": [
       "rex_rom_legionis_gallorum",
-      "att_cel_mounted_spear_raiders",
+      "rex_rom_ala_gallorum",
       "rex_rom_legionis_honoriani_felices_gallicani",
       "rex_rom_legionis_lanciarii_honoriani_gallicani",
       "rex_rom_sagittarii_gallicani",
@@ -1448,14 +1445,14 @@
       "rex_rom_equites_brachiati_iuniores",
       "rex_rom_auxiliarii_mattiarii_honoriani_gallicani",
       "rex_rom_auxiliarii_celtae_seniores",
-      "att_rom_cornuti_seniores",
+      "rex_rom_auxiliarii_cornuti_seniores",
       "rex_rom_auxiliarii_brachiati_seniores",
       "rex_rom_equites_cornuti_seniores",
       "rex_rom_equites_brachiati_seniores"
     ],
     "att_sub_cult_roman_west": [
       "rex_rom_legionis_gallorum",
-      "att_cel_mounted_spear_raiders",
+      "rex_rom_ala_gallorum",
       "rex_rom_legionis_honoriani_felices_gallicani",
       "rex_rom_legionis_lanciarii_honoriani_gallicani",
       "rex_rom_sagittarii_gallicani",
@@ -1466,7 +1463,7 @@
       "rex_rom_equites_brachiati_iuniores",
       "rex_rom_auxiliarii_mattiarii_honoriani_gallicani",
       "rex_rom_auxiliarii_celtae_seniores",
-      "att_rom_cornuti_seniores",
+      "rex_rom_auxiliarii_cornuti_seniores",
       "rex_rom_auxiliarii_brachiati_seniores",
       "rex_rom_equites_cornuti_seniores",
       "rex_rom_equites_brachiati_seniores"
@@ -1687,12 +1684,12 @@
   },
   "att_reg_narbonensis_aquae_sextiae": {
     "att_sub_cult_barbarian_celtic": [
-      "rex_robb_militia_0",
-      "rex_robb_ala_0"
+      "rex_robb_militia",
+      "rex_robb_ala"
     ],
     "att_sub_cult_roman_east": [
       "rex_rom_legionis_gallorum",
-      "att_cel_mounted_spear_raiders",
+      "rex_rom_ala_gallorum",
       "rex_rom_legionis_honoriani_felices_gallicani",
       "rex_rom_legionis_lanciarii_honoriani_gallicani",
       "rex_rom_sagittarii_gallicani",
@@ -1703,14 +1700,14 @@
       "rex_rom_equites_brachiati_iuniores",
       "rex_rom_auxiliarii_mattiarii_honoriani_gallicani",
       "rex_rom_auxiliarii_celtae_seniores",
-      "att_rom_cornuti_seniores",
+      "rex_rom_auxiliarii_cornuti_seniores",
       "rex_rom_auxiliarii_brachiati_seniores",
       "rex_rom_equites_cornuti_seniores",
       "rex_rom_equites_brachiati_seniores"
     ],
     "att_sub_cult_roman_west": [
       "rex_rom_legionis_gallorum",
-      "att_cel_mounted_spear_raiders",
+      "rex_rom_ala_gallorum",
       "rex_rom_legionis_honoriani_felices_gallicani",
       "rex_rom_legionis_lanciarii_honoriani_gallicani",
       "rex_rom_sagittarii_gallicani",
@@ -1721,7 +1718,7 @@
       "rex_rom_equites_brachiati_iuniores",
       "rex_rom_auxiliarii_mattiarii_honoriani_gallicani",
       "rex_rom_auxiliarii_celtae_seniores",
-      "att_rom_cornuti_seniores",
+      "rex_rom_auxiliarii_cornuti_seniores",
       "rex_rom_auxiliarii_brachiati_seniores",
       "rex_rom_equites_cornuti_seniores",
       "rex_rom_equites_brachiati_seniores"
@@ -1733,8 +1730,8 @@
       "rex_rom_legionis_palaestinorum",
       "rex_rom_legionis_euphratensis",
       "rex_rom_equites_saraceni",
-      "rex_rom_ala_dromedariorum_z",
-      "att_rom_imperial_dromedarii",
+      "rex_rom_ala_dromedariorum",
+      "rex_rom_ala_dromedariorum",
       "rex_rom_cuneus_clibanariorum_palmirenorum"
     ],
     "att_sub_cult_roman_west": [
@@ -1742,8 +1739,7 @@
       "rex_rom_legionis_palaestinorum",
       "rex_rom_legionis_euphratensis",
       "rex_rom_equites_saraceni",
-      "rex_rom_ala_dromedariorum_z",
-      "att_rom_imperial_dromedarii",
+      "rex_rom_ala_dromedariorum",
       "rex_rom_cuneus_clibanariorum_palmirenorum"
     ]
   },
@@ -1773,7 +1769,7 @@
       "rex_rom_auxiliarii_thraces",
       "rex_rom_auxiliarii_tervingi",
       "rex_rom_auxiliarii_visi",
-      "att_ger_taifali_cavalry",
+      "rex_rom_equites_taifali",
       "rex_rom_legionis_moesiaci_seniores",
       "rex_rom_legionis_daci",
       "rex_goth_band_militon_tervingi_F",
@@ -1793,7 +1789,7 @@
       "rex_rom_auxiliarii_thraces",
       "rex_rom_auxiliarii_tervingi",
       "rex_rom_auxiliarii_visi",
-      "att_ger_taifali_cavalry",
+      "rex_rom_equites_taifali",
       "rex_rom_legionis_moesiaci_seniores",
       "rex_rom_legionis_daci",
       "rex_goth_band_militon_tervingi_F",
@@ -1956,12 +1952,12 @@
       "rex_celt_brit_infantry",
       "rex_celt_brit_horseman",
       "rex_celt_brit_chariot",
-      "rex_celt_pict_band_defenders2",
-      "rex_celt_pict_band_raiders2",
-      "rex_celt_caled_band_defenders2",
-      "rex_celt_caled_band_raiders2",
-      "rex_celt_scot_band_defenders2",
-      "rex_celt_scot_band_raiders2"
+      "rex_celt_pict_band_defenders",
+      "rex_celt_pict_band_raiders",
+      "rex_celt_caled_band_defenders",
+      "rex_celt_caled_band_raiders",
+      "rex_celt_scot_band_defenders",
+      "rex_celt_scot_band_raiders"
     ],
     "att_sub_cult_roman_east": [
       "rex_rom_legionis_britonum",
@@ -2024,12 +2020,12 @@
   },
   "att_reg_narbonensis_narbo": {
     "att_sub_cult_barbarian_celtic": [
-      "rex_robb_militia_0",
-      "rex_robb_ala_0"
+      "rex_robb_militia",
+      "rex_robb_ala"
     ],
     "att_sub_cult_roman_east": [
       "rex_rom_legionis_gallorum",
-      "att_cel_mounted_spear_raiders",
+      "rex_rom_ala_gallorum",
       "rex_rom_legionis_honoriani_felices_gallicani",
       "rex_rom_legionis_lanciarii_honoriani_gallicani",
       "rex_rom_sagittarii_gallicani",
@@ -2040,14 +2036,14 @@
       "rex_rom_equites_brachiati_iuniores",
       "rex_rom_auxiliarii_mattiarii_honoriani_gallicani",
       "rex_rom_auxiliarii_celtae_seniores",
-      "att_rom_cornuti_seniores",
+      "rex_rom_auxiliarii_cornuti_seniores",
       "rex_rom_auxiliarii_brachiati_seniores",
       "rex_rom_equites_cornuti_seniores",
       "rex_rom_equites_brachiati_seniores"
     ],
     "att_sub_cult_roman_west": [
       "rex_rom_legionis_gallorum",
-      "att_cel_mounted_spear_raiders",
+      "rex_rom_ala_gallorum",
       "rex_rom_legionis_honoriani_felices_gallicani",
       "rex_rom_legionis_lanciarii_honoriani_gallicani",
       "rex_rom_sagittarii_gallicani",
@@ -2058,7 +2054,7 @@
       "rex_rom_equites_brachiati_iuniores",
       "rex_rom_auxiliarii_mattiarii_honoriani_gallicani",
       "rex_rom_auxiliarii_celtae_seniores",
-      "att_rom_cornuti_seniores",
+      "rex_rom_auxiliarii_cornuti_seniores",
       "rex_rom_auxiliarii_brachiati_seniores",
       "rex_rom_equites_cornuti_seniores",
       "rex_rom_equites_brachiati_seniores"
@@ -2070,8 +2066,8 @@
       "rex_rom_legionis_palaestinorum",
       "rex_rom_legionis_euphratensis",
       "rex_rom_equites_saraceni",
-      "rex_rom_ala_dromedariorum_z",
-      "att_rom_imperial_dromedarii",
+      "rex_rom_ala_dromedariorum",
+      "rex_rom_ala_dromedariorum",
       "rex_rom_cuneus_clibanariorum_palmirenorum"
     ],
     "att_sub_cult_roman_west": [
@@ -2079,8 +2075,7 @@
       "rex_rom_legionis_palaestinorum",
       "rex_rom_legionis_euphratensis",
       "rex_rom_equites_saraceni",
-      "rex_rom_ala_dromedariorum_z",
-      "att_rom_imperial_dromedarii",
+      "rex_rom_ala_dromedariorum",
       "rex_rom_cuneus_clibanariorum_palmirenorum"
     ]
   },
@@ -2115,7 +2110,7 @@
       "rex_rom_auxiliarii_thraces",
       "rex_rom_auxiliarii_tervingi",
       "rex_rom_auxiliarii_visi",
-      "att_ger_taifali_cavalry",
+      "rex_rom_equites_taifali",
       "rex_rom_legionis_moesiaci_seniores",
       "rex_rom_legionis_daci",
       "rex_goth_band_militon_tervingi_F",
@@ -2135,7 +2130,7 @@
       "rex_rom_auxiliarii_thraces",
       "rex_rom_auxiliarii_tervingi",
       "rex_rom_auxiliarii_visi",
-      "att_ger_taifali_cavalry",
+      "rex_rom_equites_taifali",
       "rex_rom_legionis_moesiaci_seniores",
       "rex_rom_legionis_daci",
       "rex_goth_band_militon_tervingi_F",
@@ -2238,8 +2233,8 @@
       "rex_rom_legionis_palaestinorum",
       "rex_rom_legionis_euphratensis",
       "rex_rom_equites_saraceni",
-      "rex_rom_ala_dromedariorum_z",
-      "att_rom_imperial_dromedarii",
+      "rex_rom_ala_dromedariorum",
+      "rex_rom_ala_dromedariorum",
       "rex_rom_cuneus_clibanariorum_palmirenorum"
     ],
     "att_sub_cult_roman_west": [
@@ -2247,8 +2242,7 @@
       "rex_rom_legionis_palaestinorum",
       "rex_rom_legionis_euphratensis",
       "rex_rom_equites_saraceni",
-      "rex_rom_ala_dromedariorum_z",
-      "att_rom_imperial_dromedarii",
+      "rex_rom_ala_dromedariorum",
       "rex_rom_cuneus_clibanariorum_palmirenorum"
     ]
   }

@@ -17,6 +17,23 @@
     }
   },
   {
+    "id": "att_sea_mare_rubrum",
+    "name": "att_sea_mare_rubrum",
+    "color": {
+      "r": 116,
+      "g": 82,
+      "b": 139,
+      "a": 255
+    },
+    "area_px": 12223.5,
+    "bbox": {
+      "x0": 1349.0,
+      "y0": 1240.0,
+      "x1": 1546.0,
+      "y1": 1438.0
+    }
+  },
+  {
     "id": "att_reg_magna_graecia_syracusae",
     "name": "att_reg_magna_graecia_syracusae",
     "color": {
@@ -374,6 +391,40 @@
     }
   },
   {
+    "id": "att_sea_mare_balearicum",
+    "name": "att_sea_mare_balearicum",
+    "color": {
+      "r": 105,
+      "g": 27,
+      "b": 150,
+      "a": 255
+    },
+    "area_px": 31854.5,
+    "bbox": {
+      "x0": 290.0,
+      "y0": 912.0,
+      "x1": 592.0,
+      "y1": 1089.0
+    }
+  },
+  {
+    "id": "att_sea_pontus_euxinus",
+    "name": "att_sea_pontus_euxinus",
+    "color": {
+      "r": 153,
+      "g": 237,
+      "b": 102,
+      "a": 255
+    },
+    "area_px": 21336.0,
+    "bbox": {
+      "x0": 1339.0,
+      "y0": 691.0,
+      "x1": 1640.0,
+      "y1": 826.0
+    }
+  },
+  {
     "id": "att_reg_italia_roma",
     "name": "att_reg_italia_roma",
     "color": {
@@ -388,6 +439,23 @@
       "y0": 747.0,
       "x1": 783.0,
       "y1": 838.0
+    }
+  },
+  {
+    "id": "att_sea_propontis",
+    "name": "att_sea_propontis",
+    "color": {
+      "r": 155,
+      "g": 227,
+      "b": 100,
+      "a": 255
+    },
+    "area_px": 2466.5,
+    "bbox": {
+      "x0": 1146.0,
+      "y0": 799.0,
+      "x1": 1287.0,
+      "y1": 887.0
     }
   },
   {
@@ -476,6 +544,23 @@
     }
   },
   {
+    "id": "att_sea_mare_internum",
+    "name": "att_sea_mare_internum",
+    "color": {
+      "r": 113,
+      "g": 67,
+      "b": 142,
+      "a": 255
+    },
+    "area_px": 56033.5,
+    "bbox": {
+      "x0": 773.0,
+      "y0": 1019.0,
+      "x1": 1376.0,
+      "y1": 1152.0
+    }
+  },
+  {
     "id": "att_reg_belgica_augusta_treverorum",
     "name": "att_reg_belgica_augusta_treverorum",
     "color": {
@@ -490,6 +575,23 @@
       "y0": 422.0,
       "x1": 613.0,
       "y1": 517.0
+    }
+  },
+  {
+    "id": "att_sea_nilos",
+    "name": "att_sea_nilos",
+    "color": {
+      "r": 130,
+      "g": 152,
+      "b": 125,
+      "a": 255
+    },
+    "area_px": 782.0,
+    "bbox": {
+      "x0": 1294.0,
+      "y0": 1194.0,
+      "x1": 1362.0,
+      "y1": 1357.0
     }
   },
   {
@@ -541,6 +643,23 @@
       "y0": 918.0,
       "x1": 1874.0,
       "y1": 1024.0
+    }
+  },
+  {
+    "id": "att_sea_mare_caspium",
+    "name": "att_sea_mare_caspium",
+    "color": {
+      "r": 106,
+      "g": 32,
+      "b": 149,
+      "a": 255
+    },
+    "area_px": 47181.0,
+    "bbox": {
+      "x0": 1790.0,
+      "y0": 580.0,
+      "x1": 2030.0,
+      "y1": 983.0
     }
   },
   {
@@ -714,6 +833,40 @@
     }
   },
   {
+    "id": "att_sea_pontus_cimmerius",
+    "name": "att_sea_pontus_cimmerius",
+    "color": {
+      "r": 152,
+      "g": 242,
+      "b": 103,
+      "a": 255
+    },
+    "area_px": 15655.5,
+    "bbox": {
+      "x0": 1339.0,
+      "y0": 573.0,
+      "x1": 1561.0,
+      "y1": 746.0
+    }
+  },
+  {
+    "id": "att_sea_rhenus",
+    "name": "att_sea_rhenus",
+    "color": {
+      "r": 162,
+      "g": 192,
+      "b": 93,
+      "a": 255
+    },
+    "area_px": 555.0,
+    "bbox": {
+      "x0": 492.0,
+      "y0": 355.0,
+      "x1": 597.0,
+      "y1": 413.0
+    }
+  },
+  {
     "id": "att_reg_arabia_magna_dumatha",
     "name": "att_reg_arabia_magna_dumatha",
     "color": {
@@ -728,6 +881,23 @@
       "y0": 1043.0,
       "x1": 1688.0,
       "y1": 1328.0
+    }
+  },
+  {
+    "id": "att_sea_mare_suebicum",
+    "name": "att_sea_mare_suebicum",
+    "color": {
+      "r": 118,
+      "g": 92,
+      "b": 137,
+      "a": 255
+    },
+    "area_px": 19254.0,
+    "bbox": {
+      "x0": 666.0,
+      "y0": 141.0,
+      "x1": 903.0,
+      "y1": 274.0
     }
   },
   {
@@ -762,6 +932,23 @@
       "y0": 955.0,
       "x1": 1905.0,
       "y1": 1095.0
+    }
+  },
+  {
+    "id": "att_sea_sinus_syracusanus",
+    "name": "att_sea_sinus_syracusanus",
+    "color": {
+      "r": 181,
+      "g": 97,
+      "b": 74,
+      "a": 255
+    },
+    "area_px": 7558.5,
+    "bbox": {
+      "x0": 773.0,
+      "y0": 933.0,
+      "x1": 894.0,
+      "y1": 1056.0
     }
   },
   {
@@ -901,6 +1088,40 @@
     }
   },
   {
+    "id": "att_sea_mare_ionium",
+    "name": "att_sea_mare_ionium",
+    "color": {
+      "r": 114,
+      "g": 72,
+      "b": 141,
+      "a": 255
+    },
+    "area_px": 20140.0,
+    "bbox": {
+      "x0": 839.0,
+      "y0": 863.0,
+      "x1": 1069.0,
+      "y1": 1036.0
+    }
+  },
+  {
+    "id": "att_sea_sinus_codanus",
+    "name": "att_sea_sinus_codanus",
+    "color": {
+      "r": 179,
+      "g": 107,
+      "b": 76,
+      "a": 255
+    },
+    "area_px": 8158.5,
+    "bbox": {
+      "x0": 612.0,
+      "y0": 26.0,
+      "x1": 750.0,
+      "y1": 157.0
+    }
+  },
+  {
     "id": "att_reg_aegyptus_alexandria",
     "name": "att_reg_aegyptus_alexandria",
     "color": {
@@ -1017,6 +1238,40 @@
       "y0": 1285.0,
       "x1": 1769.0,
       "y1": 1459.0
+    }
+  },
+  {
+    "id": "att_sea_mare_ibericum",
+    "name": "att_sea_mare_ibericum",
+    "color": {
+      "r": 110,
+      "g": 52,
+      "b": 145,
+      "a": 255
+    },
+    "area_px": 12265.0,
+    "bbox": {
+      "x0": 85.0,
+      "y0": 1015.0,
+      "x1": 311.0,
+      "y1": 1127.0
+    }
+  },
+  {
+    "id": "att_sea_syrtis_major",
+    "name": "att_sea_syrtis_major",
+    "color": {
+      "r": 192,
+      "g": 42,
+      "b": 63,
+      "a": 255
+    },
+    "area_px": 11388.5,
+    "bbox": {
+      "x0": 849.0,
+      "y0": 1134.0,
+      "x1": 1048.0,
+      "y1": 1234.0
     }
   },
   {
@@ -1224,6 +1479,23 @@
     }
   },
   {
+    "id": "att_sea_mare_sarmaticum",
+    "name": "att_sea_mare_sarmaticum",
+    "color": {
+      "r": 117,
+      "g": 87,
+      "b": 138,
+      "a": 255
+    },
+    "area_px": 38961.0,
+    "bbox": {
+      "x0": 858.0,
+      "y0": 0.0,
+      "x1": 1114.0,
+      "y1": 253.0
+    }
+  },
+  {
     "id": "att_reg_narbonensis_vienna",
     "name": "att_reg_narbonensis_vienna",
     "color": {
@@ -1391,6 +1663,23 @@
       "y0": 1117.0,
       "x1": 1868.0,
       "y1": 1249.0
+    }
+  },
+  {
+    "id": "att_sea_mare_indicum",
+    "name": "att_sea_mare_indicum",
+    "color": {
+      "r": 112,
+      "g": 62,
+      "b": 143,
+      "a": 255
+    },
+    "area_px": 181353.0,
+    "bbox": {
+      "x0": 1862.0,
+      "y0": 1277.0,
+      "x1": 2399.0,
+      "y1": 1701.0
     }
   },
   {
@@ -1615,6 +1904,23 @@
     }
   },
   {
+    "id": "att_sea_mare_illyricum",
+    "name": "att_sea_mare_illyricum",
+    "color": {
+      "r": 111,
+      "g": 57,
+      "b": 144,
+      "a": 255
+    },
+    "area_px": 11711.5,
+    "bbox": {
+      "x0": 836.0,
+      "y0": 709.0,
+      "x1": 958.0,
+      "y1": 870.0
+    }
+  },
+  {
     "id": "att_reg_phazania_dimmidi",
     "name": "att_reg_phazania_dimmidi",
     "color": {
@@ -1649,6 +1955,23 @@
     }
   },
   {
+    "id": "att_sea_oceanus_britannicus",
+    "name": "att_sea_oceanus_britannicus",
+    "color": {
+      "r": 135,
+      "g": 177,
+      "b": 120,
+      "a": 255
+    },
+    "area_px": 61174.0,
+    "bbox": {
+      "x0": 40.0,
+      "y0": 397.0,
+      "x1": 429.0,
+      "y1": 750.0
+    }
+  },
+  {
     "id": "att_reg_aquitania_elusa",
     "name": "att_reg_aquitania_elusa",
     "color": {
@@ -1663,6 +1986,23 @@
       "y0": 710.0,
       "x1": 417.0,
       "y1": 778.0
+    }
+  },
+  {
+    "id": "att_sea_mare_adriaticum",
+    "name": "att_sea_mare_adriaticum",
+    "color": {
+      "r": 101,
+      "g": 7,
+      "b": 154,
+      "a": 255
+    },
+    "area_px": 9446.0,
+    "bbox": {
+      "x0": 751.0,
+      "y0": 643.0,
+      "x1": 857.0,
+      "y1": 808.0
     }
   },
   {
@@ -1700,6 +2040,40 @@
     }
   },
   {
+    "id": "att_sea_mare_phoenicum",
+    "name": "att_sea_mare_phoenicum",
+    "color": {
+      "r": 115,
+      "g": 77,
+      "b": 140,
+      "a": 255
+    },
+    "area_px": 12929.0,
+    "bbox": {
+      "x0": 1334.0,
+      "y0": 977.0,
+      "x1": 1469.0,
+      "y1": 1204.0
+    }
+  },
+  {
+    "id": "att_sea_mare_africum",
+    "name": "att_sea_mare_africum",
+    "color": {
+      "r": 104,
+      "g": 22,
+      "b": 151,
+      "a": 255
+    },
+    "area_px": 24494.5,
+    "bbox": {
+      "x0": 503.0,
+      "y0": 940.0,
+      "x1": 800.0,
+      "y1": 1132.0
+    }
+  },
+  {
     "id": "att_reg_germano_sarmatia_duna",
     "name": "att_reg_germano_sarmatia_duna",
     "color": {
@@ -1731,6 +2105,23 @@
       "y0": 1007.0,
       "x1": 1834.0,
       "y1": 1120.0
+    }
+  },
+  {
+    "id": "att_sea_danuvius",
+    "name": "att_sea_danuvius",
+    "color": {
+      "r": 52,
+      "g": 242,
+      "b": 203,
+      "a": 255
+    },
+    "area_px": 1148.0,
+    "bbox": {
+      "x0": 1038.0,
+      "y0": 647.0,
+      "x1": 1274.0,
+      "y1": 722.0
     }
   },
   {
@@ -1816,6 +2207,23 @@
       "y0": 652.0,
       "x1": 1274.0,
       "y1": 762.0
+    }
+  },
+  {
+    "id": "att_sea_sinus_arabicus",
+    "name": "att_sea_sinus_arabicus",
+    "color": {
+      "r": 178,
+      "g": 112,
+      "b": 77,
+      "a": 255
+    },
+    "area_px": 38148.0,
+    "bbox": {
+      "x0": 1486.0,
+      "y0": 1422.0,
+      "x1": 1873.0,
+      "y1": 1682.0
     }
   },
   {
@@ -2210,6 +2618,23 @@
     }
   },
   {
+    "id": "att_sea_pontus_thracius",
+    "name": "att_sea_pontus_thracius",
+    "color": {
+      "r": 154,
+      "g": 232,
+      "b": 101,
+      "a": 255
+    },
+    "area_px": 19519.0,
+    "bbox": {
+      "x0": 1213.0,
+      "y0": 595.0,
+      "x1": 1392.0,
+      "y1": 816.0
+    }
+  },
+  {
     "id": "att_reg_sarmatia_asiatica_anacopia",
     "name": "att_reg_sarmatia_asiatica_anacopia",
     "color": {
@@ -2363,6 +2788,23 @@
     }
   },
   {
+    "id": "att_sea_mare_hibernicum",
+    "name": "att_sea_mare_hibernicum",
+    "color": {
+      "r": 109,
+      "g": 47,
+      "b": 146,
+      "a": 255
+    },
+    "area_px": 134483.0,
+    "bbox": {
+      "x0": 0.0,
+      "y0": 0.0,
+      "x1": 373.0,
+      "y1": 505.0
+    }
+  },
+  {
     "id": "att_reg_caucasia_mtskheta",
     "name": "att_reg_caucasia_mtskheta",
     "color": {
@@ -2445,6 +2887,40 @@
       "y0": 1027.0,
       "x1": 693.0,
       "y1": 1105.0
+    }
+  },
+  {
+    "id": "att_sea_sinus_persicus",
+    "name": "att_sea_sinus_persicus",
+    "color": {
+      "r": 180,
+      "g": 102,
+      "b": 75,
+      "a": 255
+    },
+    "area_px": 11392.0,
+    "bbox": {
+      "x0": 1804.0,
+      "y0": 1203.0,
+      "x1": 1963.0,
+      "y1": 1348.0
+    }
+  },
+  {
+    "id": "att_sea_mare_cilicium",
+    "name": "att_sea_mare_cilicium",
+    "color": {
+      "r": 107,
+      "g": 37,
+      "b": 148,
+      "a": 255
+    },
+    "area_px": 9207.5,
+    "bbox": {
+      "x0": 1217.0,
+      "y0": 979.0,
+      "x1": 1445.0,
+      "y1": 1058.0
     }
   },
   {
@@ -2533,6 +3009,23 @@
     }
   },
   {
+    "id": "att_sea_mare_gallicum",
+    "name": "att_sea_mare_gallicum",
+    "color": {
+      "r": 108,
+      "g": 42,
+      "b": 147,
+      "a": 255
+    },
+    "area_px": 25920.0,
+    "bbox": {
+      "x0": 388.0,
+      "y0": 731.0,
+      "x1": 625.0,
+      "y1": 924.0
+    }
+  },
+  {
     "id": "att_reg_tarraconensis_caesaraugusta",
     "name": "att_reg_tarraconensis_caesaraugusta",
     "color": {
@@ -2615,6 +3108,40 @@
       "y0": 223.0,
       "x1": 1003.0,
       "y1": 329.0
+    }
+  },
+  {
+    "id": "att_sea_mare_aegyptum",
+    "name": "att_sea_mare_aegyptum",
+    "color": {
+      "r": 103,
+      "g": 17,
+      "b": 152,
+      "a": 255
+    },
+    "area_px": 15897.5,
+    "bbox": {
+      "x0": 1044.0,
+      "y0": 1133.0,
+      "x1": 1343.0,
+      "y1": 1217.0
+    }
+  },
+  {
+    "id": "att_sea_oceanus_germanicus",
+    "name": "att_sea_oceanus_germanicus",
+    "color": {
+      "r": 137,
+      "g": 187,
+      "b": 118,
+      "a": 255
+    },
+    "area_px": 90532.0,
+    "bbox": {
+      "x0": 258.0,
+      "y0": 0.0,
+      "x1": 653.0,
+      "y1": 401.0
     }
   },
   {
@@ -2737,6 +3264,23 @@
     }
   },
   {
+    "id": "att_sea_mare_tyrrhenum",
+    "name": "att_sea_mare_tyrrhenum",
+    "color": {
+      "r": 119,
+      "g": 97,
+      "b": 136,
+      "a": 255
+    },
+    "area_px": 29438.5,
+    "bbox": {
+      "x0": 600.0,
+      "y0": 701.0,
+      "x1": 814.0,
+      "y1": 974.0
+    }
+  },
+  {
     "id": "att_reg_palaestinea_nova_trajana_bostra",
     "name": "att_reg_palaestinea_nova_trajana_bostra",
     "color": {
@@ -2751,6 +3295,23 @@
       "y0": 1121.0,
       "x1": 1532.0,
       "y1": 1226.0
+    }
+  },
+  {
+    "id": "att_sea_syrtis_minor",
+    "name": "att_sea_syrtis_minor",
+    "color": {
+      "r": 193,
+      "g": 37,
+      "b": 62,
+      "a": 255
+    },
+    "area_px": 12873.0,
+    "bbox": {
+      "x0": 586.0,
+      "y0": 848.0,
+      "x1": 859.0,
+      "y1": 1209.0
     }
   },
   {
@@ -2890,6 +3451,23 @@
     }
   },
   {
+    "id": "att_sea_lake",
+    "name": "att_sea_lake",
+    "color": {
+      "r": 91,
+      "g": 47,
+      "b": 164,
+      "a": 255
+    },
+    "area_px": 10678.0,
+    "bbox": {
+      "x0": 558.0,
+      "y0": 546.0,
+      "x1": 2349.0,
+      "y1": 1195.0
+    }
+  },
+  {
     "id": "att_reg_britannia_inferior_segontium",
     "name": "att_reg_britannia_inferior_segontium",
     "color": {
@@ -2955,6 +3533,23 @@
       "y0": 1079.0,
       "x1": 693.0,
       "y1": 1195.0
+    }
+  },
+  {
+    "id": "att_sea_mare_aegaeum",
+    "name": "att_sea_mare_aegaeum",
+    "color": {
+      "r": 102,
+      "g": 12,
+      "b": 153,
+      "a": 255
+    },
+    "area_px": 24393.5,
+    "bbox": {
+      "x0": 1051.0,
+      "y0": 824.0,
+      "x1": 1239.0,
+      "y1": 1049.0
     }
   },
   {
@@ -3125,6 +3720,23 @@
       "y0": 1005.0,
       "x1": 2226.0,
       "y1": 1105.0
+    }
+  },
+  {
+    "id": "att_sea_oceanus_atlanticus",
+    "name": "att_sea_oceanus_atlanticus",
+    "color": {
+      "r": 134,
+      "g": 172,
+      "b": 121,
+      "a": 255
+    },
+    "area_px": 73356.5,
+    "bbox": {
+      "x0": 0.0,
+      "y0": 498.0,
+      "x1": 245.0,
+      "y1": 1306.0
     }
   },
   {

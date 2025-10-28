@@ -33,23 +33,40 @@ lookup_factions = "data/_rex_factions.tsv"
 lookup_buildings = "data/building_culture_variants.tsv"
 lookup_building_units = "data/_rex_building_units_allowed.tsv"
 
+# location TSV paths and prefixes
+loc_sources = {
+    "units": {
+        "metadata": "data/loc/__land_units.loc.tsv",
+        "prefix": "land_units_onscreen_name_"
+    },
+    "cultures": {
+        "metadata": "data/loc/_cultures_subcultures.loc.tsv",
+        "prefix": "cultures_subcultures_name_"
+    },
+    "regions": {
+        "metadata": "data/loc/_regions.loc.tsv",
+        "prefix": "regions_onscreen_"
+    }
+}
+
+
 # ------------------------------------------------------------
-#  CSV mapping: 
-#   start_pos_regions_to_unit_resources.csv:    region -> unit resource
+#  TSV mapping: 
+#  all loc tsvs:                  key -> text
 # ------------------------------------------------------------
-def load_auxilia_mapping(csv_path):
-    mapping = {}
+def load_loc_csv(csv_path, mapping, prefix):
     with open(csv_path, newline="", encoding="utf-8", errors="replace") as f:
-        reader = csv.DictReader(f, delimiter=",")
+        reader = csv.DictReader(f, delimiter="\t")
         for row in reader:
-            # csv with columns: Key, resource
-            # one region can can have multiple resources, in a new line
-            region = row.get("Key", "").strip()
-            resource = row.get("Resource", "").strip()
-            if region and resource:
-                if region not in mapping:
-                    mapping[region] = []
-                mapping[region].append(resource)
+            # csv with columns: key, text
+            key = row.get("key", "").strip()
+            text = row.get("text", "").strip()
+            if key and text:
+                # strip "land_units_onscreen_name_" prefix from key
+                if key.startswith(prefix):
+                    key = key[len(prefix):]
+                mapping[key] = text
+
     return mapping
 
 # ------------------------------------------------------------
@@ -112,6 +129,7 @@ def load_buildings_mapping(csv_path):
 # ------------------------------------------------------------
 def load_unit_mappings(folder_path):
     mapping = {}
+    unit_alias = {}
 
     csv_files = []
     for folder in folder_path:
@@ -125,10 +143,34 @@ def load_unit_mappings(folder_path):
                 # csv with columns: unit, region_unit_resource_requirement
                 resource = row.get("region_unit_resource_requirement", "").strip()
                 unit = row.get("unit", "").strip()
+                alias = row.get("land_unit", "").strip()
+
+                if alias and unit:
+                    unit_alias[unit] = alias
+
                 if resource and unit:
                     if resource not in mapping:
                         mapping[resource] = []
                     mapping[resource].append(unit)
+    return mapping, unit_alias
+
+# ------------------------------------------------------------
+#  CSV mapping: 
+#   start_pos_regions_to_unit_resources.csv:    region -> unit resource
+# ------------------------------------------------------------
+def load_auxilia_mapping(csv_path):
+    mapping = {}
+    with open(csv_path, newline="", encoding="utf-8", errors="replace") as f:
+        reader = csv.DictReader(f, delimiter=",")
+        for row in reader:
+            # csv with columns: Key, resource
+            # one region can can have multiple resources, in a new line
+            region = row.get("Key", "").strip()
+            resource = row.get("Resource", "").strip()
+            if region and resource:
+                if region not in mapping:
+                    mapping[region] = []
+                mapping[region].append(resource)
     return mapping
 
 # ------------------------------------------------------------
@@ -255,14 +297,16 @@ def main():
 
     outdir = Path(args.outdir); outdir.mkdir(exist_ok=True)
 
+    # ------------------------------------------------------------
     # DATA
+    # ------------------------------------------------------------
 
     # regions -> unit resources
     region_to_resource = load_auxilia_mapping(regions_units)
     print(f"Loaded {len(region_to_resource)} resource to region mappings from {regions_units}")
     
     # unit resources -> units
-    resource_to_unit = load_unit_mappings(units_folder)
+    resource_to_unit, unit_alias = load_unit_mappings(units_folder)
     print(f"Loaded {len(resource_to_unit)} unit resource to unit mappings from {units_folder}")
 
     # faction -> subculture
@@ -276,6 +320,14 @@ def main():
     building_to_unit = load_building_unit_mapping(lookup_building_units)
     print(f"Loaded {len(building_to_unit)} building to unit mappings from {lookup_building_units}")
 
+    # ------------------------------------------------------------
+    # REGION DATA MAPPING
+    # ------------------------------------------------------------
+
+    # what I need is: for each region: the subcultures: the units available
+    # we can check if a region has a resource, then find the units for that resource
+    # and then for each unit, find its subculture via building -> subculture mapping
+
     # unit -> subculture via building
     unit_to_subculture = {}
     for subculture, buildings in subculture_to_building.items():
@@ -288,11 +340,6 @@ def main():
                 if subculture not in unit_to_subculture[unit]:
                     unit_to_subculture[unit].append(subculture)
    
-    # ------------------------------------------------------------
-    # what I need is: for each region: the subcultures: the units available
-    # we can check if a region has a resource, then find the units for that resource
-    # and then for each unit, find its subculture via building -> subculture mapping
-
     region_data = {}
     for region, resources in region_to_resource.items():
         region_data[region] = {}
@@ -304,6 +351,10 @@ def main():
                     if subculture not in region_data[region]:
                         region_data[region][subculture] = []
                     if unit not in region_data[region][subculture]:
+
+                        # use the alias if available
+                        if unit in unit_alias:
+                            unit = unit_alias[unit]
                         region_data[region][subculture].append(unit)
 
     # save to json
@@ -312,12 +363,34 @@ def main():
     print(f"✓ Wrote region data mapping → {outdir/'region_data.json'}")
 
     # ------------------------------------------------------------
+    # LOCALIZATION
+    # ------------------------------------------------------------
+
+    # create metadata struct and json
+    # unit metadata: { key, english name, icon }
+    loc_data = {}
+    for key in loc_sources:
+        loc_data[key] = {}
+        load_loc_csv(
+            loc_sources[key]["metadata"],
+            loc_data[key],
+            loc_sources[key]["prefix"]
+        )
+        print(f"Loaded {len(loc_data[key])} localization entries from {loc_sources[key]['metadata']}")
+
+    # save to json
+    (outdir / "loc_data.json").write_text(
+        json.dumps(loc_data, indent=2), encoding="utf-8")
+    print(f"✓ Wrote localization data mapping → {outdir/'loc_data.json'}")
+
+    # ------------------------------------------------------------
+    # CONTOURS
+    # -----------------------------------------------------------
 
     # skip SVG generation if requested
     if args.skip_svg:
         return
-
-    # CONTOURS
+    
     mapping = load_mapping(regions_csv, skip_sea=args.skip_sea)
     print(f"Loaded {len(mapping)} region color mappings from {regions_csv}")
 
