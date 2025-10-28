@@ -1,2414 +1,2255 @@
 {
   "att_reg_persis_siraf": {
-    "resources": {
-      "Auxilia_Persian": [
-        "rex_east_kurds",
-        "rex_east_lakhmids",
-        "rex_east_daylamites",
-        "rex_east_chionites",
-        "rex_east_daylamites_infantry",
-        "rex_east_kadisins",
-        "rex_east_huns_sabirs",
-        "rex_east_sas_eran_savaran0",
-        "rex_east_sas_clibanarius0",
-        "rex_east_arab_spearmen"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_east_kurds"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_east_kurds"
+    ]
   },
   "att_reg_cilicia_tarsus": {
-    "resources": {
-      "Auxilia_Caucasia": [
-        "rex_rom_legionis_galatarum",
-        "rex_rom_legionis_pontinenses",
-        "rex_rom_legionis_scythae"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_galatarum",
+      "rex_rom_legionis_pontinenses",
+      "rex_rom_legionis_scythae"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_galatarum",
+      "rex_rom_legionis_pontinenses",
+      "rex_rom_legionis_scythae"
+    ]
   },
   "att_reg_sarmatia_asiatica_anacopia": {
-    "resources": {
-      "AOR_Caucasia": [
-        "rex_east_caucasians",
-        "rex_east_albanians",
-        "rex_east_hillman"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_east_caucasians",
+      "rex_east_albanians",
+      "rex_east_hillman"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_east_caucasians",
+      "rex_east_albanians",
+      "rex_east_hillman"
+    ]
   },
-  "att_reg_hyperborea_sylis": {
-    "resources": {
-      "Auxilia_local_Cartaginensis": [],
-      "AOR_Sarmatia": [
-        "rex_hun_ant_band_horse_archers",
-        "rex_hun_sarm_cavalry",
-        "rex_hun_spears_limicantes",
-        "rex_hun_arrows_limicantes",
-        "rex_hun_light_wedge_limicantes",
-        "rex_hun_sarmatian_horsemen",
-        "rex_hun_fast_arrows_arcaragantes",
-        "rex_hun_wedge_arcaragantes",
-        "rex_hun_ant_cavalry",
-        "rex_hun_ant_contofors",
-        "rex_hun_ant_shield_bearers",
-        "rex_hun_swords_limicantes",
-        "rex_hun_warband_limicantes",
-        "rex_hun_light_shield_bearers_limicantes",
-        "rex_hun_long_arrows_arcaragantes",
-        "rex_hun_shield_bearers_warband_arcaragantes",
-        "rex_hun_ant_oathbounds",
-        "rex_hun_oathbound_warband_limicantes",
-        "rex_hun_sarm_comrades"
-      ]
-    }
-  },
+  "att_reg_hyperborea_sylis": {},
   "att_reg_dalmatia_salona": {
-    "resources": {
-      "Auxilia_Illyrian": [
-        "rex_rom_millites_dalm",
-        "rex_rom_legionis_illyricorum",
-        "rex_rom_legionis_dalmatarum",
-        "rex_rom_equites_dalmatae_illyriciani",
-        "rex_rom_equites_promoti_illyriciani",
-        "rex_rom_equites_scutarii_illyriciani",
-        "rex_rom_legionis_pannoniciani_iuniores",
-        "rex_rom_legionis_pannoniciani_seniores"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_millites_dalm",
+      "rex_rom_legionis_illyricorum",
+      "rex_rom_legionis_dalmatarum",
+      "rex_rom_equites_dalmatae_illyriciani",
+      "rex_rom_equites_promoti_illyriciani",
+      "rex_rom_equites_scutarii_illyriciani",
+      "rex_rom_legionis_pannoniciani_iuniores",
+      "rex_rom_legionis_pannoniciani_seniores"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_millites_dalm",
+      "rex_rom_legionis_illyricorum",
+      "rex_rom_legionis_dalmatarum",
+      "rex_rom_equites_dalmatae_illyriciani",
+      "rex_rom_equites_promoti_illyriciani",
+      "rex_rom_equites_scutarii_illyriciani",
+      "rex_rom_legionis_pannoniciani_iuniores",
+      "rex_rom_legionis_pannoniciani_seniores"
+    ]
   },
   "att_reg_syria_antiochia": {
-    "resources": {
-      "Auxilia_Arabian": [
-        "rex_rom_legionis_arabum",
-        "rex_rom_legionis_palaestinorum",
-        "rex_rom_legionis_euphratensis",
-        "rex_rom_equites_saraceni",
-        "rex_rom_ala_dromedariorum_z",
-        "att_rom_imperial_dromedarii",
-        "rex_rom_cuneus_clibanariorum_palmirenorum"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_arabum",
+      "rex_rom_legionis_palaestinorum",
+      "rex_rom_legionis_euphratensis",
+      "rex_rom_equites_saraceni",
+      "rex_rom_ala_dromedariorum_z",
+      "att_rom_imperial_dromedarii",
+      "rex_rom_cuneus_clibanariorum_palmirenorum"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_arabum",
+      "rex_rom_legionis_palaestinorum",
+      "rex_rom_legionis_euphratensis",
+      "rex_rom_equites_saraceni",
+      "rex_rom_ala_dromedariorum_z",
+      "att_rom_imperial_dromedarii",
+      "rex_rom_cuneus_clibanariorum_palmirenorum"
+    ]
   },
   "att_reg_osroene_edessa": {
-    "resources": {
-      "Auxilia_Saka": [
-        "rex_rom_legionis_transtigritani",
-        "rex_rom_auxiliarii_sagittarii_orientales",
-        "rex_rom_equites_sagittarii_parthi",
-        "rex_rom_equites_scutarii_orientales",
-        "att_rom_clibanarii"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_transtigritani",
+      "rex_rom_auxiliarii_sagittarii_orientales",
+      "rex_rom_equites_sagittarii_parthi",
+      "rex_rom_equites_scutarii_orientales",
+      "att_rom_clibanarii"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_transtigritani",
+      "rex_rom_auxiliarii_sagittarii_orientales",
+      "rex_rom_equites_sagittarii_parthi",
+      "rex_rom_equites_scutarii_orientales",
+      "att_rom_clibanarii"
+    ]
   },
-  "att_reg_sarmatia_europaea_gelonus": {
-    "resources": {
-      "Auxilia_Sarmatian": [
-        "rex_hun_ant_band_skirmishers",
-        "rex_hun_ant_band_archers",
-        "rex_hun_ant_band_defenders",
-        "rex_hun_ant_band_warspear",
-        "rex_hun_ant_band_warsword"
-      ],
-      "AOR_Sarmatia": [
-        "rex_hun_ant_band_horse_archers",
-        "rex_hun_sarm_cavalry",
-        "rex_hun_spears_limicantes",
-        "rex_hun_arrows_limicantes",
-        "rex_hun_light_wedge_limicantes",
-        "rex_hun_sarmatian_horsemen",
-        "rex_hun_fast_arrows_arcaragantes",
-        "rex_hun_wedge_arcaragantes",
-        "rex_hun_ant_cavalry",
-        "rex_hun_ant_contofors",
-        "rex_hun_ant_shield_bearers",
-        "rex_hun_swords_limicantes",
-        "rex_hun_warband_limicantes",
-        "rex_hun_light_shield_bearers_limicantes",
-        "rex_hun_long_arrows_arcaragantes",
-        "rex_hun_shield_bearers_warband_arcaragantes",
-        "rex_hun_ant_oathbounds",
-        "rex_hun_oathbound_warband_limicantes",
-        "rex_hun_sarm_comrades"
-      ]
-    }
-  },
-  "att_reg_hyperborea_moramar": {
-    "resources": {
-      "AOR_Sarmatia": [
-        "rex_hun_ant_band_horse_archers",
-        "rex_hun_sarm_cavalry",
-        "rex_hun_spears_limicantes",
-        "rex_hun_arrows_limicantes",
-        "rex_hun_light_wedge_limicantes",
-        "rex_hun_sarmatian_horsemen",
-        "rex_hun_fast_arrows_arcaragantes",
-        "rex_hun_wedge_arcaragantes",
-        "rex_hun_ant_cavalry",
-        "rex_hun_ant_contofors",
-        "rex_hun_ant_shield_bearers",
-        "rex_hun_swords_limicantes",
-        "rex_hun_warband_limicantes",
-        "rex_hun_light_shield_bearers_limicantes",
-        "rex_hun_long_arrows_arcaragantes",
-        "rex_hun_shield_bearers_warband_arcaragantes",
-        "rex_hun_ant_oathbounds",
-        "rex_hun_oathbound_warband_limicantes",
-        "rex_hun_sarm_comrades"
-      ]
-    }
-  },
+  "att_reg_sarmatia_europaea_gelonus": {},
+  "att_reg_hyperborea_moramar": {},
   "att_reg_thracia_marcianopolis": {
-    "resources": {
-      "Auxilia_Thracia": [
-        "rex_rom_millites_daci",
-        "rex_rom_millites_moes",
-        "rex_rom_millites_scyt",
-        "rex_rom_legionis_thracorum",
-        "rex_rom_legionis_dacorum",
-        "rex_rom_legionis_gothorum",
-        "rex_rom_cuneus_sarmatarum",
-        "rex_rom_auxiliarii_thraces",
-        "rex_rom_auxiliarii_tervingi",
-        "rex_rom_auxiliarii_visi",
-        "att_ger_taifali_cavalry",
-        "rex_rom_legionis_moesiaci_seniores",
-        "rex_rom_legionis_daci",
-        "rex_goth_band_militon_tervingi_F",
-        "rex_goth_band_aihvamanne_greutungi_F",
-        "rex_goth_band_gadrauhteis_tervingi_F",
-        "rex_goth_band_gadrauhteis_greutungi_F",
-        "rex_rom_legionis_quartodecimani"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_millites_daci",
+      "rex_rom_millites_moes",
+      "rex_rom_millites_scyt",
+      "rex_rom_legionis_thracorum",
+      "rex_rom_legionis_dacorum",
+      "rex_rom_legionis_gothorum",
+      "rex_rom_cuneus_sarmatarum",
+      "rex_rom_auxiliarii_thraces",
+      "rex_rom_auxiliarii_tervingi",
+      "rex_rom_auxiliarii_visi",
+      "att_ger_taifali_cavalry",
+      "rex_rom_legionis_moesiaci_seniores",
+      "rex_rom_legionis_daci",
+      "rex_goth_band_militon_tervingi_F",
+      "rex_goth_band_aihvamanne_greutungi_F",
+      "rex_goth_band_gadrauhteis_tervingi_F",
+      "rex_goth_band_gadrauhteis_greutungi_F",
+      "rex_rom_legionis_quartodecimani"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_millites_daci",
+      "rex_rom_millites_moes",
+      "rex_rom_millites_scyt",
+      "rex_rom_legionis_thracorum",
+      "rex_rom_legionis_dacorum",
+      "rex_rom_legionis_gothorum",
+      "rex_rom_cuneus_sarmatarum",
+      "rex_rom_auxiliarii_thraces",
+      "rex_rom_auxiliarii_tervingi",
+      "rex_rom_auxiliarii_visi",
+      "att_ger_taifali_cavalry",
+      "rex_rom_legionis_moesiaci_seniores",
+      "rex_rom_legionis_daci",
+      "rex_goth_band_militon_tervingi_F",
+      "rex_goth_band_aihvamanne_greutungi_F",
+      "rex_goth_band_gadrauhteis_tervingi_F",
+      "rex_goth_band_gadrauhteis_greutungi_F",
+      "rex_rom_legionis_quartodecimani"
+    ]
   },
   "att_reg_tarraconensis_caesaraugusta": {
-    "resources": {
-      "Auxilia_Hellenic": [
-        "rex_rom_legionis_hispanorum",
-        "rex_rom_legionis_carthaginensis",
-        "rex_rom_legionis_lusitanorum",
-        "rex_rom_legionis_asturum"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_hispanorum",
+      "rex_rom_legionis_carthaginensis",
+      "rex_rom_legionis_lusitanorum",
+      "rex_rom_legionis_asturum"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_hispanorum",
+      "rex_rom_legionis_carthaginensis",
+      "rex_rom_legionis_lusitanorum",
+      "rex_rom_legionis_asturum"
+    ]
   },
-  "att_reg_sarmatia_asiatica_tanais": {
-    "resources": {
-      "Auxilia_local_Cartaginensis": [],
-      "AOR_Sarmatia": [
-        "rex_hun_ant_band_horse_archers",
-        "rex_hun_sarm_cavalry",
-        "rex_hun_spears_limicantes",
-        "rex_hun_arrows_limicantes",
-        "rex_hun_light_wedge_limicantes",
-        "rex_hun_sarmatian_horsemen",
-        "rex_hun_fast_arrows_arcaragantes",
-        "rex_hun_wedge_arcaragantes",
-        "rex_hun_ant_cavalry",
-        "rex_hun_ant_contofors",
-        "rex_hun_ant_shield_bearers",
-        "rex_hun_swords_limicantes",
-        "rex_hun_warband_limicantes",
-        "rex_hun_light_shield_bearers_limicantes",
-        "rex_hun_long_arrows_arcaragantes",
-        "rex_hun_shield_bearers_warband_arcaragantes",
-        "rex_hun_ant_oathbounds",
-        "rex_hun_oathbound_warband_limicantes",
-        "rex_hun_sarm_comrades"
-      ]
-    }
-  },
+  "att_reg_sarmatia_asiatica_tanais": {},
   "att_reg_asia_synnada": {
-    "resources": {
-      "Auxilia_Caucasia": [
-        "rex_rom_legionis_galatarum",
-        "rex_rom_legionis_pontinenses",
-        "rex_rom_legionis_scythae"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_galatarum",
+      "rex_rom_legionis_pontinenses",
+      "rex_rom_legionis_scythae"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_galatarum",
+      "rex_rom_legionis_pontinenses",
+      "rex_rom_legionis_scythae"
+    ]
   },
   "att_reg_raetia_et_noricum_augusta_vindelicorum": {
-    "resources": {
-      "Auxilia_Germanic": [
-        "rex_germ_band_defenders_bucin2",
-        "rex_germ_band_raiders_burg2",
-        "rex_germ_band_raiders_raet2",
-        "rex_rom_legionis_raetorum",
-        "rex_rom_legionis_noricorum",
-        "rex_rom_legionis_iuthungorum",
-        "rex_rom_auxiliarii_raetobarii",
-        "rex_rom_auxiliarii_marcomanni_iuniores",
-        "rex_rom_auxiliarii_marcomanni_seniores"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_raetorum",
+      "rex_rom_legionis_noricorum",
+      "rex_rom_legionis_iuthungorum",
+      "rex_rom_auxiliarii_raetobarii",
+      "rex_rom_auxiliarii_marcomanni_iuniores",
+      "rex_rom_auxiliarii_marcomanni_seniores"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_raetorum",
+      "rex_rom_legionis_noricorum",
+      "rex_rom_legionis_iuthungorum",
+      "rex_rom_auxiliarii_raetobarii",
+      "rex_rom_auxiliarii_marcomanni_iuniores",
+      "rex_rom_auxiliarii_marcomanni_seniores"
+    ]
   },
   "att_reg_belgica_colonia_agrippina": {
-    "resources": {
-      "Auxilia_Bactrian": [
-        "rex_germ_band_raiders_franc2",
-        "rex_germ_band_raiders_sax2",
-        "rex_germ_band_defenders_bruc2",
-        "rex_germ_band_defenders_amps2",
-        "rex_germ_band_raiders_hama2",
-        "rex_germ_band_spearmen_franc2",
-        "rex_germ_band_wigman_franc2",
-        "rex_germ_band_swordsmen_franc2",
-        "rex_germ_band_swordsmen_sax2",
-        "rex_germ_shield_bearers_franc2",
-        "rex_rom_millites_barb",
-        "rex_rom_millites_mena",
-        "rex_rom_millites_nerv",
-        "rex_rom_millites_tung",
-        "rex_rom_legionis_francorum",
-        "rex_rom_legionis_chamavorum",
-        "rex_rom_legionis_tungrorum",
-        "rex_rom_legionis_lingonum",
-        "rex_rom_legionis_nerviorum",
-        "rex_rom_legionis_morinorum",
-        "rex_rom_sagittarii_tungri",
-        "rex_rom_sagittarii_nervii",
-        "rex_rom_auxiliarii_ampsivarii",
-        "rex_rom_auxiliarii_anglevarii",
-        "rex_rom_auxiliarii_bructeri",
-        "rex_rom_auxiliarii_salii_iuniores",
-        "rex_rom_auxiliarii_batavi_iuniores",
-        "rex_rom_equites_batavi_iuniores",
-        "rex_rom_legionis_cimbriani",
-        "rex_rom_legionis_nervii",
-        "rex_rom_auxiliarii_salii_seniores",
-        "rex_rom_auxiliarii_batavi_seniores",
-        "rex_rom_equites_batavi_seniores"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_millites_barb",
+      "rex_rom_millites_mena",
+      "rex_rom_millites_nerv",
+      "rex_rom_millites_tung",
+      "rex_rom_legionis_francorum",
+      "rex_rom_legionis_chamavorum",
+      "rex_rom_legionis_tungrorum",
+      "rex_rom_legionis_lingonum",
+      "rex_rom_legionis_nerviorum",
+      "rex_rom_legionis_morinorum",
+      "rex_rom_sagittarii_tungri",
+      "rex_rom_sagittarii_nervii",
+      "rex_rom_auxiliarii_ampsivarii",
+      "rex_rom_auxiliarii_anglevarii",
+      "rex_rom_auxiliarii_bructeri",
+      "rex_rom_auxiliarii_salii_iuniores",
+      "rex_rom_auxiliarii_batavi_iuniores",
+      "rex_rom_equites_batavi_iuniores",
+      "rex_rom_legionis_cimbriani",
+      "rex_rom_legionis_nervii",
+      "rex_rom_auxiliarii_salii_seniores",
+      "rex_rom_auxiliarii_batavi_seniores",
+      "rex_rom_equites_batavi_seniores"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_millites_barb",
+      "rex_rom_millites_mena",
+      "rex_rom_millites_nerv",
+      "rex_rom_millites_tung",
+      "rex_rom_legionis_francorum",
+      "rex_rom_legionis_chamavorum",
+      "rex_rom_legionis_tungrorum",
+      "rex_rom_legionis_lingonum",
+      "rex_rom_legionis_nerviorum",
+      "rex_rom_legionis_morinorum",
+      "rex_rom_sagittarii_tungri",
+      "rex_rom_sagittarii_nervii",
+      "rex_rom_auxiliarii_ampsivarii",
+      "rex_rom_auxiliarii_anglevarii",
+      "rex_rom_auxiliarii_bructeri",
+      "rex_rom_auxiliarii_salii_iuniores",
+      "rex_rom_auxiliarii_batavi_iuniores",
+      "rex_rom_equites_batavi_iuniores",
+      "rex_rom_legionis_cimbriani",
+      "rex_rom_legionis_nervii",
+      "rex_rom_auxiliarii_salii_seniores",
+      "rex_rom_auxiliarii_batavi_seniores",
+      "rex_rom_equites_batavi_seniores"
+    ]
   },
-  "att_reg_liguria_mediolanum": {
-    "resources": {
-      "Auxilia_Roman": [
-        "att_ger_gothic_archers",
-        "att_ger_gothic_lancers",
-        "att_ger_gothic_pikemen",
-        "att_ger_gothic_palatina_defectors"
-      ]
-    }
-  },
+  "att_reg_liguria_mediolanum": {},
   "att_reg_caucasia_mtskheta": {
-    "resources": {
-      "AOR_Caucasia": [
-        "rex_east_caucasians",
-        "rex_east_albanians",
-        "rex_east_hillman"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_east_caucasians",
+      "rex_east_albanians",
+      "rex_east_hillman"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_east_caucasians",
+      "rex_east_albanians",
+      "rex_east_hillman"
+    ]
   },
   "att_reg_persis_stakhr": {
-    "resources": {
-      "Auxilia_Persian": [
-        "rex_east_kurds",
-        "rex_east_lakhmids",
-        "rex_east_daylamites",
-        "rex_east_chionites",
-        "rex_east_daylamites_infantry",
-        "rex_east_kadisins",
-        "rex_east_huns_sabirs",
-        "rex_east_sas_eran_savaran0",
-        "rex_east_sas_clibanarius0",
-        "rex_east_arab_spearmen"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_east_kurds"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_east_kurds"
+    ]
   },
   "att_reg_tarraconensis_pompaelo": {
-    "resources": {
-      "Auxilia_Hellenic": [
-        "rex_rom_legionis_hispanorum",
-        "rex_rom_legionis_carthaginensis",
-        "rex_rom_legionis_lusitanorum",
-        "rex_rom_legionis_asturum"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_hispanorum",
+      "rex_rom_legionis_carthaginensis",
+      "rex_rom_legionis_lusitanorum",
+      "rex_rom_legionis_asturum"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_hispanorum",
+      "rex_rom_legionis_carthaginensis",
+      "rex_rom_legionis_lusitanorum",
+      "rex_rom_legionis_asturum"
+    ]
   },
-  "att_reg_sarmatia_europaea_chersonessus": {
-    "resources": {
-      "Auxilia_local_Macedonia": [
-        "rex_goth_band_militon_peucini",
-        "rex_goth_band_sahsjane_carpi",
-        "rex_goth_band_militon_astringi2",
-        "rex_goth_band_militon_tervingi0",
-        "rex_goth_band_aihvamanne_greutungi0",
-        "rex_goth_band_gadrauhteis_tervingi0",
-        "rex_goth_band_gadrauhteis_greutungi0",
-        "rex_goth_band_gadrauhteis_taifali0"
-      ],
-      "AOR_Sarmatia": [
-        "rex_hun_ant_band_horse_archers",
-        "rex_hun_sarm_cavalry",
-        "rex_hun_spears_limicantes",
-        "rex_hun_arrows_limicantes",
-        "rex_hun_light_wedge_limicantes",
-        "rex_hun_sarmatian_horsemen",
-        "rex_hun_fast_arrows_arcaragantes",
-        "rex_hun_wedge_arcaragantes",
-        "rex_hun_ant_cavalry",
-        "rex_hun_ant_contofors",
-        "rex_hun_ant_shield_bearers",
-        "rex_hun_swords_limicantes",
-        "rex_hun_warband_limicantes",
-        "rex_hun_light_shield_bearers_limicantes",
-        "rex_hun_long_arrows_arcaragantes",
-        "rex_hun_shield_bearers_warband_arcaragantes",
-        "rex_hun_ant_oathbounds",
-        "rex_hun_oathbound_warband_limicantes",
-        "rex_hun_sarm_comrades"
-      ]
-    }
-  },
+  "att_reg_sarmatia_europaea_chersonessus": {},
   "att_reg_cappadocia_melitene": {
-    "resources": {
-      "Auxilia_Caucasia": [
-        "rex_rom_legionis_galatarum",
-        "rex_rom_legionis_pontinenses",
-        "rex_rom_legionis_scythae"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_galatarum",
+      "rex_rom_legionis_pontinenses",
+      "rex_rom_legionis_scythae"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_galatarum",
+      "rex_rom_legionis_pontinenses",
+      "rex_rom_legionis_scythae"
+    ]
   },
   "att_reg_britannia_inferior_segontium": {
-    "resources": {
-      "Auxilia_Briton": [
-        "rex_celt_brit_infantry",
-        "rex_celt_brit_horseman",
-        "rex_celt_brit_chariot",
-        "rex_celt_pict_band_defenders2",
-        "rex_celt_pict_band_raiders2",
-        "rex_celt_caled_band_defenders2",
-        "rex_celt_caled_band_raiders2",
-        "rex_celt_scot_band_defenders2",
-        "rex_celt_scot_band_raiders2",
-        "rex_rom_legionis_britonum",
-        "rex_rom_ala_britonum",
-        "rex_rom_auxiliarii_atecotti_iuniores",
-        "rex_rom_legionis_britones_seniores",
-        "rex_rom_auxiliarii_atecotti_seniores"
-      ]
-    }
+    "att_sub_cult_barbarian_celtic": [
+      "rex_celt_brit_infantry",
+      "rex_celt_brit_horseman",
+      "rex_celt_brit_chariot",
+      "rex_celt_pict_band_defenders2",
+      "rex_celt_pict_band_raiders2",
+      "rex_celt_caled_band_defenders2",
+      "rex_celt_caled_band_raiders2",
+      "rex_celt_scot_band_defenders2",
+      "rex_celt_scot_band_raiders2"
+    ],
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_britonum",
+      "rex_rom_ala_britonum",
+      "rex_rom_auxiliarii_atecotti_iuniores",
+      "rex_rom_legionis_britones_seniores",
+      "rex_rom_auxiliarii_atecotti_seniores"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_britonum",
+      "rex_rom_ala_britonum",
+      "rex_rom_auxiliarii_atecotti_iuniores",
+      "rex_rom_legionis_britones_seniores",
+      "rex_rom_auxiliarii_atecotti_seniores"
+    ]
   },
   "att_reg_media_atropatene_ecbatana": {
-    "resources": {
-      "Auxilia_Persian": [
-        "rex_east_kurds",
-        "rex_east_lakhmids",
-        "rex_east_daylamites",
-        "rex_east_chionites",
-        "rex_east_daylamites_infantry",
-        "rex_east_kadisins",
-        "rex_east_huns_sabirs",
-        "rex_east_sas_eran_savaran0",
-        "rex_east_sas_clibanarius0",
-        "rex_east_arab_spearmen"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_east_kurds"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_east_kurds"
+    ]
   },
   "att_reg_tarraconensis_tarraco": {
-    "resources": {
-      "Auxilia_Hellenic": [
-        "rex_rom_legionis_hispanorum",
-        "rex_rom_legionis_carthaginensis",
-        "rex_rom_legionis_lusitanorum",
-        "rex_rom_legionis_asturum"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_hispanorum",
+      "rex_rom_legionis_carthaginensis",
+      "rex_rom_legionis_lusitanorum",
+      "rex_rom_legionis_asturum"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_hispanorum",
+      "rex_rom_legionis_carthaginensis",
+      "rex_rom_legionis_lusitanorum",
+      "rex_rom_legionis_asturum"
+    ]
   },
-  "att_reg_transcarpathia_belz": {
-    "resources": {
-      "AOR_Vandalia": [
-        "rex_goth_band_militon_tervingi2",
-        "rex_goth_band_militon_astringi0",
-        "rex_goth_band_aqizjane_silingi0",
-        "rex_goth_band_aihvamanne_greutungi2"
-      ],
-      "AOR_Germania": [
-        "rex_hun_ven_band_skirmishers",
-        "rex_hun_ven_band_archers",
-        "rex_hun_ven_band_defenders",
-        "rex_hun_ven_band_raiders",
-        "rex_hun_squad_hunters",
-        "rex_hun_germ_cavalry",
-        "rex_hun_ven_band_warspear",
-        "rex_hun_ven_band_warsword",
-        "rex_hun_ven_band_ferocious",
-        "rex_hun_spear_braves",
-        "rex_hun_warlords_braves"
-      ]
-    }
-  },
+  "att_reg_transcarpathia_belz": {},
   "att_reg_bithynia_ancyra": {
-    "resources": {
-      "Auxilia_Caucasia": [
-        "rex_rom_legionis_galatarum",
-        "rex_rom_legionis_pontinenses",
-        "rex_rom_legionis_scythae"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_galatarum",
+      "rex_rom_legionis_pontinenses",
+      "rex_rom_legionis_scythae"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_galatarum",
+      "rex_rom_legionis_pontinenses",
+      "rex_rom_legionis_scythae"
+    ]
   },
   "att_reg_africa_hadrumentum": {
-    "resources": {
-      "Auxilia_Sabaean": [
-        "rex_rom_millites_maur",
-        "rex_rom_legionis_mauri",
-        "rex_rom_legionis_numidarum",
-        "rex_rom_legionis_gaetulorum",
-        "rex_rom_equites_mauri",
-        "rex_rom_auxiliarii_mauri_iuniores",
-        "rex_rom_equites_stablesiani_africani",
-        "rex_rom_auxiliarii_mauri_seniores"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_millites_maur",
+      "rex_rom_legionis_mauri",
+      "rex_rom_legionis_numidarum",
+      "rex_rom_legionis_gaetulorum",
+      "rex_rom_equites_mauri",
+      "rex_rom_auxiliarii_mauri_iuniores",
+      "rex_rom_equites_stablesiani_africani",
+      "rex_rom_auxiliarii_mauri_seniores"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_millites_maur",
+      "rex_rom_legionis_mauri",
+      "rex_rom_legionis_numidarum",
+      "rex_rom_legionis_gaetulorum",
+      "rex_rom_equites_mauri",
+      "rex_rom_auxiliarii_mauri_iuniores",
+      "rex_rom_equites_stablesiani_africani",
+      "rex_rom_auxiliarii_mauri_seniores"
+    ]
   },
   "att_reg_gallaecia_asturica": {
-    "resources": {
-      "Auxilia_Hellenic": [
-        "rex_rom_legionis_hispanorum",
-        "rex_rom_legionis_carthaginensis",
-        "rex_rom_legionis_lusitanorum",
-        "rex_rom_legionis_asturum"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_hispanorum",
+      "rex_rom_legionis_carthaginensis",
+      "rex_rom_legionis_lusitanorum",
+      "rex_rom_legionis_asturum"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_hispanorum",
+      "rex_rom_legionis_carthaginensis",
+      "rex_rom_legionis_lusitanorum",
+      "rex_rom_legionis_asturum"
+    ]
   },
   "att_reg_dardania_serdica": {
-    "resources": {
-      "Auxilia_Thracia": [
-        "rex_rom_millites_daci",
-        "rex_rom_millites_moes",
-        "rex_rom_millites_scyt",
-        "rex_rom_legionis_thracorum",
-        "rex_rom_legionis_dacorum",
-        "rex_rom_legionis_gothorum",
-        "rex_rom_cuneus_sarmatarum",
-        "rex_rom_auxiliarii_thraces",
-        "rex_rom_auxiliarii_tervingi",
-        "rex_rom_auxiliarii_visi",
-        "att_ger_taifali_cavalry",
-        "rex_rom_legionis_moesiaci_seniores",
-        "rex_rom_legionis_daci",
-        "rex_goth_band_militon_tervingi_F",
-        "rex_goth_band_aihvamanne_greutungi_F",
-        "rex_goth_band_gadrauhteis_tervingi_F",
-        "rex_goth_band_gadrauhteis_greutungi_F",
-        "rex_rom_legionis_quartodecimani"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_millites_daci",
+      "rex_rom_millites_moes",
+      "rex_rom_millites_scyt",
+      "rex_rom_legionis_thracorum",
+      "rex_rom_legionis_dacorum",
+      "rex_rom_legionis_gothorum",
+      "rex_rom_cuneus_sarmatarum",
+      "rex_rom_auxiliarii_thraces",
+      "rex_rom_auxiliarii_tervingi",
+      "rex_rom_auxiliarii_visi",
+      "att_ger_taifali_cavalry",
+      "rex_rom_legionis_moesiaci_seniores",
+      "rex_rom_legionis_daci",
+      "rex_goth_band_militon_tervingi_F",
+      "rex_goth_band_aihvamanne_greutungi_F",
+      "rex_goth_band_gadrauhteis_tervingi_F",
+      "rex_goth_band_gadrauhteis_greutungi_F",
+      "rex_rom_legionis_quartodecimani"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_millites_daci",
+      "rex_rom_millites_moes",
+      "rex_rom_millites_scyt",
+      "rex_rom_legionis_thracorum",
+      "rex_rom_legionis_dacorum",
+      "rex_rom_legionis_gothorum",
+      "rex_rom_cuneus_sarmatarum",
+      "rex_rom_auxiliarii_thraces",
+      "rex_rom_auxiliarii_tervingi",
+      "rex_rom_auxiliarii_visi",
+      "att_ger_taifali_cavalry",
+      "rex_rom_legionis_moesiaci_seniores",
+      "rex_rom_legionis_daci",
+      "rex_goth_band_militon_tervingi_F",
+      "rex_goth_band_aihvamanne_greutungi_F",
+      "rex_goth_band_gadrauhteis_tervingi_F",
+      "rex_goth_band_gadrauhteis_greutungi_F",
+      "rex_rom_legionis_quartodecimani"
+    ]
   },
   "att_reg_dardania_viminacium": {
-    "resources": {
-      "Auxilia_Thracia": [
-        "rex_rom_millites_daci",
-        "rex_rom_millites_moes",
-        "rex_rom_millites_scyt",
-        "rex_rom_legionis_thracorum",
-        "rex_rom_legionis_dacorum",
-        "rex_rom_legionis_gothorum",
-        "rex_rom_cuneus_sarmatarum",
-        "rex_rom_auxiliarii_thraces",
-        "rex_rom_auxiliarii_tervingi",
-        "rex_rom_auxiliarii_visi",
-        "att_ger_taifali_cavalry",
-        "rex_rom_legionis_moesiaci_seniores",
-        "rex_rom_legionis_daci",
-        "rex_goth_band_militon_tervingi_F",
-        "rex_goth_band_aihvamanne_greutungi_F",
-        "rex_goth_band_gadrauhteis_tervingi_F",
-        "rex_goth_band_gadrauhteis_greutungi_F",
-        "rex_rom_legionis_quartodecimani"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_millites_daci",
+      "rex_rom_millites_moes",
+      "rex_rom_millites_scyt",
+      "rex_rom_legionis_thracorum",
+      "rex_rom_legionis_dacorum",
+      "rex_rom_legionis_gothorum",
+      "rex_rom_cuneus_sarmatarum",
+      "rex_rom_auxiliarii_thraces",
+      "rex_rom_auxiliarii_tervingi",
+      "rex_rom_auxiliarii_visi",
+      "att_ger_taifali_cavalry",
+      "rex_rom_legionis_moesiaci_seniores",
+      "rex_rom_legionis_daci",
+      "rex_goth_band_militon_tervingi_F",
+      "rex_goth_band_aihvamanne_greutungi_F",
+      "rex_goth_band_gadrauhteis_tervingi_F",
+      "rex_goth_band_gadrauhteis_greutungi_F",
+      "rex_rom_legionis_quartodecimani"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_millites_daci",
+      "rex_rom_millites_moes",
+      "rex_rom_millites_scyt",
+      "rex_rom_legionis_thracorum",
+      "rex_rom_legionis_dacorum",
+      "rex_rom_legionis_gothorum",
+      "rex_rom_cuneus_sarmatarum",
+      "rex_rom_auxiliarii_thraces",
+      "rex_rom_auxiliarii_tervingi",
+      "rex_rom_auxiliarii_visi",
+      "att_ger_taifali_cavalry",
+      "rex_rom_legionis_moesiaci_seniores",
+      "rex_rom_legionis_daci",
+      "rex_goth_band_militon_tervingi_F",
+      "rex_goth_band_aihvamanne_greutungi_F",
+      "rex_goth_band_gadrauhteis_tervingi_F",
+      "rex_goth_band_gadrauhteis_greutungi_F",
+      "rex_rom_legionis_quartodecimani"
+    ]
   },
-  "att_reg_frisia_tulifurdum": {
-    "resources": {
-      "CiG_Regional_Roman": [
-        "rex_germ_band_raiders_sax0",
-        "rex_germ_band_defenders_fris0",
-        "rex_germ_band_swordsmen_sax0"
-      ],
-      "AOR_Germania2": [
-        "rex_germ_band_defenders02",
-        "rex_germ_band_raiders02",
-        "rex_germ_band_spearmen02",
-        "rex_germ_band_swordsmen02",
-        "rex_germ_shield_bearers02",
-        "rex_hun_gileibo",
-        "rex_hun_germ_gisind"
-      ]
-    }
-  },
+  "att_reg_frisia_tulifurdum": {},
   "att_reg_dardania_scupi": {
-    "resources": {
-      "Auxilia_Thracia": [
-        "rex_rom_millites_daci",
-        "rex_rom_millites_moes",
-        "rex_rom_millites_scyt",
-        "rex_rom_legionis_thracorum",
-        "rex_rom_legionis_dacorum",
-        "rex_rom_legionis_gothorum",
-        "rex_rom_cuneus_sarmatarum",
-        "rex_rom_auxiliarii_thraces",
-        "rex_rom_auxiliarii_tervingi",
-        "rex_rom_auxiliarii_visi",
-        "att_ger_taifali_cavalry",
-        "rex_rom_legionis_moesiaci_seniores",
-        "rex_rom_legionis_daci",
-        "rex_goth_band_militon_tervingi_F",
-        "rex_goth_band_aihvamanne_greutungi_F",
-        "rex_goth_band_gadrauhteis_tervingi_F",
-        "rex_goth_band_gadrauhteis_greutungi_F",
-        "rex_rom_legionis_quartodecimani"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_millites_daci",
+      "rex_rom_millites_moes",
+      "rex_rom_millites_scyt",
+      "rex_rom_legionis_thracorum",
+      "rex_rom_legionis_dacorum",
+      "rex_rom_legionis_gothorum",
+      "rex_rom_cuneus_sarmatarum",
+      "rex_rom_auxiliarii_thraces",
+      "rex_rom_auxiliarii_tervingi",
+      "rex_rom_auxiliarii_visi",
+      "att_ger_taifali_cavalry",
+      "rex_rom_legionis_moesiaci_seniores",
+      "rex_rom_legionis_daci",
+      "rex_goth_band_militon_tervingi_F",
+      "rex_goth_band_aihvamanne_greutungi_F",
+      "rex_goth_band_gadrauhteis_tervingi_F",
+      "rex_goth_band_gadrauhteis_greutungi_F",
+      "rex_rom_legionis_quartodecimani"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_millites_daci",
+      "rex_rom_millites_moes",
+      "rex_rom_millites_scyt",
+      "rex_rom_legionis_thracorum",
+      "rex_rom_legionis_dacorum",
+      "rex_rom_legionis_gothorum",
+      "rex_rom_cuneus_sarmatarum",
+      "rex_rom_auxiliarii_thraces",
+      "rex_rom_auxiliarii_tervingi",
+      "rex_rom_auxiliarii_visi",
+      "att_ger_taifali_cavalry",
+      "rex_rom_legionis_moesiaci_seniores",
+      "rex_rom_legionis_daci",
+      "rex_goth_band_militon_tervingi_F",
+      "rex_goth_band_aihvamanne_greutungi_F",
+      "rex_goth_band_gadrauhteis_tervingi_F",
+      "rex_goth_band_gadrauhteis_greutungi_F",
+      "rex_rom_legionis_quartodecimani"
+    ]
   },
   "att_reg_italia_roma": {
-    "resources": {
-      "Auxilia_Italian": [
-        "rex_rom_millites_ital",
-        "rex_rom_legionis_romanenses",
-        "rex_rom_legionis_scutata_civium_romanorum",
-        "rex_rom_legionis_apuleia_civium_romanorum",
-        "rex_rom_equites_stablesiani_italiciani"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_millites_ital",
+      "rex_rom_legionis_romanenses",
+      "rex_rom_legionis_scutata_civium_romanorum",
+      "rex_rom_legionis_apuleia_civium_romanorum",
+      "rex_rom_equites_stablesiani_italiciani"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_millites_ital",
+      "rex_rom_legionis_romanenses",
+      "rex_rom_legionis_scutata_civium_romanorum",
+      "rex_rom_legionis_apuleia_civium_romanorum",
+      "rex_rom_equites_stablesiani_italiciani"
+    ]
   },
-  "att_reg_aethiopia_aksum": {
-    "resources": {
-      "AOR_Aethiopia": [
-        "rex_des_axum_kushite_archers0",
-        "rex_des_axum_elite_kushite_archers0",
-        "rex_des_axum_elephants"
-      ]
-    }
-  },
-  "att_reg_aethiopia_pachoras": {
-    "resources": {
-      "AOR_Aethiopia": [
-        "rex_des_axum_kushite_archers0",
-        "rex_des_axum_elite_kushite_archers0",
-        "rex_des_axum_elephants"
-      ]
-    }
-  },
+  "att_reg_aethiopia_aksum": {},
+  "att_reg_aethiopia_pachoras": {},
   "att_reg_britannia_superior_londinium": {
-    "resources": {
-      "Auxilia_Briton": [
-        "rex_celt_brit_infantry",
-        "rex_celt_brit_horseman",
-        "rex_celt_brit_chariot",
-        "rex_celt_pict_band_defenders2",
-        "rex_celt_pict_band_raiders2",
-        "rex_celt_caled_band_defenders2",
-        "rex_celt_caled_band_raiders2",
-        "rex_celt_scot_band_defenders2",
-        "rex_celt_scot_band_raiders2",
-        "rex_rom_legionis_britonum",
-        "rex_rom_ala_britonum",
-        "rex_rom_auxiliarii_atecotti_iuniores",
-        "rex_rom_legionis_britones_seniores",
-        "rex_rom_auxiliarii_atecotti_seniores"
-      ]
-    }
+    "att_sub_cult_barbarian_celtic": [
+      "rex_celt_brit_infantry",
+      "rex_celt_brit_horseman",
+      "rex_celt_brit_chariot",
+      "rex_celt_pict_band_defenders2",
+      "rex_celt_pict_band_raiders2",
+      "rex_celt_caled_band_defenders2",
+      "rex_celt_caled_band_raiders2",
+      "rex_celt_scot_band_defenders2",
+      "rex_celt_scot_band_raiders2"
+    ],
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_britonum",
+      "rex_rom_ala_britonum",
+      "rex_rom_auxiliarii_atecotti_iuniores",
+      "rex_rom_legionis_britones_seniores",
+      "rex_rom_auxiliarii_atecotti_seniores"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_britonum",
+      "rex_rom_ala_britonum",
+      "rex_rom_auxiliarii_atecotti_iuniores",
+      "rex_rom_legionis_britones_seniores",
+      "rex_rom_auxiliarii_atecotti_seniores"
+    ]
   },
-  "att_reg_frisia_flevum": {
-    "resources": {
-      "CiG_Regional_Greek": [
-        "rex_germ_band_defenders_franc0",
-        "rex_germ_band_raiders_franc0",
-        "rex_germ_band_defenders_bruc0",
-        "rex_germ_band_defenders_amps0",
-        "rex_germ_band_raiders_hama0",
-        "rex_germ_band_spearmen_franc0",
-        "rex_germ_band_wigman_franc0",
-        "rex_germ_band_swordsmen_franc0",
-        "rex_germ_shield_bearers_franc0"
-      ],
-      "AOR_Germania2": [
-        "rex_germ_band_defenders02",
-        "rex_germ_band_raiders02",
-        "rex_germ_band_spearmen02",
-        "rex_germ_band_swordsmen02",
-        "rex_germ_shield_bearers02",
-        "rex_hun_gileibo",
-        "rex_hun_germ_gisind"
-      ]
-    }
-  },
-  "att_reg_aethiopia_adulis": {
-    "resources": {
-      "AOR_Aethiopia": [
-        "rex_des_axum_kushite_archers0",
-        "rex_des_axum_elite_kushite_archers0",
-        "rex_des_axum_elephants"
-      ]
-    }
-  },
+  "att_reg_frisia_flevum": {},
+  "att_reg_aethiopia_adulis": {},
   "att_reg_arabia_magna_hira": {
-    "resources": {
-      "Auxilia_local_Gedrosia_Arachosia_Bactria_Aria": [
-        "rex_arab_badyia_camel0",
-        "rex_arab_badyia_ambushers0",
-        "rex_arab_badyia_horsemen0",
-        "rex_arab_arabic_dromedaries0",
-        "rex_arab_arabic_cavalry0"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_arab_badyia_camel0",
+      "rex_arab_badyia_ambushers0",
+      "rex_arab_badyia_horsemen0",
+      "rex_arab_arabic_dromedaries0",
+      "rex_arab_arabic_cavalry0"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_arab_badyia_camel0",
+      "rex_arab_badyia_ambushers0",
+      "rex_arab_badyia_horsemen0",
+      "rex_arab_arabic_dromedaries0",
+      "rex_arab_arabic_cavalry0"
+    ]
   },
-  "att_reg_hercynia_casurgis": {
-    "resources": {
-      "CiG_Regional_German": [
-        "rex_germ_band_swordsmen_marc"
-      ],
-      "AOR_Germania2": [
-        "rex_germ_band_defenders02",
-        "rex_germ_band_raiders02",
-        "rex_germ_band_spearmen02",
-        "rex_germ_band_swordsmen02",
-        "rex_germ_shield_bearers02",
-        "rex_hun_gileibo",
-        "rex_hun_germ_gisind"
-      ]
-    }
-  },
-  "att_reg_hyperborea_kariskos": {
-    "resources": {
-      "AOR_Sarmatia": [
-        "rex_hun_ant_band_horse_archers",
-        "rex_hun_sarm_cavalry",
-        "rex_hun_spears_limicantes",
-        "rex_hun_arrows_limicantes",
-        "rex_hun_light_wedge_limicantes",
-        "rex_hun_sarmatian_horsemen",
-        "rex_hun_fast_arrows_arcaragantes",
-        "rex_hun_wedge_arcaragantes",
-        "rex_hun_ant_cavalry",
-        "rex_hun_ant_contofors",
-        "rex_hun_ant_shield_bearers",
-        "rex_hun_swords_limicantes",
-        "rex_hun_warband_limicantes",
-        "rex_hun_light_shield_bearers_limicantes",
-        "rex_hun_long_arrows_arcaragantes",
-        "rex_hun_shield_bearers_warband_arcaragantes",
-        "rex_hun_ant_oathbounds",
-        "rex_hun_oathbound_warband_limicantes",
-        "rex_hun_sarm_comrades"
-      ]
-    }
-  },
+  "att_reg_hercynia_casurgis": {},
+  "att_reg_hyperborea_kariskos": {},
   "att_reg_lugdunensis_turonum": {
-    "resources": {
-      "Auxilia_Gallic": [
-        "rex_robb_militia_0",
-        "rex_robb_ala_0",
-        "rex_rom_legionis_gallorum",
-        "att_cel_mounted_spear_raiders",
-        "rex_rom_legionis_honoriani_felices_gallicani",
-        "rex_rom_legionis_lanciarii_honoriani_gallicani",
-        "rex_rom_sagittarii_gallicani",
-        "rex_rom_auxiliarii_celtae_iuniores",
-        "rex_rom_auxiliarii_cornuti_iuniores",
-        "rex_rom_auxiliarii_brachiati_iuniores",
-        "rex_rom_equites_cornuti_iuniores",
-        "rex_rom_equites_brachiati_iuniores",
-        "rex_rom_auxiliarii_mattiarii_honoriani_gallicani",
-        "rex_rom_auxiliarii_celtae_seniores",
-        "att_rom_cornuti_seniores",
-        "rex_rom_auxiliarii_brachiati_seniores",
-        "rex_rom_equites_cornuti_seniores",
-        "rex_rom_equites_brachiati_seniores"
-      ]
-    }
+    "att_sub_cult_barbarian_celtic": [
+      "rex_robb_militia_0",
+      "rex_robb_ala_0"
+    ],
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_gallorum",
+      "att_cel_mounted_spear_raiders",
+      "rex_rom_legionis_honoriani_felices_gallicani",
+      "rex_rom_legionis_lanciarii_honoriani_gallicani",
+      "rex_rom_sagittarii_gallicani",
+      "rex_rom_auxiliarii_celtae_iuniores",
+      "rex_rom_auxiliarii_cornuti_iuniores",
+      "rex_rom_auxiliarii_brachiati_iuniores",
+      "rex_rom_equites_cornuti_iuniores",
+      "rex_rom_equites_brachiati_iuniores",
+      "rex_rom_auxiliarii_mattiarii_honoriani_gallicani",
+      "rex_rom_auxiliarii_celtae_seniores",
+      "att_rom_cornuti_seniores",
+      "rex_rom_auxiliarii_brachiati_seniores",
+      "rex_rom_equites_cornuti_seniores",
+      "rex_rom_equites_brachiati_seniores"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_gallorum",
+      "att_cel_mounted_spear_raiders",
+      "rex_rom_legionis_honoriani_felices_gallicani",
+      "rex_rom_legionis_lanciarii_honoriani_gallicani",
+      "rex_rom_sagittarii_gallicani",
+      "rex_rom_auxiliarii_celtae_iuniores",
+      "rex_rom_auxiliarii_cornuti_iuniores",
+      "rex_rom_auxiliarii_brachiati_iuniores",
+      "rex_rom_equites_cornuti_iuniores",
+      "rex_rom_equites_brachiati_iuniores",
+      "rex_rom_auxiliarii_mattiarii_honoriani_gallicani",
+      "rex_rom_auxiliarii_celtae_seniores",
+      "att_rom_cornuti_seniores",
+      "rex_rom_auxiliarii_brachiati_seniores",
+      "rex_rom_equites_cornuti_seniores",
+      "rex_rom_equites_brachiati_seniores"
+    ]
   },
   "att_reg_italia_fiorentia": {
-    "resources": {
-      "Auxilia_Italian": [
-        "rex_rom_millites_ital",
-        "rex_rom_legionis_romanenses",
-        "rex_rom_legionis_scutata_civium_romanorum",
-        "rex_rom_legionis_apuleia_civium_romanorum",
-        "rex_rom_equites_stablesiani_italiciani"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_millites_ital",
+      "rex_rom_legionis_romanenses",
+      "rex_rom_legionis_scutata_civium_romanorum",
+      "rex_rom_legionis_apuleia_civium_romanorum",
+      "rex_rom_equites_stablesiani_italiciani"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_millites_ital",
+      "rex_rom_legionis_romanenses",
+      "rex_rom_legionis_scutata_civium_romanorum",
+      "rex_rom_legionis_apuleia_civium_romanorum",
+      "rex_rom_equites_stablesiani_italiciani"
+    ]
   },
   "att_reg_aquitania_avaricum": {
-    "resources": {
-      "Auxilia_Gallic": [
-        "rex_robb_militia_0",
-        "rex_robb_ala_0",
-        "rex_rom_legionis_gallorum",
-        "att_cel_mounted_spear_raiders",
-        "rex_rom_legionis_honoriani_felices_gallicani",
-        "rex_rom_legionis_lanciarii_honoriani_gallicani",
-        "rex_rom_sagittarii_gallicani",
-        "rex_rom_auxiliarii_celtae_iuniores",
-        "rex_rom_auxiliarii_cornuti_iuniores",
-        "rex_rom_auxiliarii_brachiati_iuniores",
-        "rex_rom_equites_cornuti_iuniores",
-        "rex_rom_equites_brachiati_iuniores",
-        "rex_rom_auxiliarii_mattiarii_honoriani_gallicani",
-        "rex_rom_auxiliarii_celtae_seniores",
-        "att_rom_cornuti_seniores",
-        "rex_rom_auxiliarii_brachiati_seniores",
-        "rex_rom_equites_cornuti_seniores",
-        "rex_rom_equites_brachiati_seniores"
-      ]
-    }
+    "att_sub_cult_barbarian_celtic": [
+      "rex_robb_militia_0",
+      "rex_robb_ala_0"
+    ],
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_gallorum",
+      "att_cel_mounted_spear_raiders",
+      "rex_rom_legionis_honoriani_felices_gallicani",
+      "rex_rom_legionis_lanciarii_honoriani_gallicani",
+      "rex_rom_sagittarii_gallicani",
+      "rex_rom_auxiliarii_celtae_iuniores",
+      "rex_rom_auxiliarii_cornuti_iuniores",
+      "rex_rom_auxiliarii_brachiati_iuniores",
+      "rex_rom_equites_cornuti_iuniores",
+      "rex_rom_equites_brachiati_iuniores",
+      "rex_rom_auxiliarii_mattiarii_honoriani_gallicani",
+      "rex_rom_auxiliarii_celtae_seniores",
+      "att_rom_cornuti_seniores",
+      "rex_rom_auxiliarii_brachiati_seniores",
+      "rex_rom_equites_cornuti_seniores",
+      "rex_rom_equites_brachiati_seniores"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_gallorum",
+      "att_cel_mounted_spear_raiders",
+      "rex_rom_legionis_honoriani_felices_gallicani",
+      "rex_rom_legionis_lanciarii_honoriani_gallicani",
+      "rex_rom_sagittarii_gallicani",
+      "rex_rom_auxiliarii_celtae_iuniores",
+      "rex_rom_auxiliarii_cornuti_iuniores",
+      "rex_rom_auxiliarii_brachiati_iuniores",
+      "rex_rom_equites_cornuti_iuniores",
+      "rex_rom_equites_brachiati_iuniores",
+      "rex_rom_auxiliarii_mattiarii_honoriani_gallicani",
+      "rex_rom_auxiliarii_celtae_seniores",
+      "att_rom_cornuti_seniores",
+      "rex_rom_auxiliarii_brachiati_seniores",
+      "rex_rom_equites_cornuti_seniores",
+      "rex_rom_equites_brachiati_seniores"
+    ]
   },
   "att_reg_arabia_felix_omana": {
-    "resources": {
-      "Auxilia_local_Gedrosia_Arachosia_Bactria_Aria": [
-        "rex_arab_badyia_camel0",
-        "rex_arab_badyia_ambushers0",
-        "rex_arab_badyia_horsemen0",
-        "rex_arab_arabic_dromedaries0",
-        "rex_arab_arabic_cavalry0"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_arab_badyia_camel0",
+      "rex_arab_badyia_ambushers0",
+      "rex_arab_badyia_horsemen0",
+      "rex_arab_arabic_dromedaries0",
+      "rex_arab_arabic_cavalry0"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_arab_badyia_camel0",
+      "rex_arab_badyia_ambushers0",
+      "rex_arab_badyia_horsemen0",
+      "rex_arab_arabic_dromedaries0",
+      "rex_arab_arabic_cavalry0"
+    ]
   },
   "att_reg_britannia_inferior_lindum": {
-    "resources": {
-      "Auxilia_Briton": [
-        "rex_celt_brit_infantry",
-        "rex_celt_brit_horseman",
-        "rex_celt_brit_chariot",
-        "rex_celt_pict_band_defenders2",
-        "rex_celt_pict_band_raiders2",
-        "rex_celt_caled_band_defenders2",
-        "rex_celt_caled_band_raiders2",
-        "rex_celt_scot_band_defenders2",
-        "rex_celt_scot_band_raiders2",
-        "rex_rom_legionis_britonum",
-        "rex_rom_ala_britonum",
-        "rex_rom_auxiliarii_atecotti_iuniores",
-        "rex_rom_legionis_britones_seniores",
-        "rex_rom_auxiliarii_atecotti_seniores"
-      ]
-    }
+    "att_sub_cult_barbarian_celtic": [
+      "rex_celt_brit_infantry",
+      "rex_celt_brit_horseman",
+      "rex_celt_brit_chariot",
+      "rex_celt_pict_band_defenders2",
+      "rex_celt_pict_band_raiders2",
+      "rex_celt_caled_band_defenders2",
+      "rex_celt_caled_band_raiders2",
+      "rex_celt_scot_band_defenders2",
+      "rex_celt_scot_band_raiders2"
+    ],
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_britonum",
+      "rex_rom_ala_britonum",
+      "rex_rom_auxiliarii_atecotti_iuniores",
+      "rex_rom_legionis_britones_seniores",
+      "rex_rom_auxiliarii_atecotti_seniores"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_britonum",
+      "rex_rom_ala_britonum",
+      "rex_rom_auxiliarii_atecotti_iuniores",
+      "rex_rom_legionis_britones_seniores",
+      "rex_rom_auxiliarii_atecotti_seniores"
+    ]
   },
-  "att_reg_hercynia_budorgis": {
-    "resources": {
-      "AOR_Vandalia": [
-        "rex_goth_band_militon_tervingi2",
-        "rex_goth_band_militon_astringi0",
-        "rex_goth_band_aqizjane_silingi0",
-        "rex_goth_band_aihvamanne_greutungi2"
-      ],
-      "AOR_Germania": [
-        "rex_hun_ven_band_skirmishers",
-        "rex_hun_ven_band_archers",
-        "rex_hun_ven_band_defenders",
-        "rex_hun_ven_band_raiders",
-        "rex_hun_squad_hunters",
-        "rex_hun_germ_cavalry",
-        "rex_hun_ven_band_warspear",
-        "rex_hun_ven_band_warsword",
-        "rex_hun_ven_band_ferocious",
-        "rex_hun_spear_braves",
-        "rex_hun_warlords_braves"
-      ]
-    }
-  },
-  "att_reg_germania_lupfurdum": {
-    "resources": {
-      "Auxilia_local_Tarraconensis": [
-        "rex_germ_band_raiders_burg0"
-      ],
-      "AOR_Germania2": [
-        "rex_germ_band_defenders02",
-        "rex_germ_band_raiders02",
-        "rex_germ_band_spearmen02",
-        "rex_germ_band_swordsmen02",
-        "rex_germ_shield_bearers02",
-        "rex_hun_gileibo",
-        "rex_hun_germ_gisind"
-      ]
-    }
-  },
+  "att_reg_hercynia_budorgis": {},
+  "att_reg_germania_lupfurdum": {},
   "att_reg_maxima_sequanorum_argentoratum": {
-    "resources": {
-      "Auxilia_Iberian": [
-        "rex_germ_band_defenders2",
-        "rex_germ_band_raiders_sueb2",
-        "rex_germ_band_mounted2",
-        "rex_germ_band_defenders_iuti2",
-        "rex_germ_band_defenders_angl2",
-        "rex_germ_band_spearmen2",
-        "rex_germ_band_spearmen_sueb2",
-        "rex_germ_band_wigman2",
-        "rex_germ_band_wigman_sueb2",
-        "rex_germ_band_swordsmen2",
-        "rex_germ_shield_bearers2",
-        "rex_germ_band_choice_archers2",
-        "rex_germ_band_wigman_bris2",
-        "rex_germ_band_swordsmen_marc2",
-        "rex_rom_legionis_alamannorum",
-        "rex_rom_legionis_abrincateni",
-        "rex_rom_legionis_germanorum",
-        "rex_rom_ala_sequanorum",
-        "rex_rom_legionis_germaniciani_iuniores",
-        "rex_rom_legionis_menapii",
-        "rex_rom_auxiliarii_bucinobantes",
-        "rex_rom_auxiliarii_brisigavi_iuniores",
-        "rex_rom_auxiliarii_mattiaci_iuniores",
-        "rex_rom_legionis_germaniciani_seniores",
-        "rex_rom_auxiliarii_brisigavi_seniores",
-        "rex_rom_auxiliarii_mattiaci_seniores"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_alamannorum",
+      "rex_rom_legionis_abrincateni",
+      "rex_rom_legionis_germanorum",
+      "rex_rom_ala_sequanorum",
+      "rex_rom_legionis_germaniciani_iuniores",
+      "rex_rom_legionis_menapii",
+      "rex_rom_auxiliarii_bucinobantes",
+      "rex_rom_auxiliarii_brisigavi_iuniores",
+      "rex_rom_auxiliarii_mattiaci_iuniores",
+      "rex_rom_legionis_germaniciani_seniores",
+      "rex_rom_auxiliarii_brisigavi_seniores",
+      "rex_rom_auxiliarii_mattiaci_seniores"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_alamannorum",
+      "rex_rom_legionis_abrincateni",
+      "rex_rom_legionis_germanorum",
+      "rex_rom_ala_sequanorum",
+      "rex_rom_legionis_germaniciani_iuniores",
+      "rex_rom_legionis_menapii",
+      "rex_rom_auxiliarii_bucinobantes",
+      "rex_rom_auxiliarii_brisigavi_iuniores",
+      "rex_rom_auxiliarii_mattiaci_iuniores",
+      "rex_rom_legionis_germaniciani_seniores",
+      "rex_rom_auxiliarii_brisigavi_seniores",
+      "rex_rom_auxiliarii_mattiaci_seniores"
+    ]
   },
   "att_reg_media_atropatene_rhaga": {
-    "resources": {
-      "Auxilia_Persian": [
-        "rex_east_kurds",
-        "rex_east_lakhmids",
-        "rex_east_daylamites",
-        "rex_east_chionites",
-        "rex_east_daylamites_infantry",
-        "rex_east_kadisins",
-        "rex_east_huns_sabirs",
-        "rex_east_sas_eran_savaran0",
-        "rex_east_sas_clibanarius0",
-        "rex_east_arab_spearmen"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_east_kurds"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_east_kurds"
+    ]
   },
   "att_reg_aquitania_elusa": {
-    "resources": {
-      "Auxilia_Gallic": [
-        "rex_robb_militia_0",
-        "rex_robb_ala_0",
-        "rex_rom_legionis_gallorum",
-        "att_cel_mounted_spear_raiders",
-        "rex_rom_legionis_honoriani_felices_gallicani",
-        "rex_rom_legionis_lanciarii_honoriani_gallicani",
-        "rex_rom_sagittarii_gallicani",
-        "rex_rom_auxiliarii_celtae_iuniores",
-        "rex_rom_auxiliarii_cornuti_iuniores",
-        "rex_rom_auxiliarii_brachiati_iuniores",
-        "rex_rom_equites_cornuti_iuniores",
-        "rex_rom_equites_brachiati_iuniores",
-        "rex_rom_auxiliarii_mattiarii_honoriani_gallicani",
-        "rex_rom_auxiliarii_celtae_seniores",
-        "att_rom_cornuti_seniores",
-        "rex_rom_auxiliarii_brachiati_seniores",
-        "rex_rom_equites_cornuti_seniores",
-        "rex_rom_equites_brachiati_seniores"
-      ]
-    }
+    "att_sub_cult_barbarian_celtic": [
+      "rex_robb_militia_0",
+      "rex_robb_ala_0"
+    ],
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_gallorum",
+      "att_cel_mounted_spear_raiders",
+      "rex_rom_legionis_honoriani_felices_gallicani",
+      "rex_rom_legionis_lanciarii_honoriani_gallicani",
+      "rex_rom_sagittarii_gallicani",
+      "rex_rom_auxiliarii_celtae_iuniores",
+      "rex_rom_auxiliarii_cornuti_iuniores",
+      "rex_rom_auxiliarii_brachiati_iuniores",
+      "rex_rom_equites_cornuti_iuniores",
+      "rex_rom_equites_brachiati_iuniores",
+      "rex_rom_auxiliarii_mattiarii_honoriani_gallicani",
+      "rex_rom_auxiliarii_celtae_seniores",
+      "att_rom_cornuti_seniores",
+      "rex_rom_auxiliarii_brachiati_seniores",
+      "rex_rom_equites_cornuti_seniores",
+      "rex_rom_equites_brachiati_seniores"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_gallorum",
+      "att_cel_mounted_spear_raiders",
+      "rex_rom_legionis_honoriani_felices_gallicani",
+      "rex_rom_legionis_lanciarii_honoriani_gallicani",
+      "rex_rom_sagittarii_gallicani",
+      "rex_rom_auxiliarii_celtae_iuniores",
+      "rex_rom_auxiliarii_cornuti_iuniores",
+      "rex_rom_auxiliarii_brachiati_iuniores",
+      "rex_rom_equites_cornuti_iuniores",
+      "rex_rom_equites_brachiati_iuniores",
+      "rex_rom_auxiliarii_mattiarii_honoriani_gallicani",
+      "rex_rom_auxiliarii_celtae_seniores",
+      "att_rom_cornuti_seniores",
+      "rex_rom_auxiliarii_brachiati_seniores",
+      "rex_rom_equites_cornuti_seniores",
+      "rex_rom_equites_brachiati_seniores"
+    ]
   },
   "att_reg_narbonensis_vienna": {
-    "resources": {
-      "Auxilia_Gallic": [
-        "rex_robb_militia_0",
-        "rex_robb_ala_0",
-        "rex_rom_legionis_gallorum",
-        "att_cel_mounted_spear_raiders",
-        "rex_rom_legionis_honoriani_felices_gallicani",
-        "rex_rom_legionis_lanciarii_honoriani_gallicani",
-        "rex_rom_sagittarii_gallicani",
-        "rex_rom_auxiliarii_celtae_iuniores",
-        "rex_rom_auxiliarii_cornuti_iuniores",
-        "rex_rom_auxiliarii_brachiati_iuniores",
-        "rex_rom_equites_cornuti_iuniores",
-        "rex_rom_equites_brachiati_iuniores",
-        "rex_rom_auxiliarii_mattiarii_honoriani_gallicani",
-        "rex_rom_auxiliarii_celtae_seniores",
-        "att_rom_cornuti_seniores",
-        "rex_rom_auxiliarii_brachiati_seniores",
-        "rex_rom_equites_cornuti_seniores",
-        "rex_rom_equites_brachiati_seniores"
-      ]
-    }
+    "att_sub_cult_barbarian_celtic": [
+      "rex_robb_militia_0",
+      "rex_robb_ala_0"
+    ],
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_gallorum",
+      "att_cel_mounted_spear_raiders",
+      "rex_rom_legionis_honoriani_felices_gallicani",
+      "rex_rom_legionis_lanciarii_honoriani_gallicani",
+      "rex_rom_sagittarii_gallicani",
+      "rex_rom_auxiliarii_celtae_iuniores",
+      "rex_rom_auxiliarii_cornuti_iuniores",
+      "rex_rom_auxiliarii_brachiati_iuniores",
+      "rex_rom_equites_cornuti_iuniores",
+      "rex_rom_equites_brachiati_iuniores",
+      "rex_rom_auxiliarii_mattiarii_honoriani_gallicani",
+      "rex_rom_auxiliarii_celtae_seniores",
+      "att_rom_cornuti_seniores",
+      "rex_rom_auxiliarii_brachiati_seniores",
+      "rex_rom_equites_cornuti_seniores",
+      "rex_rom_equites_brachiati_seniores"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_gallorum",
+      "att_cel_mounted_spear_raiders",
+      "rex_rom_legionis_honoriani_felices_gallicani",
+      "rex_rom_legionis_lanciarii_honoriani_gallicani",
+      "rex_rom_sagittarii_gallicani",
+      "rex_rom_auxiliarii_celtae_iuniores",
+      "rex_rom_auxiliarii_cornuti_iuniores",
+      "rex_rom_auxiliarii_brachiati_iuniores",
+      "rex_rom_equites_cornuti_iuniores",
+      "rex_rom_equites_brachiati_iuniores",
+      "rex_rom_auxiliarii_mattiarii_honoriani_gallicani",
+      "rex_rom_auxiliarii_celtae_seniores",
+      "att_rom_cornuti_seniores",
+      "rex_rom_auxiliarii_brachiati_seniores",
+      "rex_rom_equites_cornuti_seniores",
+      "rex_rom_equites_brachiati_seniores"
+    ]
   },
   "att_reg_belgica_durocorterum": {
-    "resources": {
-      "Auxilia_Bactrian": [
-        "rex_germ_band_raiders_franc2",
-        "rex_germ_band_raiders_sax2",
-        "rex_germ_band_defenders_bruc2",
-        "rex_germ_band_defenders_amps2",
-        "rex_germ_band_raiders_hama2",
-        "rex_germ_band_spearmen_franc2",
-        "rex_germ_band_wigman_franc2",
-        "rex_germ_band_swordsmen_franc2",
-        "rex_germ_band_swordsmen_sax2",
-        "rex_germ_shield_bearers_franc2",
-        "rex_rom_millites_barb",
-        "rex_rom_millites_mena",
-        "rex_rom_millites_nerv",
-        "rex_rom_millites_tung",
-        "rex_rom_legionis_francorum",
-        "rex_rom_legionis_chamavorum",
-        "rex_rom_legionis_tungrorum",
-        "rex_rom_legionis_lingonum",
-        "rex_rom_legionis_nerviorum",
-        "rex_rom_legionis_morinorum",
-        "rex_rom_sagittarii_tungri",
-        "rex_rom_sagittarii_nervii",
-        "rex_rom_auxiliarii_ampsivarii",
-        "rex_rom_auxiliarii_anglevarii",
-        "rex_rom_auxiliarii_bructeri",
-        "rex_rom_auxiliarii_salii_iuniores",
-        "rex_rom_auxiliarii_batavi_iuniores",
-        "rex_rom_equites_batavi_iuniores",
-        "rex_rom_legionis_cimbriani",
-        "rex_rom_legionis_nervii",
-        "rex_rom_auxiliarii_salii_seniores",
-        "rex_rom_auxiliarii_batavi_seniores",
-        "rex_rom_equites_batavi_seniores"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_millites_barb",
+      "rex_rom_millites_mena",
+      "rex_rom_millites_nerv",
+      "rex_rom_millites_tung",
+      "rex_rom_legionis_francorum",
+      "rex_rom_legionis_chamavorum",
+      "rex_rom_legionis_tungrorum",
+      "rex_rom_legionis_lingonum",
+      "rex_rom_legionis_nerviorum",
+      "rex_rom_legionis_morinorum",
+      "rex_rom_sagittarii_tungri",
+      "rex_rom_sagittarii_nervii",
+      "rex_rom_auxiliarii_ampsivarii",
+      "rex_rom_auxiliarii_anglevarii",
+      "rex_rom_auxiliarii_bructeri",
+      "rex_rom_auxiliarii_salii_iuniores",
+      "rex_rom_auxiliarii_batavi_iuniores",
+      "rex_rom_equites_batavi_iuniores",
+      "rex_rom_legionis_cimbriani",
+      "rex_rom_legionis_nervii",
+      "rex_rom_auxiliarii_salii_seniores",
+      "rex_rom_auxiliarii_batavi_seniores",
+      "rex_rom_equites_batavi_seniores"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_millites_barb",
+      "rex_rom_millites_mena",
+      "rex_rom_millites_nerv",
+      "rex_rom_millites_tung",
+      "rex_rom_legionis_francorum",
+      "rex_rom_legionis_chamavorum",
+      "rex_rom_legionis_tungrorum",
+      "rex_rom_legionis_lingonum",
+      "rex_rom_legionis_nerviorum",
+      "rex_rom_legionis_morinorum",
+      "rex_rom_sagittarii_tungri",
+      "rex_rom_sagittarii_nervii",
+      "rex_rom_auxiliarii_ampsivarii",
+      "rex_rom_auxiliarii_anglevarii",
+      "rex_rom_auxiliarii_bructeri",
+      "rex_rom_auxiliarii_salii_iuniores",
+      "rex_rom_auxiliarii_batavi_iuniores",
+      "rex_rom_equites_batavi_iuniores",
+      "rex_rom_legionis_cimbriani",
+      "rex_rom_legionis_nervii",
+      "rex_rom_auxiliarii_salii_seniores",
+      "rex_rom_auxiliarii_batavi_seniores",
+      "rex_rom_equites_batavi_seniores"
+    ]
   },
   "att_reg_arabia_felix_zafar": {
-    "resources": {
-      "Auxilia_local_Gedrosia_Arachosia_Bactria_Aria": [
-        "rex_arab_badyia_camel0",
-        "rex_arab_badyia_ambushers0",
-        "rex_arab_badyia_horsemen0",
-        "rex_arab_arabic_dromedaries0",
-        "rex_arab_arabic_cavalry0"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_arab_badyia_camel0",
+      "rex_arab_badyia_ambushers0",
+      "rex_arab_badyia_horsemen0",
+      "rex_arab_arabic_dromedaries0",
+      "rex_arab_arabic_cavalry0"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_arab_badyia_camel0",
+      "rex_arab_badyia_ambushers0",
+      "rex_arab_badyia_horsemen0",
+      "rex_arab_arabic_dromedaries0",
+      "rex_arab_arabic_cavalry0"
+    ]
   },
   "att_reg_carthaginensis_segobriga": {
-    "resources": {
-      "Auxilia_Hellenic": [
-        "rex_rom_legionis_hispanorum",
-        "rex_rom_legionis_carthaginensis",
-        "rex_rom_legionis_lusitanorum",
-        "rex_rom_legionis_asturum"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_hispanorum",
+      "rex_rom_legionis_carthaginensis",
+      "rex_rom_legionis_lusitanorum",
+      "rex_rom_legionis_asturum"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_hispanorum",
+      "rex_rom_legionis_carthaginensis",
+      "rex_rom_legionis_lusitanorum",
+      "rex_rom_legionis_asturum"
+    ]
   },
   "att_reg_osroene_amida": {
-    "resources": {
-      "Auxilia_Saka": [
-        "rex_rom_legionis_transtigritani",
-        "rex_rom_auxiliarii_sagittarii_orientales",
-        "rex_rom_equites_sagittarii_parthi",
-        "rex_rom_equites_scutarii_orientales",
-        "att_rom_clibanarii"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_transtigritani",
+      "rex_rom_auxiliarii_sagittarii_orientales",
+      "rex_rom_equites_sagittarii_parthi",
+      "rex_rom_equites_scutarii_orientales",
+      "att_rom_clibanarii"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_transtigritani",
+      "rex_rom_auxiliarii_sagittarii_orientales",
+      "rex_rom_equites_sagittarii_parthi",
+      "rex_rom_equites_scutarii_orientales",
+      "att_rom_clibanarii"
+    ]
   },
   "att_reg_lusitania_emerita_augusta": {
-    "resources": {
-      "Auxilia_Hellenic": [
-        "rex_rom_legionis_hispanorum",
-        "rex_rom_legionis_carthaginensis",
-        "rex_rom_legionis_lusitanorum",
-        "rex_rom_legionis_asturum"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_hispanorum",
+      "rex_rom_legionis_carthaginensis",
+      "rex_rom_legionis_lusitanorum",
+      "rex_rom_legionis_asturum"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_hispanorum",
+      "rex_rom_legionis_carthaginensis",
+      "rex_rom_legionis_lusitanorum",
+      "rex_rom_legionis_asturum"
+    ]
   },
   "att_reg_libya_paraetonium": {
-    "resources": {
-      "Auxilia_Egyptian": [
-        "rex_rom_legionis_aegyptiorum",
-        "rex_rom_legionis_flavia_constantia_thebaeorum",
-        "rex_rom_legionis_maximiana",
-        "rex_rom_legionis_valentis"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_aegyptiorum",
+      "rex_rom_legionis_flavia_constantia_thebaeorum",
+      "rex_rom_legionis_maximiana",
+      "rex_rom_legionis_valentis"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_aegyptiorum",
+      "rex_rom_legionis_flavia_constantia_thebaeorum",
+      "rex_rom_legionis_maximiana",
+      "rex_rom_legionis_valentis"
+    ]
   },
   "att_reg_media_atropatene_ganzaga": {
-    "resources": {
-      "Auxilia_Persian": [
-        "rex_east_kurds",
-        "rex_east_lakhmids",
-        "rex_east_daylamites",
-        "rex_east_chionites",
-        "rex_east_daylamites_infantry",
-        "rex_east_kadisins",
-        "rex_east_huns_sabirs",
-        "rex_east_sas_eran_savaran0",
-        "rex_east_sas_clibanarius0",
-        "rex_east_arab_spearmen"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_east_kurds"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_east_kurds"
+    ]
   },
   "att_reg_africa_constantina": {
-    "resources": {
-      "Auxilia_Sabaean": [
-        "rex_rom_millites_maur",
-        "rex_rom_legionis_mauri",
-        "rex_rom_legionis_numidarum",
-        "rex_rom_legionis_gaetulorum",
-        "rex_rom_equites_mauri",
-        "rex_rom_auxiliarii_mauri_iuniores",
-        "rex_rom_equites_stablesiani_africani",
-        "rex_rom_auxiliarii_mauri_seniores"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_millites_maur",
+      "rex_rom_legionis_mauri",
+      "rex_rom_legionis_numidarum",
+      "rex_rom_legionis_gaetulorum",
+      "rex_rom_equites_mauri",
+      "rex_rom_auxiliarii_mauri_iuniores",
+      "rex_rom_equites_stablesiani_africani",
+      "rex_rom_auxiliarii_mauri_seniores"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_millites_maur",
+      "rex_rom_legionis_mauri",
+      "rex_rom_legionis_numidarum",
+      "rex_rom_legionis_gaetulorum",
+      "rex_rom_equites_mauri",
+      "rex_rom_auxiliarii_mauri_iuniores",
+      "rex_rom_equites_stablesiani_africani",
+      "rex_rom_auxiliarii_mauri_seniores"
+    ]
   },
   "att_reg_arabia_magna_dumatha": {
-    "resources": {
-      "Auxilia_local_Gedrosia_Arachosia_Bactria_Aria": [
-        "rex_arab_badyia_camel0",
-        "rex_arab_badyia_ambushers0",
-        "rex_arab_badyia_horsemen0",
-        "rex_arab_arabic_dromedaries0",
-        "rex_arab_arabic_cavalry0"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_arab_badyia_camel0",
+      "rex_arab_badyia_ambushers0",
+      "rex_arab_badyia_horsemen0",
+      "rex_arab_arabic_dromedaries0",
+      "rex_arab_arabic_cavalry0"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_arab_badyia_camel0",
+      "rex_arab_badyia_ambushers0",
+      "rex_arab_badyia_horsemen0",
+      "rex_arab_arabic_dromedaries0",
+      "rex_arab_arabic_cavalry0"
+    ]
   },
   "att_reg_asorstan_arbela": {
-    "resources": {
-      "Auxilia_Persian": [
-        "rex_east_kurds",
-        "rex_east_lakhmids",
-        "rex_east_daylamites",
-        "rex_east_chionites",
-        "rex_east_daylamites_infantry",
-        "rex_east_kadisins",
-        "rex_east_huns_sabirs",
-        "rex_east_sas_eran_savaran0",
-        "rex_east_sas_clibanarius0",
-        "rex_east_arab_spearmen"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_east_kurds"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_east_kurds"
+    ]
   },
-  "att_reg_armenia_duin": {
-    "resources": {
-      "Auxilia_local_Phazania_Libue_Aithiops": [
-        "rex_east_armenian_ayrudzi0",
-        "rex_east_armenian_ayrudzi_archers0"
-      ]
-    }
-  },
-  "att_reg_dacia_apulum": {
-    "resources": {
-      "Auxilia_local_Raetia_et_Noricum": [
-        "rex_goth_band_hairjane_gepid",
-        "rex_goth_band_gadrauhteis_gepids",
-        "rex_hun_band_militon_peucini",
-        "rex_hun_band_sahsjane_carpi",
-        "rex_hun_band_hairjane_gepid",
-        "rex_hun_band_gadrauhteis_gepids",
-        "rex_hun_gahlaibans",
-        "rex_hun_goth_comites"
-      ]
-    }
-  },
+  "att_reg_armenia_duin": {},
+  "att_reg_dacia_apulum": {},
   "att_reg_lugdunensis_rotomagus": {
-    "resources": {
-      "Auxilia_Gallic": [
-        "rex_robb_militia_0",
-        "rex_robb_ala_0",
-        "rex_rom_legionis_gallorum",
-        "att_cel_mounted_spear_raiders",
-        "rex_rom_legionis_honoriani_felices_gallicani",
-        "rex_rom_legionis_lanciarii_honoriani_gallicani",
-        "rex_rom_sagittarii_gallicani",
-        "rex_rom_auxiliarii_celtae_iuniores",
-        "rex_rom_auxiliarii_cornuti_iuniores",
-        "rex_rom_auxiliarii_brachiati_iuniores",
-        "rex_rom_equites_cornuti_iuniores",
-        "rex_rom_equites_brachiati_iuniores",
-        "rex_rom_auxiliarii_mattiarii_honoriani_gallicani",
-        "rex_rom_auxiliarii_celtae_seniores",
-        "att_rom_cornuti_seniores",
-        "rex_rom_auxiliarii_brachiati_seniores",
-        "rex_rom_equites_cornuti_seniores",
-        "rex_rom_equites_brachiati_seniores"
-      ]
-    }
+    "att_sub_cult_barbarian_celtic": [
+      "rex_robb_militia_0",
+      "rex_robb_ala_0"
+    ],
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_gallorum",
+      "att_cel_mounted_spear_raiders",
+      "rex_rom_legionis_honoriani_felices_gallicani",
+      "rex_rom_legionis_lanciarii_honoriani_gallicani",
+      "rex_rom_sagittarii_gallicani",
+      "rex_rom_auxiliarii_celtae_iuniores",
+      "rex_rom_auxiliarii_cornuti_iuniores",
+      "rex_rom_auxiliarii_brachiati_iuniores",
+      "rex_rom_equites_cornuti_iuniores",
+      "rex_rom_equites_brachiati_iuniores",
+      "rex_rom_auxiliarii_mattiarii_honoriani_gallicani",
+      "rex_rom_auxiliarii_celtae_seniores",
+      "att_rom_cornuti_seniores",
+      "rex_rom_auxiliarii_brachiati_seniores",
+      "rex_rom_equites_cornuti_seniores",
+      "rex_rom_equites_brachiati_seniores"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_gallorum",
+      "att_cel_mounted_spear_raiders",
+      "rex_rom_legionis_honoriani_felices_gallicani",
+      "rex_rom_legionis_lanciarii_honoriani_gallicani",
+      "rex_rom_sagittarii_gallicani",
+      "rex_rom_auxiliarii_celtae_iuniores",
+      "rex_rom_auxiliarii_cornuti_iuniores",
+      "rex_rom_auxiliarii_brachiati_iuniores",
+      "rex_rom_equites_cornuti_iuniores",
+      "rex_rom_equites_brachiati_iuniores",
+      "rex_rom_auxiliarii_mattiarii_honoriani_gallicani",
+      "rex_rom_auxiliarii_celtae_seniores",
+      "att_rom_cornuti_seniores",
+      "rex_rom_auxiliarii_brachiati_seniores",
+      "rex_rom_equites_cornuti_seniores",
+      "rex_rom_equites_brachiati_seniores"
+    ]
   },
   "att_reg_osroene_nisibis": {
-    "resources": {
-      "Auxilia_Saka": [
-        "rex_rom_legionis_transtigritani",
-        "rex_rom_auxiliarii_sagittarii_orientales",
-        "rex_rom_equites_sagittarii_parthi",
-        "rex_rom_equites_scutarii_orientales",
-        "att_rom_clibanarii"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_transtigritani",
+      "rex_rom_auxiliarii_sagittarii_orientales",
+      "rex_rom_equites_sagittarii_parthi",
+      "rex_rom_equites_scutarii_orientales",
+      "att_rom_clibanarii"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_transtigritani",
+      "rex_rom_auxiliarii_sagittarii_orientales",
+      "rex_rom_equites_sagittarii_parthi",
+      "rex_rom_equites_scutarii_orientales",
+      "att_rom_clibanarii"
+    ]
   },
   "att_reg_palaestinea_aila": {
-    "resources": {
-      "Auxilia_Arabian": [
-        "rex_rom_legionis_arabum",
-        "rex_rom_legionis_palaestinorum",
-        "rex_rom_legionis_euphratensis",
-        "rex_rom_equites_saraceni",
-        "rex_rom_ala_dromedariorum_z",
-        "att_rom_imperial_dromedarii",
-        "rex_rom_cuneus_clibanariorum_palmirenorum"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_arabum",
+      "rex_rom_legionis_palaestinorum",
+      "rex_rom_legionis_euphratensis",
+      "rex_rom_equites_saraceni",
+      "rex_rom_ala_dromedariorum_z",
+      "att_rom_imperial_dromedarii",
+      "rex_rom_cuneus_clibanariorum_palmirenorum"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_arabum",
+      "rex_rom_legionis_palaestinorum",
+      "rex_rom_legionis_euphratensis",
+      "rex_rom_equites_saraceni",
+      "rex_rom_ala_dromedariorum_z",
+      "att_rom_imperial_dromedarii",
+      "rex_rom_cuneus_clibanariorum_palmirenorum"
+    ]
   },
   "att_reg_pannonia_savaria": {
-    "resources": {
-      "Auxilia_Illyrian": [
-        "rex_rom_millites_dalm",
-        "rex_rom_legionis_illyricorum",
-        "rex_rom_legionis_dalmatarum",
-        "rex_rom_equites_dalmatae_illyriciani",
-        "rex_rom_equites_promoti_illyriciani",
-        "rex_rom_equites_scutarii_illyriciani",
-        "rex_rom_legionis_pannoniciani_iuniores",
-        "rex_rom_legionis_pannoniciani_seniores"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_millites_dalm",
+      "rex_rom_legionis_illyricorum",
+      "rex_rom_legionis_dalmatarum",
+      "rex_rom_equites_dalmatae_illyriciani",
+      "rex_rom_equites_promoti_illyriciani",
+      "rex_rom_equites_scutarii_illyriciani",
+      "rex_rom_legionis_pannoniciani_iuniores",
+      "rex_rom_legionis_pannoniciani_seniores"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_millites_dalm",
+      "rex_rom_legionis_illyricorum",
+      "rex_rom_legionis_dalmatarum",
+      "rex_rom_equites_dalmatae_illyriciani",
+      "rex_rom_equites_promoti_illyriciani",
+      "rex_rom_equites_scutarii_illyriciani",
+      "rex_rom_legionis_pannoniciani_iuniores",
+      "rex_rom_legionis_pannoniciani_seniores"
+    ]
   },
   "att_reg_cappadocia_trapezus": {
-    "resources": {
-      "Auxilia_Caucasia": [
-        "rex_rom_legionis_galatarum",
-        "rex_rom_legionis_pontinenses",
-        "rex_rom_legionis_scythae"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_galatarum",
+      "rex_rom_legionis_pontinenses",
+      "rex_rom_legionis_scythae"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_galatarum",
+      "rex_rom_legionis_pontinenses",
+      "rex_rom_legionis_scythae"
+    ]
   },
   "att_reg_raetia_et_noricum_iuvavum": {
-    "resources": {
-      "Auxilia_Germanic": [
-        "rex_germ_band_defenders_bucin2",
-        "rex_germ_band_raiders_burg2",
-        "rex_germ_band_raiders_raet2",
-        "rex_rom_legionis_raetorum",
-        "rex_rom_legionis_noricorum",
-        "rex_rom_legionis_iuthungorum",
-        "rex_rom_auxiliarii_raetobarii",
-        "rex_rom_auxiliarii_marcomanni_iuniores",
-        "rex_rom_auxiliarii_marcomanni_seniores"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_raetorum",
+      "rex_rom_legionis_noricorum",
+      "rex_rom_legionis_iuthungorum",
+      "rex_rom_auxiliarii_raetobarii",
+      "rex_rom_auxiliarii_marcomanni_iuniores",
+      "rex_rom_auxiliarii_marcomanni_seniores"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_raetorum",
+      "rex_rom_legionis_noricorum",
+      "rex_rom_legionis_iuthungorum",
+      "rex_rom_auxiliarii_raetobarii",
+      "rex_rom_auxiliarii_marcomanni_iuniores",
+      "rex_rom_auxiliarii_marcomanni_seniores"
+    ]
   },
   "att_reg_cappadocia_caesarea_eusebia": {
-    "resources": {
-      "Auxilia_Caucasia": [
-        "rex_rom_legionis_galatarum",
-        "rex_rom_legionis_pontinenses",
-        "rex_rom_legionis_scythae"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_galatarum",
+      "rex_rom_legionis_pontinenses",
+      "rex_rom_legionis_scythae"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_galatarum",
+      "rex_rom_legionis_pontinenses",
+      "rex_rom_legionis_scythae"
+    ]
   },
-  "att_reg_gothiscandza_gothiscandza": {
-    "resources": {
-      "AOR_Germania": [
-        "rex_hun_ven_band_skirmishers",
-        "rex_hun_ven_band_archers",
-        "rex_hun_ven_band_defenders",
-        "rex_hun_ven_band_raiders",
-        "rex_hun_squad_hunters",
-        "rex_hun_germ_cavalry",
-        "rex_hun_ven_band_warspear",
-        "rex_hun_ven_band_warsword",
-        "rex_hun_ven_band_ferocious",
-        "rex_hun_spear_braves",
-        "rex_hun_warlords_braves"
-      ]
-    }
-  },
+  "att_reg_gothiscandza_gothiscandza": {},
   "att_reg_arabia_felix_eudaemon": {
-    "resources": {
-      "Auxilia_local_Gedrosia_Arachosia_Bactria_Aria": [
-        "rex_arab_badyia_camel0",
-        "rex_arab_badyia_ambushers0",
-        "rex_arab_badyia_horsemen0",
-        "rex_arab_arabic_dromedaries0",
-        "rex_arab_arabic_cavalry0"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_arab_badyia_camel0",
+      "rex_arab_badyia_ambushers0",
+      "rex_arab_badyia_horsemen0",
+      "rex_arab_arabic_dromedaries0",
+      "rex_arab_arabic_cavalry0"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_arab_badyia_camel0",
+      "rex_arab_badyia_ambushers0",
+      "rex_arab_badyia_horsemen0",
+      "rex_arab_arabic_dromedaries0",
+      "rex_arab_arabic_cavalry0"
+    ]
   },
   "att_reg_asorstan_meshan": {
-    "resources": {
-      "Auxilia_Persian": [
-        "rex_east_kurds",
-        "rex_east_lakhmids",
-        "rex_east_daylamites",
-        "rex_east_chionites",
-        "rex_east_daylamites_infantry",
-        "rex_east_kadisins",
-        "rex_east_huns_sabirs",
-        "rex_east_sas_eran_savaran0",
-        "rex_east_sas_clibanarius0",
-        "rex_east_arab_spearmen"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_east_kurds"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_east_kurds"
+    ]
   },
   "att_reg_britannia_inferior_eboracum": {
-    "resources": {
-      "Auxilia_Briton": [
-        "rex_celt_brit_infantry",
-        "rex_celt_brit_horseman",
-        "rex_celt_brit_chariot",
-        "rex_celt_pict_band_defenders2",
-        "rex_celt_pict_band_raiders2",
-        "rex_celt_caled_band_defenders2",
-        "rex_celt_caled_band_raiders2",
-        "rex_celt_scot_band_defenders2",
-        "rex_celt_scot_band_raiders2",
-        "rex_rom_legionis_britonum",
-        "rex_rom_ala_britonum",
-        "rex_rom_auxiliarii_atecotti_iuniores",
-        "rex_rom_legionis_britones_seniores",
-        "rex_rom_auxiliarii_atecotti_seniores"
-      ]
-    }
+    "att_sub_cult_barbarian_celtic": [
+      "rex_celt_brit_infantry",
+      "rex_celt_brit_horseman",
+      "rex_celt_brit_chariot",
+      "rex_celt_pict_band_defenders2",
+      "rex_celt_pict_band_raiders2",
+      "rex_celt_caled_band_defenders2",
+      "rex_celt_caled_band_raiders2",
+      "rex_celt_scot_band_defenders2",
+      "rex_celt_scot_band_raiders2"
+    ],
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_britonum",
+      "rex_rom_ala_britonum",
+      "rex_rom_auxiliarii_atecotti_iuniores",
+      "rex_rom_legionis_britones_seniores",
+      "rex_rom_auxiliarii_atecotti_seniores"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_britonum",
+      "rex_rom_ala_britonum",
+      "rex_rom_auxiliarii_atecotti_iuniores",
+      "rex_rom_legionis_britones_seniores",
+      "rex_rom_auxiliarii_atecotti_seniores"
+    ]
   },
-  "att_reg_hercynia_nitrahwa": {
-    "resources": {
-      "AOR_Quadia": [
-        "rex_germ_band_defenders_quadi"
-      ],
-      "AOR_Germania2": [
-        "rex_germ_band_defenders02",
-        "rex_germ_band_raiders02",
-        "rex_germ_band_spearmen02",
-        "rex_germ_band_swordsmen02",
-        "rex_germ_shield_bearers02",
-        "rex_hun_gileibo",
-        "rex_hun_germ_gisind"
-      ]
-    }
-  },
+  "att_reg_hercynia_nitrahwa": {},
   "att_reg_caucasia_kotais": {
-    "resources": {
-      "AOR_Caucasia": [
-        "rex_east_caucasians",
-        "rex_east_albanians",
-        "rex_east_hillman"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_east_caucasians",
+      "rex_east_albanians",
+      "rex_east_hillman"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_east_caucasians",
+      "rex_east_albanians",
+      "rex_east_hillman"
+    ]
   },
-  "att_reg_scandza_alabu": {
-    "resources": {
-      "AOR_Anglia": [
-        "rex_germ_band_defenders_angl"
-      ]
-    }
-  },
-  "att_reg_scandza_hafn": {
-    "resources": {
-      "AOR_Scandza": [
-        "rex_germ_band_defenders_nord0",
-        "rex_germ_band_raiders_nord0",
-        "rex_germ_band_raiders_svio0",
-        "rex_germ_band_wigman_nord0"
-      ]
-    }
-  },
-  "att_reg_scythia_bolghar": {
-    "resources": {
-      "Auxilia_Scythian": []
-    }
-  },
-  "att_reg_germania_uburzis": {
-    "resources": {
-      "CiG_Regional_Celtic": [
-        "rex_germ_band_defenders_sueb0",
-        "rex_germ_band_raiders_sueb0",
-        "rex_germ_band_defenders_iuti0",
-        "rex_germ_band_defenders_bucin0",
-        "rex_germ_band_raiders_raet0",
-        "rex_germ_band_spearmen_sueb0",
-        "rex_germ_band_wigman_sueb0"
-      ],
-      "AOR_Germania2": [
-        "rex_germ_band_defenders02",
-        "rex_germ_band_raiders02",
-        "rex_germ_band_spearmen02",
-        "rex_germ_band_swordsmen02",
-        "rex_germ_shield_bearers02",
-        "rex_hun_gileibo",
-        "rex_hun_germ_gisind"
-      ]
-    }
-  },
+  "att_reg_scandza_alabu": {},
+  "att_reg_scandza_hafn": {},
+  "att_reg_scythia_bolghar": {},
+  "att_reg_germania_uburzis": {},
   "att_reg_carthaginensis_carthago_nova": {
-    "resources": {
-      "Auxilia_Hellenic": [
-        "rex_rom_legionis_hispanorum",
-        "rex_rom_legionis_carthaginensis",
-        "rex_rom_legionis_lusitanorum",
-        "rex_rom_legionis_asturum"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_hispanorum",
+      "rex_rom_legionis_carthaginensis",
+      "rex_rom_legionis_lusitanorum",
+      "rex_rom_legionis_asturum"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_hispanorum",
+      "rex_rom_legionis_carthaginensis",
+      "rex_rom_legionis_lusitanorum",
+      "rex_rom_legionis_asturum"
+    ]
   },
-  "att_reg_scythia_sarai": {
-    "resources": {
-      "Auxilia_Scythian": []
-    }
-  },
+  "att_reg_scythia_sarai": {},
   "att_reg_spahan_spahan": {
-    "resources": {
-      "Auxilia_Persian": [
-        "rex_east_kurds",
-        "rex_east_lakhmids",
-        "rex_east_daylamites",
-        "rex_east_chionites",
-        "rex_east_daylamites_infantry",
-        "rex_east_kadisins",
-        "rex_east_huns_sabirs",
-        "rex_east_sas_eran_savaran0",
-        "rex_east_sas_clibanarius0",
-        "rex_east_arab_spearmen"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_east_kurds"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_east_kurds"
+    ]
   },
   "att_reg_spahan_susa": {
-    "resources": {
-      "Auxilia_Persian": [
-        "rex_east_kurds",
-        "rex_east_lakhmids",
-        "rex_east_daylamites",
-        "rex_east_chionites",
-        "rex_east_daylamites_infantry",
-        "rex_east_kadisins",
-        "rex_east_huns_sabirs",
-        "rex_east_sas_eran_savaran0",
-        "rex_east_sas_clibanarius0",
-        "rex_east_arab_spearmen"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_east_kurds"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_east_kurds"
+    ]
   },
   "att_reg_arabia_magna_yathrib": {
-    "resources": {
-      "Auxilia_local_Gedrosia_Arachosia_Bactria_Aria": [
-        "rex_arab_badyia_camel0",
-        "rex_arab_badyia_ambushers0",
-        "rex_arab_badyia_horsemen0",
-        "rex_arab_arabic_dromedaries0",
-        "rex_arab_arabic_cavalry0"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_arab_badyia_camel0",
+      "rex_arab_badyia_ambushers0",
+      "rex_arab_badyia_horsemen0",
+      "rex_arab_arabic_dromedaries0",
+      "rex_arab_arabic_cavalry0"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_arab_badyia_camel0",
+      "rex_arab_badyia_ambushers0",
+      "rex_arab_badyia_horsemen0",
+      "rex_arab_arabic_dromedaries0",
+      "rex_arab_arabic_cavalry0"
+    ]
   },
   "att_reg_aquitania_burdigala": {
-    "resources": {
-      "Auxilia_Gallic": [
-        "rex_robb_militia_0",
-        "rex_robb_ala_0",
-        "rex_rom_legionis_gallorum",
-        "att_cel_mounted_spear_raiders",
-        "rex_rom_legionis_honoriani_felices_gallicani",
-        "rex_rom_legionis_lanciarii_honoriani_gallicani",
-        "rex_rom_sagittarii_gallicani",
-        "rex_rom_auxiliarii_celtae_iuniores",
-        "rex_rom_auxiliarii_cornuti_iuniores",
-        "rex_rom_auxiliarii_brachiati_iuniores",
-        "rex_rom_equites_cornuti_iuniores",
-        "rex_rom_equites_brachiati_iuniores",
-        "rex_rom_auxiliarii_mattiarii_honoriani_gallicani",
-        "rex_rom_auxiliarii_celtae_seniores",
-        "att_rom_cornuti_seniores",
-        "rex_rom_auxiliarii_brachiati_seniores",
-        "rex_rom_equites_cornuti_seniores",
-        "rex_rom_equites_brachiati_seniores"
-      ]
-    }
+    "att_sub_cult_barbarian_celtic": [
+      "rex_robb_militia_0",
+      "rex_robb_ala_0"
+    ],
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_gallorum",
+      "att_cel_mounted_spear_raiders",
+      "rex_rom_legionis_honoriani_felices_gallicani",
+      "rex_rom_legionis_lanciarii_honoriani_gallicani",
+      "rex_rom_sagittarii_gallicani",
+      "rex_rom_auxiliarii_celtae_iuniores",
+      "rex_rom_auxiliarii_cornuti_iuniores",
+      "rex_rom_auxiliarii_brachiati_iuniores",
+      "rex_rom_equites_cornuti_iuniores",
+      "rex_rom_equites_brachiati_iuniores",
+      "rex_rom_auxiliarii_mattiarii_honoriani_gallicani",
+      "rex_rom_auxiliarii_celtae_seniores",
+      "att_rom_cornuti_seniores",
+      "rex_rom_auxiliarii_brachiati_seniores",
+      "rex_rom_equites_cornuti_seniores",
+      "rex_rom_equites_brachiati_seniores"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_gallorum",
+      "att_cel_mounted_spear_raiders",
+      "rex_rom_legionis_honoriani_felices_gallicani",
+      "rex_rom_legionis_lanciarii_honoriani_gallicani",
+      "rex_rom_sagittarii_gallicani",
+      "rex_rom_auxiliarii_celtae_iuniores",
+      "rex_rom_auxiliarii_cornuti_iuniores",
+      "rex_rom_auxiliarii_brachiati_iuniores",
+      "rex_rom_equites_cornuti_iuniores",
+      "rex_rom_equites_brachiati_iuniores",
+      "rex_rom_auxiliarii_mattiarii_honoriani_gallicani",
+      "rex_rom_auxiliarii_celtae_seniores",
+      "att_rom_cornuti_seniores",
+      "rex_rom_auxiliarii_brachiati_seniores",
+      "rex_rom_equites_cornuti_seniores",
+      "rex_rom_equites_brachiati_seniores"
+    ]
   },
-  "att_reg_sarmatia_asiatica_samandar": {
-    "resources": {
-      "Auxilia_local_Cartaginensis": [],
-      "AOR_Sarmatia": [
-        "rex_hun_ant_band_horse_archers",
-        "rex_hun_sarm_cavalry",
-        "rex_hun_spears_limicantes",
-        "rex_hun_arrows_limicantes",
-        "rex_hun_light_wedge_limicantes",
-        "rex_hun_sarmatian_horsemen",
-        "rex_hun_fast_arrows_arcaragantes",
-        "rex_hun_wedge_arcaragantes",
-        "rex_hun_ant_cavalry",
-        "rex_hun_ant_contofors",
-        "rex_hun_ant_shield_bearers",
-        "rex_hun_swords_limicantes",
-        "rex_hun_warband_limicantes",
-        "rex_hun_light_shield_bearers_limicantes",
-        "rex_hun_long_arrows_arcaragantes",
-        "rex_hun_shield_bearers_warband_arcaragantes",
-        "rex_hun_ant_oathbounds",
-        "rex_hun_oathbound_warband_limicantes",
-        "rex_hun_sarm_comrades"
-      ]
-    }
-  },
+  "att_reg_sarmatia_asiatica_samandar": {},
   "att_reg_caucasia_gabala": {
-    "resources": {
-      "AOR_Caucasia": [
-        "rex_east_caucasians",
-        "rex_east_albanians",
-        "rex_east_hillman"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_east_caucasians",
+      "rex_east_albanians",
+      "rex_east_hillman"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_east_caucasians",
+      "rex_east_albanians",
+      "rex_east_hillman"
+    ]
   },
   "att_reg_dalmatia_domavia": {
-    "resources": {
-      "Auxilia_Illyrian": [
-        "rex_rom_millites_dalm",
-        "rex_rom_legionis_illyricorum",
-        "rex_rom_legionis_dalmatarum",
-        "rex_rom_equites_dalmatae_illyriciani",
-        "rex_rom_equites_promoti_illyriciani",
-        "rex_rom_equites_scutarii_illyriciani",
-        "rex_rom_legionis_pannoniciani_iuniores",
-        "rex_rom_legionis_pannoniciani_seniores"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_millites_dalm",
+      "rex_rom_legionis_illyricorum",
+      "rex_rom_legionis_dalmatarum",
+      "rex_rom_equites_dalmatae_illyriciani",
+      "rex_rom_equites_promoti_illyriciani",
+      "rex_rom_equites_scutarii_illyriciani",
+      "rex_rom_legionis_pannoniciani_iuniores",
+      "rex_rom_legionis_pannoniciani_seniores"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_millites_dalm",
+      "rex_rom_legionis_illyricorum",
+      "rex_rom_legionis_dalmatarum",
+      "rex_rom_equites_dalmatae_illyriciani",
+      "rex_rom_equites_promoti_illyriciani",
+      "rex_rom_equites_scutarii_illyriciani",
+      "rex_rom_legionis_pannoniciani_iuniores",
+      "rex_rom_legionis_pannoniciani_seniores"
+    ]
   },
   "att_reg_italia_neapolis": {
-    "resources": {
-      "Auxilia_Italian": [
-        "rex_rom_millites_ital",
-        "rex_rom_legionis_romanenses",
-        "rex_rom_legionis_scutata_civium_romanorum",
-        "rex_rom_legionis_apuleia_civium_romanorum",
-        "rex_rom_equites_stablesiani_italiciani"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_millites_ital",
+      "rex_rom_legionis_romanenses",
+      "rex_rom_legionis_scutata_civium_romanorum",
+      "rex_rom_legionis_apuleia_civium_romanorum",
+      "rex_rom_equites_stablesiani_italiciani"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_millites_ital",
+      "rex_rom_legionis_romanenses",
+      "rex_rom_legionis_scutata_civium_romanorum",
+      "rex_rom_legionis_apuleia_civium_romanorum",
+      "rex_rom_equites_stablesiani_italiciani"
+    ]
   },
   "att_reg_syria_emesa": {
-    "resources": {
-      "Auxilia_Arabian": [
-        "rex_rom_legionis_arabum",
-        "rex_rom_legionis_palaestinorum",
-        "rex_rom_legionis_euphratensis",
-        "rex_rom_equites_saraceni",
-        "rex_rom_ala_dromedariorum_z",
-        "att_rom_imperial_dromedarii",
-        "rex_rom_cuneus_clibanariorum_palmirenorum"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_arabum",
+      "rex_rom_legionis_palaestinorum",
+      "rex_rom_legionis_euphratensis",
+      "rex_rom_equites_saraceni",
+      "rex_rom_ala_dromedariorum_z",
+      "att_rom_imperial_dromedarii",
+      "rex_rom_cuneus_clibanariorum_palmirenorum"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_arabum",
+      "rex_rom_legionis_palaestinorum",
+      "rex_rom_legionis_euphratensis",
+      "rex_rom_equites_saraceni",
+      "rex_rom_ala_dromedariorum_z",
+      "att_rom_imperial_dromedarii",
+      "rex_rom_cuneus_clibanariorum_palmirenorum"
+    ]
   },
   "att_reg_libya_ptolemais": {
-    "resources": {
-      "Auxilia_Egyptian": [
-        "rex_rom_legionis_aegyptiorum",
-        "rex_rom_legionis_flavia_constantia_thebaeorum",
-        "rex_rom_legionis_maximiana",
-        "rex_rom_legionis_valentis"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_aegyptiorum",
+      "rex_rom_legionis_flavia_constantia_thebaeorum",
+      "rex_rom_legionis_maximiana",
+      "rex_rom_legionis_valentis"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_aegyptiorum",
+      "rex_rom_legionis_flavia_constantia_thebaeorum",
+      "rex_rom_legionis_maximiana",
+      "rex_rom_legionis_valentis"
+    ]
   },
   "att_reg_britannia_superior_camulodunon": {
-    "resources": {
-      "Auxilia_Briton": [
-        "rex_celt_brit_infantry",
-        "rex_celt_brit_horseman",
-        "rex_celt_brit_chariot",
-        "rex_celt_pict_band_defenders2",
-        "rex_celt_pict_band_raiders2",
-        "rex_celt_caled_band_defenders2",
-        "rex_celt_caled_band_raiders2",
-        "rex_celt_scot_band_defenders2",
-        "rex_celt_scot_band_raiders2",
-        "rex_rom_legionis_britonum",
-        "rex_rom_ala_britonum",
-        "rex_rom_auxiliarii_atecotti_iuniores",
-        "rex_rom_legionis_britones_seniores",
-        "rex_rom_auxiliarii_atecotti_seniores"
-      ]
-    }
+    "att_sub_cult_barbarian_celtic": [
+      "rex_celt_brit_infantry",
+      "rex_celt_brit_horseman",
+      "rex_celt_brit_chariot",
+      "rex_celt_pict_band_defenders2",
+      "rex_celt_pict_band_raiders2",
+      "rex_celt_caled_band_defenders2",
+      "rex_celt_caled_band_raiders2",
+      "rex_celt_scot_band_defenders2",
+      "rex_celt_scot_band_raiders2"
+    ],
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_britonum",
+      "rex_rom_ala_britonum",
+      "rex_rom_auxiliarii_atecotti_iuniores",
+      "rex_rom_legionis_britones_seniores",
+      "rex_rom_auxiliarii_atecotti_seniores"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_britonum",
+      "rex_rom_ala_britonum",
+      "rex_rom_auxiliarii_atecotti_iuniores",
+      "rex_rom_legionis_britones_seniores",
+      "rex_rom_auxiliarii_atecotti_seniores"
+    ]
   },
   "att_reg_lugdunensis_lugdunum": {
-    "resources": {
-      "Auxilia_Gallic": [
-        "rex_robb_militia_0",
-        "rex_robb_ala_0",
-        "rex_rom_legionis_gallorum",
-        "att_cel_mounted_spear_raiders",
-        "rex_rom_legionis_honoriani_felices_gallicani",
-        "rex_rom_legionis_lanciarii_honoriani_gallicani",
-        "rex_rom_sagittarii_gallicani",
-        "rex_rom_auxiliarii_celtae_iuniores",
-        "rex_rom_auxiliarii_cornuti_iuniores",
-        "rex_rom_auxiliarii_brachiati_iuniores",
-        "rex_rom_equites_cornuti_iuniores",
-        "rex_rom_equites_brachiati_iuniores",
-        "rex_rom_auxiliarii_mattiarii_honoriani_gallicani",
-        "rex_rom_auxiliarii_celtae_seniores",
-        "att_rom_cornuti_seniores",
-        "rex_rom_auxiliarii_brachiati_seniores",
-        "rex_rom_equites_cornuti_seniores",
-        "rex_rom_equites_brachiati_seniores"
-      ]
-    }
+    "att_sub_cult_barbarian_celtic": [
+      "rex_robb_militia_0",
+      "rex_robb_ala_0"
+    ],
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_gallorum",
+      "att_cel_mounted_spear_raiders",
+      "rex_rom_legionis_honoriani_felices_gallicani",
+      "rex_rom_legionis_lanciarii_honoriani_gallicani",
+      "rex_rom_sagittarii_gallicani",
+      "rex_rom_auxiliarii_celtae_iuniores",
+      "rex_rom_auxiliarii_cornuti_iuniores",
+      "rex_rom_auxiliarii_brachiati_iuniores",
+      "rex_rom_equites_cornuti_iuniores",
+      "rex_rom_equites_brachiati_iuniores",
+      "rex_rom_auxiliarii_mattiarii_honoriani_gallicani",
+      "rex_rom_auxiliarii_celtae_seniores",
+      "att_rom_cornuti_seniores",
+      "rex_rom_auxiliarii_brachiati_seniores",
+      "rex_rom_equites_cornuti_seniores",
+      "rex_rom_equites_brachiati_seniores"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_gallorum",
+      "att_cel_mounted_spear_raiders",
+      "rex_rom_legionis_honoriani_felices_gallicani",
+      "rex_rom_legionis_lanciarii_honoriani_gallicani",
+      "rex_rom_sagittarii_gallicani",
+      "rex_rom_auxiliarii_celtae_iuniores",
+      "rex_rom_auxiliarii_cornuti_iuniores",
+      "rex_rom_auxiliarii_brachiati_iuniores",
+      "rex_rom_equites_cornuti_iuniores",
+      "rex_rom_equites_brachiati_iuniores",
+      "rex_rom_auxiliarii_mattiarii_honoriani_gallicani",
+      "rex_rom_auxiliarii_celtae_seniores",
+      "att_rom_cornuti_seniores",
+      "rex_rom_auxiliarii_brachiati_seniores",
+      "rex_rom_equites_cornuti_seniores",
+      "rex_rom_equites_brachiati_seniores"
+    ]
   },
   "att_reg_cilicia_iconium": {
-    "resources": {
-      "Auxilia_Caucasia": [
-        "rex_rom_legionis_galatarum",
-        "rex_rom_legionis_pontinenses",
-        "rex_rom_legionis_scythae"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_galatarum",
+      "rex_rom_legionis_pontinenses",
+      "rex_rom_legionis_scythae"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_galatarum",
+      "rex_rom_legionis_pontinenses",
+      "rex_rom_legionis_scythae"
+    ]
   },
-  "att_reg_frisia_angulus": {
-    "resources": {
-      "AOR_Anglia": [
-        "rex_germ_band_defenders_angl"
-      ],
-      "AOR_Germania2": [
-        "rex_germ_band_defenders02",
-        "rex_germ_band_raiders02",
-        "rex_germ_band_spearmen02",
-        "rex_germ_band_swordsmen02",
-        "rex_germ_shield_bearers02",
-        "rex_hun_gileibo",
-        "rex_hun_germ_gisind"
-      ]
-    }
-  },
+  "att_reg_frisia_angulus": {},
   "att_reg_libya_augila": {
-    "resources": {
-      "Auxilia_Egyptian": [
-        "rex_rom_legionis_aegyptiorum",
-        "rex_rom_legionis_flavia_constantia_thebaeorum",
-        "rex_rom_legionis_maximiana",
-        "rex_rom_legionis_valentis"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_aegyptiorum",
+      "rex_rom_legionis_flavia_constantia_thebaeorum",
+      "rex_rom_legionis_maximiana",
+      "rex_rom_legionis_valentis"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_aegyptiorum",
+      "rex_rom_legionis_flavia_constantia_thebaeorum",
+      "rex_rom_legionis_maximiana",
+      "rex_rom_legionis_valentis"
+    ]
   },
   "att_reg_aegyptus_berenice": {
-    "resources": {
-      "Auxilia_Egyptian": [
-        "rex_rom_legionis_aegyptiorum",
-        "rex_rom_legionis_flavia_constantia_thebaeorum",
-        "rex_rom_legionis_maximiana",
-        "rex_rom_legionis_valentis"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_aegyptiorum",
+      "rex_rom_legionis_flavia_constantia_thebaeorum",
+      "rex_rom_legionis_maximiana",
+      "rex_rom_legionis_valentis"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_aegyptiorum",
+      "rex_rom_legionis_flavia_constantia_thebaeorum",
+      "rex_rom_legionis_maximiana",
+      "rex_rom_legionis_valentis"
+    ]
   },
   "att_reg_aegyptus_oxyrhynchus": {
-    "resources": {
-      "Auxilia_Egyptian": [
-        "rex_rom_legionis_aegyptiorum",
-        "rex_rom_legionis_flavia_constantia_thebaeorum",
-        "rex_rom_legionis_maximiana",
-        "rex_rom_legionis_valentis"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_aegyptiorum",
+      "rex_rom_legionis_flavia_constantia_thebaeorum",
+      "rex_rom_legionis_maximiana",
+      "rex_rom_legionis_valentis"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_aegyptiorum",
+      "rex_rom_legionis_flavia_constantia_thebaeorum",
+      "rex_rom_legionis_maximiana",
+      "rex_rom_legionis_valentis"
+    ]
   },
   "att_reg_asia_ephesus": {
-    "resources": {
-      "Auxilia_Caucasia": [
-        "rex_rom_legionis_galatarum",
-        "rex_rom_legionis_pontinenses",
-        "rex_rom_legionis_scythae"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_galatarum",
+      "rex_rom_legionis_pontinenses",
+      "rex_rom_legionis_scythae"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_galatarum",
+      "rex_rom_legionis_pontinenses",
+      "rex_rom_legionis_scythae"
+    ]
   },
   "att_reg_bithynia_nicomedia": {
-    "resources": {
-      "Auxilia_Caucasia": [
-        "rex_rom_legionis_galatarum",
-        "rex_rom_legionis_pontinenses",
-        "rex_rom_legionis_scythae"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_galatarum",
+      "rex_rom_legionis_pontinenses",
+      "rex_rom_legionis_scythae"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_galatarum",
+      "rex_rom_legionis_pontinenses",
+      "rex_rom_legionis_scythae"
+    ]
   },
   "att_reg_gallaecia_brigantium": {
-    "resources": {
-      "Auxilia_Hellenic": [
-        "rex_rom_legionis_hispanorum",
-        "rex_rom_legionis_carthaginensis",
-        "rex_rom_legionis_lusitanorum",
-        "rex_rom_legionis_asturum"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_hispanorum",
+      "rex_rom_legionis_carthaginensis",
+      "rex_rom_legionis_lusitanorum",
+      "rex_rom_legionis_asturum"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_hispanorum",
+      "rex_rom_legionis_carthaginensis",
+      "rex_rom_legionis_lusitanorum",
+      "rex_rom_legionis_asturum"
+    ]
   },
   "att_reg_gallaecia_bracara": {
-    "resources": {
-      "Auxilia_Hellenic": [
-        "rex_rom_legionis_hispanorum",
-        "rex_rom_legionis_carthaginensis",
-        "rex_rom_legionis_lusitanorum",
-        "rex_rom_legionis_asturum"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_hispanorum",
+      "rex_rom_legionis_carthaginensis",
+      "rex_rom_legionis_lusitanorum",
+      "rex_rom_legionis_asturum"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_hispanorum",
+      "rex_rom_legionis_carthaginensis",
+      "rex_rom_legionis_lusitanorum",
+      "rex_rom_legionis_asturum"
+    ]
   },
-  "att_reg_makran_pura": {
-    "resources": {
-      "AOR_Kushan": [
-        "att_est_armoured_indian_elephants",
-        "att_est_indian_elephants",
-        "rex_east_segestani"
-      ]
-    }
-  },
+  "att_reg_makran_pura": {},
   "att_reg_mauretania_tamousiga": {
-    "resources": {
-      "Auxilia_Sabaean": [
-        "rex_rom_millites_maur",
-        "rex_rom_legionis_mauri",
-        "rex_rom_legionis_numidarum",
-        "rex_rom_legionis_gaetulorum",
-        "rex_rom_equites_mauri",
-        "rex_rom_auxiliarii_mauri_iuniores",
-        "rex_rom_equites_stablesiani_africani",
-        "rex_rom_auxiliarii_mauri_seniores"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_millites_maur",
+      "rex_rom_legionis_mauri",
+      "rex_rom_legionis_numidarum",
+      "rex_rom_legionis_gaetulorum",
+      "rex_rom_equites_mauri",
+      "rex_rom_auxiliarii_mauri_iuniores",
+      "rex_rom_equites_stablesiani_africani",
+      "rex_rom_auxiliarii_mauri_seniores"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_millites_maur",
+      "rex_rom_legionis_mauri",
+      "rex_rom_legionis_numidarum",
+      "rex_rom_legionis_gaetulorum",
+      "rex_rom_equites_mauri",
+      "rex_rom_auxiliarii_mauri_iuniores",
+      "rex_rom_equites_stablesiani_africani",
+      "rex_rom_auxiliarii_mauri_seniores"
+    ]
   },
   "att_reg_mauretania_tingis": {
-    "resources": {
-      "Auxilia_Sabaean": [
-        "rex_rom_millites_maur",
-        "rex_rom_legionis_mauri",
-        "rex_rom_legionis_numidarum",
-        "rex_rom_legionis_gaetulorum",
-        "rex_rom_equites_mauri",
-        "rex_rom_auxiliarii_mauri_iuniores",
-        "rex_rom_equites_stablesiani_africani",
-        "rex_rom_auxiliarii_mauri_seniores"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_millites_maur",
+      "rex_rom_legionis_mauri",
+      "rex_rom_legionis_numidarum",
+      "rex_rom_legionis_gaetulorum",
+      "rex_rom_equites_mauri",
+      "rex_rom_auxiliarii_mauri_iuniores",
+      "rex_rom_equites_stablesiani_africani",
+      "rex_rom_auxiliarii_mauri_seniores"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_millites_maur",
+      "rex_rom_legionis_mauri",
+      "rex_rom_legionis_numidarum",
+      "rex_rom_legionis_gaetulorum",
+      "rex_rom_equites_mauri",
+      "rex_rom_auxiliarii_mauri_iuniores",
+      "rex_rom_equites_stablesiani_africani",
+      "rex_rom_auxiliarii_mauri_seniores"
+    ]
   },
   "att_reg_maxima_sequanorum_octodurus": {
-    "resources": {
-      "Auxilia_Iberian": [
-        "rex_germ_band_defenders2",
-        "rex_germ_band_raiders_sueb2",
-        "rex_germ_band_mounted2",
-        "rex_germ_band_defenders_iuti2",
-        "rex_germ_band_defenders_angl2",
-        "rex_germ_band_spearmen2",
-        "rex_germ_band_spearmen_sueb2",
-        "rex_germ_band_wigman2",
-        "rex_germ_band_wigman_sueb2",
-        "rex_germ_band_swordsmen2",
-        "rex_germ_shield_bearers2",
-        "rex_germ_band_choice_archers2",
-        "rex_germ_band_wigman_bris2",
-        "rex_germ_band_swordsmen_marc2",
-        "rex_rom_legionis_alamannorum",
-        "rex_rom_legionis_abrincateni",
-        "rex_rom_legionis_germanorum",
-        "rex_rom_ala_sequanorum",
-        "rex_rom_legionis_germaniciani_iuniores",
-        "rex_rom_legionis_menapii",
-        "rex_rom_auxiliarii_bucinobantes",
-        "rex_rom_auxiliarii_brisigavi_iuniores",
-        "rex_rom_auxiliarii_mattiaci_iuniores",
-        "rex_rom_legionis_germaniciani_seniores",
-        "rex_rom_auxiliarii_brisigavi_seniores",
-        "rex_rom_auxiliarii_mattiaci_seniores"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_alamannorum",
+      "rex_rom_legionis_abrincateni",
+      "rex_rom_legionis_germanorum",
+      "rex_rom_ala_sequanorum",
+      "rex_rom_legionis_germaniciani_iuniores",
+      "rex_rom_legionis_menapii",
+      "rex_rom_auxiliarii_bucinobantes",
+      "rex_rom_auxiliarii_brisigavi_iuniores",
+      "rex_rom_auxiliarii_mattiaci_iuniores",
+      "rex_rom_legionis_germaniciani_seniores",
+      "rex_rom_auxiliarii_brisigavi_seniores",
+      "rex_rom_auxiliarii_mattiaci_seniores"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_alamannorum",
+      "rex_rom_legionis_abrincateni",
+      "rex_rom_legionis_germanorum",
+      "rex_rom_ala_sequanorum",
+      "rex_rom_legionis_germaniciani_iuniores",
+      "rex_rom_legionis_menapii",
+      "rex_rom_auxiliarii_bucinobantes",
+      "rex_rom_auxiliarii_brisigavi_iuniores",
+      "rex_rom_auxiliarii_mattiaci_iuniores",
+      "rex_rom_legionis_germaniciani_seniores",
+      "rex_rom_auxiliarii_brisigavi_seniores",
+      "rex_rom_auxiliarii_mattiaci_seniores"
+    ]
   },
-  "att_reg_germania_aregelia": {
-    "resources": {
-      "CiG_Regional_Briton": [
-        "rex_germ_band_raiders_lang0"
-      ],
-      "AOR_Germania2": [
-        "rex_germ_band_defenders02",
-        "rex_germ_band_raiders02",
-        "rex_germ_band_spearmen02",
-        "rex_germ_band_swordsmen02",
-        "rex_germ_shield_bearers02",
-        "rex_hun_gileibo",
-        "rex_hun_germ_gisind"
-      ]
-    }
-  },
+  "att_reg_germania_aregelia": {},
   "att_reg_maxima_sequanorum_vesontio": {
-    "resources": {
-      "Auxilia_Iberian": [
-        "rex_germ_band_defenders2",
-        "rex_germ_band_raiders_sueb2",
-        "rex_germ_band_mounted2",
-        "rex_germ_band_defenders_iuti2",
-        "rex_germ_band_defenders_angl2",
-        "rex_germ_band_spearmen2",
-        "rex_germ_band_spearmen_sueb2",
-        "rex_germ_band_wigman2",
-        "rex_germ_band_wigman_sueb2",
-        "rex_germ_band_swordsmen2",
-        "rex_germ_shield_bearers2",
-        "rex_germ_band_choice_archers2",
-        "rex_germ_band_wigman_bris2",
-        "rex_germ_band_swordsmen_marc2",
-        "rex_rom_legionis_alamannorum",
-        "rex_rom_legionis_abrincateni",
-        "rex_rom_legionis_germanorum",
-        "rex_rom_ala_sequanorum",
-        "rex_rom_legionis_germaniciani_iuniores",
-        "rex_rom_legionis_menapii",
-        "rex_rom_auxiliarii_bucinobantes",
-        "rex_rom_auxiliarii_brisigavi_iuniores",
-        "rex_rom_auxiliarii_mattiaci_iuniores",
-        "rex_rom_legionis_germaniciani_seniores",
-        "rex_rom_auxiliarii_brisigavi_seniores",
-        "rex_rom_auxiliarii_mattiaci_seniores"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_alamannorum",
+      "rex_rom_legionis_abrincateni",
+      "rex_rom_legionis_germanorum",
+      "rex_rom_ala_sequanorum",
+      "rex_rom_legionis_germaniciani_iuniores",
+      "rex_rom_legionis_menapii",
+      "rex_rom_auxiliarii_bucinobantes",
+      "rex_rom_auxiliarii_brisigavi_iuniores",
+      "rex_rom_auxiliarii_mattiaci_iuniores",
+      "rex_rom_legionis_germaniciani_seniores",
+      "rex_rom_auxiliarii_brisigavi_seniores",
+      "rex_rom_auxiliarii_mattiaci_seniores"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_alamannorum",
+      "rex_rom_legionis_abrincateni",
+      "rex_rom_legionis_germanorum",
+      "rex_rom_ala_sequanorum",
+      "rex_rom_legionis_germaniciani_iuniores",
+      "rex_rom_legionis_menapii",
+      "rex_rom_auxiliarii_bucinobantes",
+      "rex_rom_auxiliarii_brisigavi_iuniores",
+      "rex_rom_auxiliarii_mattiaci_iuniores",
+      "rex_rom_legionis_germaniciani_seniores",
+      "rex_rom_auxiliarii_brisigavi_seniores",
+      "rex_rom_auxiliarii_mattiaci_seniores"
+    ]
   },
   "att_reg_narbonensis_aquae_sextiae": {
-    "resources": {
-      "Auxilia_Gallic": [
-        "rex_robb_militia_0",
-        "rex_robb_ala_0",
-        "rex_rom_legionis_gallorum",
-        "att_cel_mounted_spear_raiders",
-        "rex_rom_legionis_honoriani_felices_gallicani",
-        "rex_rom_legionis_lanciarii_honoriani_gallicani",
-        "rex_rom_sagittarii_gallicani",
-        "rex_rom_auxiliarii_celtae_iuniores",
-        "rex_rom_auxiliarii_cornuti_iuniores",
-        "rex_rom_auxiliarii_brachiati_iuniores",
-        "rex_rom_equites_cornuti_iuniores",
-        "rex_rom_equites_brachiati_iuniores",
-        "rex_rom_auxiliarii_mattiarii_honoriani_gallicani",
-        "rex_rom_auxiliarii_celtae_seniores",
-        "att_rom_cornuti_seniores",
-        "rex_rom_auxiliarii_brachiati_seniores",
-        "rex_rom_equites_cornuti_seniores",
-        "rex_rom_equites_brachiati_seniores"
-      ]
-    }
+    "att_sub_cult_barbarian_celtic": [
+      "rex_robb_militia_0",
+      "rex_robb_ala_0"
+    ],
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_gallorum",
+      "att_cel_mounted_spear_raiders",
+      "rex_rom_legionis_honoriani_felices_gallicani",
+      "rex_rom_legionis_lanciarii_honoriani_gallicani",
+      "rex_rom_sagittarii_gallicani",
+      "rex_rom_auxiliarii_celtae_iuniores",
+      "rex_rom_auxiliarii_cornuti_iuniores",
+      "rex_rom_auxiliarii_brachiati_iuniores",
+      "rex_rom_equites_cornuti_iuniores",
+      "rex_rom_equites_brachiati_iuniores",
+      "rex_rom_auxiliarii_mattiarii_honoriani_gallicani",
+      "rex_rom_auxiliarii_celtae_seniores",
+      "att_rom_cornuti_seniores",
+      "rex_rom_auxiliarii_brachiati_seniores",
+      "rex_rom_equites_cornuti_seniores",
+      "rex_rom_equites_brachiati_seniores"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_gallorum",
+      "att_cel_mounted_spear_raiders",
+      "rex_rom_legionis_honoriani_felices_gallicani",
+      "rex_rom_legionis_lanciarii_honoriani_gallicani",
+      "rex_rom_sagittarii_gallicani",
+      "rex_rom_auxiliarii_celtae_iuniores",
+      "rex_rom_auxiliarii_cornuti_iuniores",
+      "rex_rom_auxiliarii_brachiati_iuniores",
+      "rex_rom_equites_cornuti_iuniores",
+      "rex_rom_equites_brachiati_iuniores",
+      "rex_rom_auxiliarii_mattiarii_honoriani_gallicani",
+      "rex_rom_auxiliarii_celtae_seniores",
+      "att_rom_cornuti_seniores",
+      "rex_rom_auxiliarii_brachiati_seniores",
+      "rex_rom_equites_cornuti_seniores",
+      "rex_rom_equites_brachiati_seniores"
+    ]
   },
   "att_reg_syria_tyrus": {
-    "resources": {
-      "Auxilia_Arabian": [
-        "rex_rom_legionis_arabum",
-        "rex_rom_legionis_palaestinorum",
-        "rex_rom_legionis_euphratensis",
-        "rex_rom_equites_saraceni",
-        "rex_rom_ala_dromedariorum_z",
-        "att_rom_imperial_dromedarii",
-        "rex_rom_cuneus_clibanariorum_palmirenorum"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_arabum",
+      "rex_rom_legionis_palaestinorum",
+      "rex_rom_legionis_euphratensis",
+      "rex_rom_equites_saraceni",
+      "rex_rom_ala_dromedariorum_z",
+      "att_rom_imperial_dromedarii",
+      "rex_rom_cuneus_clibanariorum_palmirenorum"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_arabum",
+      "rex_rom_legionis_palaestinorum",
+      "rex_rom_legionis_euphratensis",
+      "rex_rom_equites_saraceni",
+      "rex_rom_ala_dromedariorum_z",
+      "att_rom_imperial_dromedarii",
+      "rex_rom_cuneus_clibanariorum_palmirenorum"
+    ]
   },
   "att_reg_lusitania_olisipo": {
-    "resources": {
-      "Auxilia_Hellenic": [
-        "rex_rom_legionis_hispanorum",
-        "rex_rom_legionis_carthaginensis",
-        "rex_rom_legionis_lusitanorum",
-        "rex_rom_legionis_asturum"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_hispanorum",
+      "rex_rom_legionis_carthaginensis",
+      "rex_rom_legionis_lusitanorum",
+      "rex_rom_legionis_asturum"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_hispanorum",
+      "rex_rom_legionis_carthaginensis",
+      "rex_rom_legionis_lusitanorum",
+      "rex_rom_legionis_asturum"
+    ]
   },
   "att_reg_thracia_trimontium": {
-    "resources": {
-      "Auxilia_Thracia": [
-        "rex_rom_millites_daci",
-        "rex_rom_millites_moes",
-        "rex_rom_millites_scyt",
-        "rex_rom_legionis_thracorum",
-        "rex_rom_legionis_dacorum",
-        "rex_rom_legionis_gothorum",
-        "rex_rom_cuneus_sarmatarum",
-        "rex_rom_auxiliarii_thraces",
-        "rex_rom_auxiliarii_tervingi",
-        "rex_rom_auxiliarii_visi",
-        "att_ger_taifali_cavalry",
-        "rex_rom_legionis_moesiaci_seniores",
-        "rex_rom_legionis_daci",
-        "rex_goth_band_militon_tervingi_F",
-        "rex_goth_band_aihvamanne_greutungi_F",
-        "rex_goth_band_gadrauhteis_tervingi_F",
-        "rex_goth_band_gadrauhteis_greutungi_F",
-        "rex_rom_legionis_quartodecimani"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_millites_daci",
+      "rex_rom_millites_moes",
+      "rex_rom_millites_scyt",
+      "rex_rom_legionis_thracorum",
+      "rex_rom_legionis_dacorum",
+      "rex_rom_legionis_gothorum",
+      "rex_rom_cuneus_sarmatarum",
+      "rex_rom_auxiliarii_thraces",
+      "rex_rom_auxiliarii_tervingi",
+      "rex_rom_auxiliarii_visi",
+      "att_ger_taifali_cavalry",
+      "rex_rom_legionis_moesiaci_seniores",
+      "rex_rom_legionis_daci",
+      "rex_goth_band_militon_tervingi_F",
+      "rex_goth_band_aihvamanne_greutungi_F",
+      "rex_goth_band_gadrauhteis_tervingi_F",
+      "rex_goth_band_gadrauhteis_greutungi_F",
+      "rex_rom_legionis_quartodecimani"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_millites_daci",
+      "rex_rom_millites_moes",
+      "rex_rom_millites_scyt",
+      "rex_rom_legionis_thracorum",
+      "rex_rom_legionis_dacorum",
+      "rex_rom_legionis_gothorum",
+      "rex_rom_cuneus_sarmatarum",
+      "rex_rom_auxiliarii_thraces",
+      "rex_rom_auxiliarii_tervingi",
+      "rex_rom_auxiliarii_visi",
+      "att_ger_taifali_cavalry",
+      "rex_rom_legionis_moesiaci_seniores",
+      "rex_rom_legionis_daci",
+      "rex_goth_band_militon_tervingi_F",
+      "rex_goth_band_aihvamanne_greutungi_F",
+      "rex_goth_band_gadrauhteis_tervingi_F",
+      "rex_goth_band_gadrauhteis_greutungi_F",
+      "rex_rom_legionis_quartodecimani"
+    ]
   },
-  "att_reg_transcarpathia_arheimar": {
-    "resources": {
-      "AOR_Sarmatia": [
-        "rex_hun_ant_band_horse_archers",
-        "rex_hun_sarm_cavalry",
-        "rex_hun_spears_limicantes",
-        "rex_hun_arrows_limicantes",
-        "rex_hun_light_wedge_limicantes",
-        "rex_hun_sarmatian_horsemen",
-        "rex_hun_fast_arrows_arcaragantes",
-        "rex_hun_wedge_arcaragantes",
-        "rex_hun_ant_cavalry",
-        "rex_hun_ant_contofors",
-        "rex_hun_ant_shield_bearers",
-        "rex_hun_swords_limicantes",
-        "rex_hun_warband_limicantes",
-        "rex_hun_light_shield_bearers_limicantes",
-        "rex_hun_long_arrows_arcaragantes",
-        "rex_hun_shield_bearers_warband_arcaragantes",
-        "rex_hun_ant_oathbounds",
-        "rex_hun_oathbound_warband_limicantes",
-        "rex_hun_sarm_comrades"
-      ]
-    }
-  },
-  "att_reg_transcarpathia_leopolis": {
-    "resources": {
-      "AOR_Sarmatia": [
-        "rex_hun_ant_band_horse_archers",
-        "rex_hun_sarm_cavalry",
-        "rex_hun_spears_limicantes",
-        "rex_hun_arrows_limicantes",
-        "rex_hun_light_wedge_limicantes",
-        "rex_hun_sarmatian_horsemen",
-        "rex_hun_fast_arrows_arcaragantes",
-        "rex_hun_wedge_arcaragantes",
-        "rex_hun_ant_cavalry",
-        "rex_hun_ant_contofors",
-        "rex_hun_ant_shield_bearers",
-        "rex_hun_swords_limicantes",
-        "rex_hun_warband_limicantes",
-        "rex_hun_light_shield_bearers_limicantes",
-        "rex_hun_long_arrows_arcaragantes",
-        "rex_hun_shield_bearers_warband_arcaragantes",
-        "rex_hun_ant_oathbounds",
-        "rex_hun_oathbound_warband_limicantes",
-        "rex_hun_sarm_comrades"
-      ]
-    }
-  },
-  "att_reg_armenia_tosp": {
-    "resources": {
-      "Auxilia_local_Phazania_Libue_Aithiops": [
-        "rex_east_armenian_ayrudzi0",
-        "rex_east_armenian_ayrudzi_archers0"
-      ]
-    }
-  },
-  "att_reg_germano_sarmatia_oium": {
-    "resources": {
-      "AOR_Germania": [
-        "rex_hun_ven_band_skirmishers",
-        "rex_hun_ven_band_archers",
-        "rex_hun_ven_band_defenders",
-        "rex_hun_ven_band_raiders",
-        "rex_hun_squad_hunters",
-        "rex_hun_germ_cavalry",
-        "rex_hun_ven_band_warspear",
-        "rex_hun_ven_band_warsword",
-        "rex_hun_ven_band_ferocious",
-        "rex_hun_spear_braves",
-        "rex_hun_warlords_braves"
-      ]
-    }
-  },
-  "att_reg_dacia_romula": {
-    "resources": {
-      "Auxilia_local_Raetia_et_Noricum": [
-        "rex_goth_band_hairjane_gepid",
-        "rex_goth_band_gadrauhteis_gepids",
-        "rex_hun_band_militon_peucini",
-        "rex_hun_band_sahsjane_carpi",
-        "rex_hun_band_hairjane_gepid",
-        "rex_hun_band_gadrauhteis_gepids",
-        "rex_hun_gahlaibans",
-        "rex_hun_goth_comites"
-      ]
-    }
-  },
-  "att_reg_gothiscandza_rugion": {
-    "resources": {
-      "AOR_Germania": [
-        "rex_hun_ven_band_skirmishers",
-        "rex_hun_ven_band_archers",
-        "rex_hun_ven_band_defenders",
-        "rex_hun_ven_band_raiders",
-        "rex_hun_squad_hunters",
-        "rex_hun_germ_cavalry",
-        "rex_hun_ven_band_warspear",
-        "rex_hun_ven_band_warsword",
-        "rex_hun_ven_band_ferocious",
-        "rex_hun_spear_braves",
-        "rex_hun_warlords_braves"
-      ],
-      "AOR_Germania2": [
-        "rex_germ_band_defenders02",
-        "rex_germ_band_raiders02",
-        "rex_germ_band_spearmen02",
-        "rex_germ_band_swordsmen02",
-        "rex_germ_shield_bearers02",
-        "rex_hun_gileibo",
-        "rex_hun_germ_gisind"
-      ]
-    }
-  },
+  "att_reg_transcarpathia_arheimar": {},
+  "att_reg_transcarpathia_leopolis": {},
+  "att_reg_armenia_tosp": {},
+  "att_reg_germano_sarmatia_oium": {},
+  "att_reg_dacia_romula": {},
+  "att_reg_gothiscandza_rugion": {},
   "att_reg_africa_carthago": {
-    "resources": {
-      "Auxilia_Sabaean": [
-        "rex_rom_millites_maur",
-        "rex_rom_legionis_mauri",
-        "rex_rom_legionis_numidarum",
-        "rex_rom_legionis_gaetulorum",
-        "rex_rom_equites_mauri",
-        "rex_rom_auxiliarii_mauri_iuniores",
-        "rex_rom_equites_stablesiani_africani",
-        "rex_rom_auxiliarii_mauri_seniores"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_millites_maur",
+      "rex_rom_legionis_mauri",
+      "rex_rom_legionis_numidarum",
+      "rex_rom_legionis_gaetulorum",
+      "rex_rom_equites_mauri",
+      "rex_rom_auxiliarii_mauri_iuniores",
+      "rex_rom_equites_stablesiani_africani",
+      "rex_rom_auxiliarii_mauri_seniores"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_millites_maur",
+      "rex_rom_legionis_mauri",
+      "rex_rom_legionis_numidarum",
+      "rex_rom_legionis_gaetulorum",
+      "rex_rom_equites_mauri",
+      "rex_rom_auxiliarii_mauri_iuniores",
+      "rex_rom_equites_stablesiani_africani",
+      "rex_rom_auxiliarii_mauri_seniores"
+    ]
   },
   "att_reg_persis_behdeshir": {
-    "resources": {
-      "Auxilia_Persian": [
-        "rex_east_kurds",
-        "rex_east_lakhmids",
-        "rex_east_daylamites",
-        "rex_east_chionites",
-        "rex_east_daylamites_infantry",
-        "rex_east_kadisins",
-        "rex_east_huns_sabirs",
-        "rex_east_sas_eran_savaran0",
-        "rex_east_sas_clibanarius0",
-        "rex_east_arab_spearmen"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_east_kurds"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_east_kurds"
+    ]
   },
-  "att_reg_makran_phra": {
-    "resources": {
-      "AOR_Kushan": [
-        "att_est_armoured_indian_elephants",
-        "att_est_indian_elephants",
-        "rex_east_segestani"
-      ]
-    }
-  },
+  "att_reg_makran_phra": {},
   "att_reg_pannonia_sopianae": {
-    "resources": {
-      "Auxilia_Illyrian": [
-        "rex_rom_millites_dalm",
-        "rex_rom_legionis_illyricorum",
-        "rex_rom_legionis_dalmatarum",
-        "rex_rom_equites_dalmatae_illyriciani",
-        "rex_rom_equites_promoti_illyriciani",
-        "rex_rom_equites_scutarii_illyriciani",
-        "rex_rom_legionis_pannoniciani_iuniores",
-        "rex_rom_legionis_pannoniciani_seniores"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_millites_dalm",
+      "rex_rom_legionis_illyricorum",
+      "rex_rom_legionis_dalmatarum",
+      "rex_rom_equites_dalmatae_illyriciani",
+      "rex_rom_equites_promoti_illyriciani",
+      "rex_rom_equites_scutarii_illyriciani",
+      "rex_rom_legionis_pannoniciani_iuniores",
+      "rex_rom_legionis_pannoniciani_seniores"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_millites_dalm",
+      "rex_rom_legionis_illyricorum",
+      "rex_rom_legionis_dalmatarum",
+      "rex_rom_equites_dalmatae_illyriciani",
+      "rex_rom_equites_promoti_illyriciani",
+      "rex_rom_equites_scutarii_illyriciani",
+      "rex_rom_legionis_pannoniciani_iuniores",
+      "rex_rom_legionis_pannoniciani_seniores"
+    ]
   },
   "att_reg_dalmatia_siscia": {
-    "resources": {
-      "Auxilia_Illyrian": [
-        "rex_rom_millites_dalm",
-        "rex_rom_legionis_illyricorum",
-        "rex_rom_legionis_dalmatarum",
-        "rex_rom_equites_dalmatae_illyriciani",
-        "rex_rom_equites_promoti_illyriciani",
-        "rex_rom_equites_scutarii_illyriciani",
-        "rex_rom_legionis_pannoniciani_iuniores",
-        "rex_rom_legionis_pannoniciani_seniores"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_millites_dalm",
+      "rex_rom_legionis_illyricorum",
+      "rex_rom_legionis_dalmatarum",
+      "rex_rom_equites_dalmatae_illyriciani",
+      "rex_rom_equites_promoti_illyriciani",
+      "rex_rom_equites_scutarii_illyriciani",
+      "rex_rom_legionis_pannoniciani_iuniores",
+      "rex_rom_legionis_pannoniciani_seniores"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_millites_dalm",
+      "rex_rom_legionis_illyricorum",
+      "rex_rom_legionis_dalmatarum",
+      "rex_rom_equites_dalmatae_illyriciani",
+      "rex_rom_equites_promoti_illyriciani",
+      "rex_rom_equites_scutarii_illyriciani",
+      "rex_rom_legionis_pannoniciani_iuniores",
+      "rex_rom_legionis_pannoniciani_seniores"
+    ]
   },
-  "att_reg_dacia_petrodava": {
-    "resources": {
-      "Auxilia_local_Macedonia": [
-        "rex_goth_band_militon_peucini",
-        "rex_goth_band_sahsjane_carpi",
-        "rex_goth_band_militon_astringi2",
-        "rex_goth_band_militon_tervingi0",
-        "rex_goth_band_aihvamanne_greutungi0",
-        "rex_goth_band_gadrauhteis_tervingi0",
-        "rex_goth_band_gadrauhteis_greutungi0",
-        "rex_goth_band_gadrauhteis_taifali0"
-      ],
-      "AOR_Sarmatia": [
-        "rex_hun_ant_band_horse_archers",
-        "rex_hun_sarm_cavalry",
-        "rex_hun_spears_limicantes",
-        "rex_hun_arrows_limicantes",
-        "rex_hun_light_wedge_limicantes",
-        "rex_hun_sarmatian_horsemen",
-        "rex_hun_fast_arrows_arcaragantes",
-        "rex_hun_wedge_arcaragantes",
-        "rex_hun_ant_cavalry",
-        "rex_hun_ant_contofors",
-        "rex_hun_ant_shield_bearers",
-        "rex_hun_swords_limicantes",
-        "rex_hun_warband_limicantes",
-        "rex_hun_light_shield_bearers_limicantes",
-        "rex_hun_long_arrows_arcaragantes",
-        "rex_hun_shield_bearers_warband_arcaragantes",
-        "rex_hun_ant_oathbounds",
-        "rex_hun_oathbound_warband_limicantes",
-        "rex_hun_sarm_comrades"
-      ]
-    }
-  },
-  "att_reg_germano_sarmatia_palteskja": {
-    "resources": {
-      "AOR_Germania": [
-        "rex_hun_ven_band_skirmishers",
-        "rex_hun_ven_band_archers",
-        "rex_hun_ven_band_defenders",
-        "rex_hun_ven_band_raiders",
-        "rex_hun_squad_hunters",
-        "rex_hun_germ_cavalry",
-        "rex_hun_ven_band_warspear",
-        "rex_hun_ven_band_warsword",
-        "rex_hun_ven_band_ferocious",
-        "rex_hun_spear_braves",
-        "rex_hun_warlords_braves"
-      ]
-    }
-  },
+  "att_reg_dacia_petrodava": {},
+  "att_reg_germano_sarmatia_palteskja": {},
   "att_reg_cilicia_myra": {
-    "resources": {
-      "Auxilia_Caucasia": [
-        "rex_rom_legionis_galatarum",
-        "rex_rom_legionis_pontinenses",
-        "rex_rom_legionis_scythae"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_galatarum",
+      "rex_rom_legionis_pontinenses",
+      "rex_rom_legionis_scythae"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_galatarum",
+      "rex_rom_legionis_pontinenses",
+      "rex_rom_legionis_scythae"
+    ]
   },
   "att_reg_belgica_augusta_treverorum": {
-    "resources": {
-      "Auxilia_Bactrian": [
-        "rex_germ_band_raiders_franc2",
-        "rex_germ_band_raiders_sax2",
-        "rex_germ_band_defenders_bruc2",
-        "rex_germ_band_defenders_amps2",
-        "rex_germ_band_raiders_hama2",
-        "rex_germ_band_spearmen_franc2",
-        "rex_germ_band_wigman_franc2",
-        "rex_germ_band_swordsmen_franc2",
-        "rex_germ_band_swordsmen_sax2",
-        "rex_germ_shield_bearers_franc2",
-        "rex_rom_millites_barb",
-        "rex_rom_millites_mena",
-        "rex_rom_millites_nerv",
-        "rex_rom_millites_tung",
-        "rex_rom_legionis_francorum",
-        "rex_rom_legionis_chamavorum",
-        "rex_rom_legionis_tungrorum",
-        "rex_rom_legionis_lingonum",
-        "rex_rom_legionis_nerviorum",
-        "rex_rom_legionis_morinorum",
-        "rex_rom_sagittarii_tungri",
-        "rex_rom_sagittarii_nervii",
-        "rex_rom_auxiliarii_ampsivarii",
-        "rex_rom_auxiliarii_anglevarii",
-        "rex_rom_auxiliarii_bructeri",
-        "rex_rom_auxiliarii_salii_iuniores",
-        "rex_rom_auxiliarii_batavi_iuniores",
-        "rex_rom_equites_batavi_iuniores",
-        "rex_rom_legionis_cimbriani",
-        "rex_rom_legionis_nervii",
-        "rex_rom_auxiliarii_salii_seniores",
-        "rex_rom_auxiliarii_batavi_seniores",
-        "rex_rom_equites_batavi_seniores"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_millites_barb",
+      "rex_rom_millites_mena",
+      "rex_rom_millites_nerv",
+      "rex_rom_millites_tung",
+      "rex_rom_legionis_francorum",
+      "rex_rom_legionis_chamavorum",
+      "rex_rom_legionis_tungrorum",
+      "rex_rom_legionis_lingonum",
+      "rex_rom_legionis_nerviorum",
+      "rex_rom_legionis_morinorum",
+      "rex_rom_sagittarii_tungri",
+      "rex_rom_sagittarii_nervii",
+      "rex_rom_auxiliarii_ampsivarii",
+      "rex_rom_auxiliarii_anglevarii",
+      "rex_rom_auxiliarii_bructeri",
+      "rex_rom_auxiliarii_salii_iuniores",
+      "rex_rom_auxiliarii_batavi_iuniores",
+      "rex_rom_equites_batavi_iuniores",
+      "rex_rom_legionis_cimbriani",
+      "rex_rom_legionis_nervii",
+      "rex_rom_auxiliarii_salii_seniores",
+      "rex_rom_auxiliarii_batavi_seniores",
+      "rex_rom_equites_batavi_seniores"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_millites_barb",
+      "rex_rom_millites_mena",
+      "rex_rom_millites_nerv",
+      "rex_rom_millites_tung",
+      "rex_rom_legionis_francorum",
+      "rex_rom_legionis_chamavorum",
+      "rex_rom_legionis_tungrorum",
+      "rex_rom_legionis_lingonum",
+      "rex_rom_legionis_nerviorum",
+      "rex_rom_legionis_morinorum",
+      "rex_rom_sagittarii_tungri",
+      "rex_rom_sagittarii_nervii",
+      "rex_rom_auxiliarii_ampsivarii",
+      "rex_rom_auxiliarii_anglevarii",
+      "rex_rom_auxiliarii_bructeri",
+      "rex_rom_auxiliarii_salii_iuniores",
+      "rex_rom_auxiliarii_batavi_iuniores",
+      "rex_rom_equites_batavi_iuniores",
+      "rex_rom_legionis_cimbriani",
+      "rex_rom_legionis_nervii",
+      "rex_rom_auxiliarii_salii_seniores",
+      "rex_rom_auxiliarii_batavi_seniores",
+      "rex_rom_equites_batavi_seniores"
+    ]
   },
-  "att_reg_gothiscandza_ascaucalis": {
-    "resources": {
-      "AOR_Germania": [
-        "rex_hun_ven_band_skirmishers",
-        "rex_hun_ven_band_archers",
-        "rex_hun_ven_band_defenders",
-        "rex_hun_ven_band_raiders",
-        "rex_hun_squad_hunters",
-        "rex_hun_germ_cavalry",
-        "rex_hun_ven_band_warspear",
-        "rex_hun_ven_band_warsword",
-        "rex_hun_ven_band_ferocious",
-        "rex_hun_spear_braves",
-        "rex_hun_warlords_braves"
-      ]
-    }
-  },
+  "att_reg_gothiscandza_ascaucalis": {},
   "att_reg_britannia_superior_corinium": {
-    "resources": {
-      "Auxilia_Briton": [
-        "rex_celt_brit_infantry",
-        "rex_celt_brit_horseman",
-        "rex_celt_brit_chariot",
-        "rex_celt_pict_band_defenders2",
-        "rex_celt_pict_band_raiders2",
-        "rex_celt_caled_band_defenders2",
-        "rex_celt_caled_band_raiders2",
-        "rex_celt_scot_band_defenders2",
-        "rex_celt_scot_band_raiders2",
-        "rex_rom_legionis_britonum",
-        "rex_rom_ala_britonum",
-        "rex_rom_auxiliarii_atecotti_iuniores",
-        "rex_rom_legionis_britones_seniores",
-        "rex_rom_auxiliarii_atecotti_seniores"
-      ]
-    }
+    "att_sub_cult_barbarian_celtic": [
+      "rex_celt_brit_infantry",
+      "rex_celt_brit_horseman",
+      "rex_celt_brit_chariot",
+      "rex_celt_pict_band_defenders2",
+      "rex_celt_pict_band_raiders2",
+      "rex_celt_caled_band_defenders2",
+      "rex_celt_caled_band_raiders2",
+      "rex_celt_scot_band_defenders2",
+      "rex_celt_scot_band_raiders2"
+    ],
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_britonum",
+      "rex_rom_ala_britonum",
+      "rex_rom_auxiliarii_atecotti_iuniores",
+      "rex_rom_legionis_britones_seniores",
+      "rex_rom_auxiliarii_atecotti_seniores"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_britonum",
+      "rex_rom_ala_britonum",
+      "rex_rom_auxiliarii_atecotti_iuniores",
+      "rex_rom_legionis_britones_seniores",
+      "rex_rom_auxiliarii_atecotti_seniores"
+    ]
   },
   "att_reg_aegyptus_alexandria": {
-    "resources": {
-      "Auxilia_Egyptian": [
-        "rex_rom_legionis_aegyptiorum",
-        "rex_rom_legionis_flavia_constantia_thebaeorum",
-        "rex_rom_legionis_maximiana",
-        "rex_rom_legionis_valentis"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_aegyptiorum",
+      "rex_rom_legionis_flavia_constantia_thebaeorum",
+      "rex_rom_legionis_maximiana",
+      "rex_rom_legionis_valentis"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_aegyptiorum",
+      "rex_rom_legionis_flavia_constantia_thebaeorum",
+      "rex_rom_legionis_maximiana",
+      "rex_rom_legionis_valentis"
+    ]
   },
   "att_reg_asorstan_ctesiphon": {
-    "resources": {
-      "Auxilia_Persian": [
-        "rex_east_kurds",
-        "rex_east_lakhmids",
-        "rex_east_daylamites",
-        "rex_east_chionites",
-        "rex_east_daylamites_infantry",
-        "rex_east_kadisins",
-        "rex_east_huns_sabirs",
-        "rex_east_sas_eran_savaran0",
-        "rex_east_sas_clibanarius0",
-        "rex_east_arab_spearmen"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_east_kurds"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_east_kurds"
+    ]
   },
   "att_reg_mauretania_caesarea": {
-    "resources": {
-      "Auxilia_Sabaean": [
-        "rex_rom_millites_maur",
-        "rex_rom_legionis_mauri",
-        "rex_rom_legionis_numidarum",
-        "rex_rom_legionis_gaetulorum",
-        "rex_rom_equites_mauri",
-        "rex_rom_auxiliarii_mauri_iuniores",
-        "rex_rom_equites_stablesiani_africani",
-        "rex_rom_auxiliarii_mauri_seniores"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_millites_maur",
+      "rex_rom_legionis_mauri",
+      "rex_rom_legionis_numidarum",
+      "rex_rom_legionis_gaetulorum",
+      "rex_rom_equites_mauri",
+      "rex_rom_auxiliarii_mauri_iuniores",
+      "rex_rom_equites_stablesiani_africani",
+      "rex_rom_auxiliarii_mauri_seniores"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_millites_maur",
+      "rex_rom_legionis_mauri",
+      "rex_rom_legionis_numidarum",
+      "rex_rom_legionis_gaetulorum",
+      "rex_rom_equites_mauri",
+      "rex_rom_auxiliarii_mauri_iuniores",
+      "rex_rom_equites_stablesiani_africani",
+      "rex_rom_auxiliarii_mauri_seniores"
+    ]
   },
   "att_reg_narbonensis_narbo": {
-    "resources": {
-      "Auxilia_Gallic": [
-        "rex_robb_militia_0",
-        "rex_robb_ala_0",
-        "rex_rom_legionis_gallorum",
-        "att_cel_mounted_spear_raiders",
-        "rex_rom_legionis_honoriani_felices_gallicani",
-        "rex_rom_legionis_lanciarii_honoriani_gallicani",
-        "rex_rom_sagittarii_gallicani",
-        "rex_rom_auxiliarii_celtae_iuniores",
-        "rex_rom_auxiliarii_cornuti_iuniores",
-        "rex_rom_auxiliarii_brachiati_iuniores",
-        "rex_rom_equites_cornuti_iuniores",
-        "rex_rom_equites_brachiati_iuniores",
-        "rex_rom_auxiliarii_mattiarii_honoriani_gallicani",
-        "rex_rom_auxiliarii_celtae_seniores",
-        "att_rom_cornuti_seniores",
-        "rex_rom_auxiliarii_brachiati_seniores",
-        "rex_rom_equites_cornuti_seniores",
-        "rex_rom_equites_brachiati_seniores"
-      ]
-    }
+    "att_sub_cult_barbarian_celtic": [
+      "rex_robb_militia_0",
+      "rex_robb_ala_0"
+    ],
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_gallorum",
+      "att_cel_mounted_spear_raiders",
+      "rex_rom_legionis_honoriani_felices_gallicani",
+      "rex_rom_legionis_lanciarii_honoriani_gallicani",
+      "rex_rom_sagittarii_gallicani",
+      "rex_rom_auxiliarii_celtae_iuniores",
+      "rex_rom_auxiliarii_cornuti_iuniores",
+      "rex_rom_auxiliarii_brachiati_iuniores",
+      "rex_rom_equites_cornuti_iuniores",
+      "rex_rom_equites_brachiati_iuniores",
+      "rex_rom_auxiliarii_mattiarii_honoriani_gallicani",
+      "rex_rom_auxiliarii_celtae_seniores",
+      "att_rom_cornuti_seniores",
+      "rex_rom_auxiliarii_brachiati_seniores",
+      "rex_rom_equites_cornuti_seniores",
+      "rex_rom_equites_brachiati_seniores"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_gallorum",
+      "att_cel_mounted_spear_raiders",
+      "rex_rom_legionis_honoriani_felices_gallicani",
+      "rex_rom_legionis_lanciarii_honoriani_gallicani",
+      "rex_rom_sagittarii_gallicani",
+      "rex_rom_auxiliarii_celtae_iuniores",
+      "rex_rom_auxiliarii_cornuti_iuniores",
+      "rex_rom_auxiliarii_brachiati_iuniores",
+      "rex_rom_equites_cornuti_iuniores",
+      "rex_rom_equites_brachiati_iuniores",
+      "rex_rom_auxiliarii_mattiarii_honoriani_gallicani",
+      "rex_rom_auxiliarii_celtae_seniores",
+      "att_rom_cornuti_seniores",
+      "rex_rom_auxiliarii_brachiati_seniores",
+      "rex_rom_equites_cornuti_seniores",
+      "rex_rom_equites_brachiati_seniores"
+    ]
   },
   "att_reg_palaestinea_nova_trajana_bostra": {
-    "resources": {
-      "Auxilia_Arabian": [
-        "rex_rom_legionis_arabum",
-        "rex_rom_legionis_palaestinorum",
-        "rex_rom_legionis_euphratensis",
-        "rex_rom_equites_saraceni",
-        "rex_rom_ala_dromedariorum_z",
-        "att_rom_imperial_dromedarii",
-        "rex_rom_cuneus_clibanariorum_palmirenorum"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_arabum",
+      "rex_rom_legionis_palaestinorum",
+      "rex_rom_legionis_euphratensis",
+      "rex_rom_equites_saraceni",
+      "rex_rom_ala_dromedariorum_z",
+      "att_rom_imperial_dromedarii",
+      "rex_rom_cuneus_clibanariorum_palmirenorum"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_arabum",
+      "rex_rom_legionis_palaestinorum",
+      "rex_rom_legionis_euphratensis",
+      "rex_rom_equites_saraceni",
+      "rex_rom_ala_dromedariorum_z",
+      "att_rom_imperial_dromedarii",
+      "rex_rom_cuneus_clibanariorum_palmirenorum"
+    ]
   },
-  "att_reg_scythia_ra": {
-    "resources": {
-      "Auxilia_Scythian": []
-    }
-  },
+  "att_reg_scythia_ra": {},
   "att_reg_raetia_et_noricum_virunum": {
-    "resources": {
-      "Auxilia_Germanic": [
-        "rex_germ_band_defenders_bucin2",
-        "rex_germ_band_raiders_burg2",
-        "rex_germ_band_raiders_raet2",
-        "rex_rom_legionis_raetorum",
-        "rex_rom_legionis_noricorum",
-        "rex_rom_legionis_iuthungorum",
-        "rex_rom_auxiliarii_raetobarii",
-        "rex_rom_auxiliarii_marcomanni_iuniores",
-        "rex_rom_auxiliarii_marcomanni_seniores"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_raetorum",
+      "rex_rom_legionis_noricorum",
+      "rex_rom_legionis_iuthungorum",
+      "rex_rom_auxiliarii_raetobarii",
+      "rex_rom_auxiliarii_marcomanni_iuniores",
+      "rex_rom_auxiliarii_marcomanni_seniores"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_raetorum",
+      "rex_rom_legionis_noricorum",
+      "rex_rom_legionis_iuthungorum",
+      "rex_rom_auxiliarii_raetobarii",
+      "rex_rom_auxiliarii_marcomanni_iuniores",
+      "rex_rom_auxiliarii_marcomanni_seniores"
+    ]
   },
   "att_reg_thracia_constantinopolis": {
-    "resources": {
-      "Auxilia_Thracia": [
-        "rex_rom_millites_daci",
-        "rex_rom_millites_moes",
-        "rex_rom_millites_scyt",
-        "rex_rom_legionis_thracorum",
-        "rex_rom_legionis_dacorum",
-        "rex_rom_legionis_gothorum",
-        "rex_rom_cuneus_sarmatarum",
-        "rex_rom_auxiliarii_thraces",
-        "rex_rom_auxiliarii_tervingi",
-        "rex_rom_auxiliarii_visi",
-        "att_ger_taifali_cavalry",
-        "rex_rom_legionis_moesiaci_seniores",
-        "rex_rom_legionis_daci",
-        "rex_goth_band_militon_tervingi_F",
-        "rex_goth_band_aihvamanne_greutungi_F",
-        "rex_goth_band_gadrauhteis_tervingi_F",
-        "rex_goth_band_gadrauhteis_greutungi_F",
-        "rex_rom_legionis_quartodecimani"
-      ],
-      "Auxilia_Roman": [
-        "att_ger_gothic_archers",
-        "att_ger_gothic_lancers",
-        "att_ger_gothic_pikemen",
-        "att_ger_gothic_palatina_defectors"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_millites_daci",
+      "rex_rom_millites_moes",
+      "rex_rom_millites_scyt",
+      "rex_rom_legionis_thracorum",
+      "rex_rom_legionis_dacorum",
+      "rex_rom_legionis_gothorum",
+      "rex_rom_cuneus_sarmatarum",
+      "rex_rom_auxiliarii_thraces",
+      "rex_rom_auxiliarii_tervingi",
+      "rex_rom_auxiliarii_visi",
+      "att_ger_taifali_cavalry",
+      "rex_rom_legionis_moesiaci_seniores",
+      "rex_rom_legionis_daci",
+      "rex_goth_band_militon_tervingi_F",
+      "rex_goth_band_aihvamanne_greutungi_F",
+      "rex_goth_band_gadrauhteis_tervingi_F",
+      "rex_goth_band_gadrauhteis_greutungi_F",
+      "rex_rom_legionis_quartodecimani"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_millites_daci",
+      "rex_rom_millites_moes",
+      "rex_rom_millites_scyt",
+      "rex_rom_legionis_thracorum",
+      "rex_rom_legionis_dacorum",
+      "rex_rom_legionis_gothorum",
+      "rex_rom_cuneus_sarmatarum",
+      "rex_rom_auxiliarii_thraces",
+      "rex_rom_auxiliarii_tervingi",
+      "rex_rom_auxiliarii_visi",
+      "att_ger_taifali_cavalry",
+      "rex_rom_legionis_moesiaci_seniores",
+      "rex_rom_legionis_daci",
+      "rex_goth_band_militon_tervingi_F",
+      "rex_goth_band_aihvamanne_greutungi_F",
+      "rex_goth_band_gadrauhteis_tervingi_F",
+      "rex_goth_band_gadrauhteis_greutungi_F",
+      "rex_rom_legionis_quartodecimani"
+    ]
   },
   "att_reg_lusitania_pax_augusta": {
-    "resources": {
-      "Auxilia_Hellenic": [
-        "rex_rom_legionis_hispanorum",
-        "rex_rom_legionis_carthaginensis",
-        "rex_rom_legionis_lusitanorum",
-        "rex_rom_legionis_asturum"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_hispanorum",
+      "rex_rom_legionis_carthaginensis",
+      "rex_rom_legionis_lusitanorum",
+      "rex_rom_legionis_asturum"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_hispanorum",
+      "rex_rom_legionis_carthaginensis",
+      "rex_rom_legionis_lusitanorum",
+      "rex_rom_legionis_asturum"
+    ]
   },
-  "att_reg_germano_sarmatia_duna": {
-    "resources": {
-      "AOR_Germania": [
-        "rex_hun_ven_band_skirmishers",
-        "rex_hun_ven_band_archers",
-        "rex_hun_ven_band_defenders",
-        "rex_hun_ven_band_raiders",
-        "rex_hun_squad_hunters",
-        "rex_hun_germ_cavalry",
-        "rex_hun_ven_band_warspear",
-        "rex_hun_ven_band_warsword",
-        "rex_hun_ven_band_ferocious",
-        "rex_hun_spear_braves",
-        "rex_hun_warlords_braves"
-      ]
-    }
-  },
+  "att_reg_germano_sarmatia_duna": {},
   "att_reg_pannonia_sirmium": {
-    "resources": {
-      "Auxilia_Illyrian": [
-        "rex_rom_millites_dalm",
-        "rex_rom_legionis_illyricorum",
-        "rex_rom_legionis_dalmatarum",
-        "rex_rom_equites_dalmatae_illyriciani",
-        "rex_rom_equites_promoti_illyriciani",
-        "rex_rom_equites_scutarii_illyriciani",
-        "rex_rom_legionis_pannoniciani_iuniores",
-        "rex_rom_legionis_pannoniciani_seniores"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_millites_dalm",
+      "rex_rom_legionis_illyricorum",
+      "rex_rom_legionis_dalmatarum",
+      "rex_rom_equites_dalmatae_illyriciani",
+      "rex_rom_equites_promoti_illyriciani",
+      "rex_rom_equites_scutarii_illyriciani",
+      "rex_rom_legionis_pannoniciani_iuniores",
+      "rex_rom_legionis_pannoniciani_seniores"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_millites_dalm",
+      "rex_rom_legionis_illyricorum",
+      "rex_rom_legionis_dalmatarum",
+      "rex_rom_equites_dalmatae_illyriciani",
+      "rex_rom_equites_promoti_illyriciani",
+      "rex_rom_equites_scutarii_illyriciani",
+      "rex_rom_legionis_pannoniciani_iuniores",
+      "rex_rom_legionis_pannoniciani_seniores"
+    ]
   },
-  "att_reg_makran_harmosia": {
-    "resources": {
-      "AOR_Kushan": [
-        "att_est_armoured_indian_elephants",
-        "att_est_indian_elephants",
-        "rex_east_segestani"
-      ]
-    }
-  },
-  "att_reg_sarmatia_europaea_olbia": {
-    "resources": {
-      "Auxilia_local_Macedonia": [
-        "rex_goth_band_militon_peucini",
-        "rex_goth_band_sahsjane_carpi",
-        "rex_goth_band_militon_astringi2",
-        "rex_goth_band_militon_tervingi0",
-        "rex_goth_band_aihvamanne_greutungi0",
-        "rex_goth_band_gadrauhteis_tervingi0",
-        "rex_goth_band_gadrauhteis_greutungi0",
-        "rex_goth_band_gadrauhteis_taifali0"
-      ],
-      "AOR_Sarmatia": [
-        "rex_hun_ant_band_horse_archers",
-        "rex_hun_sarm_cavalry",
-        "rex_hun_spears_limicantes",
-        "rex_hun_arrows_limicantes",
-        "rex_hun_light_wedge_limicantes",
-        "rex_hun_sarmatian_horsemen",
-        "rex_hun_fast_arrows_arcaragantes",
-        "rex_hun_wedge_arcaragantes",
-        "rex_hun_ant_cavalry",
-        "rex_hun_ant_contofors",
-        "rex_hun_ant_shield_bearers",
-        "rex_hun_swords_limicantes",
-        "rex_hun_warband_limicantes",
-        "rex_hun_light_shield_bearers_limicantes",
-        "rex_hun_long_arrows_arcaragantes",
-        "rex_hun_shield_bearers_warband_arcaragantes",
-        "rex_hun_ant_oathbounds",
-        "rex_hun_oathbound_warband_limicantes",
-        "rex_hun_sarm_comrades"
-      ]
-    }
-  },
+  "att_reg_makran_harmosia": {},
+  "att_reg_sarmatia_europaea_olbia": {},
   "att_reg_carthaginensis_toletum": {
-    "resources": {
-      "Auxilia_Hellenic": [
-        "rex_rom_legionis_hispanorum",
-        "rex_rom_legionis_carthaginensis",
-        "rex_rom_legionis_lusitanorum",
-        "rex_rom_legionis_asturum"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_hispanorum",
+      "rex_rom_legionis_carthaginensis",
+      "rex_rom_legionis_lusitanorum",
+      "rex_rom_legionis_asturum"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_hispanorum",
+      "rex_rom_legionis_carthaginensis",
+      "rex_rom_legionis_lusitanorum",
+      "rex_rom_legionis_asturum"
+    ]
   },
-  "att_reg_scandza_hrefnesholt": {
-    "resources": {
-      "AOR_Scandza": [
-        "rex_germ_band_defenders_nord0",
-        "rex_germ_band_raiders_nord0",
-        "rex_germ_band_raiders_svio0",
-        "rex_germ_band_wigman_nord0"
-      ]
-    }
-  },
+  "att_reg_scandza_hrefnesholt": {},
   "att_reg_bithynia_amasea": {
-    "resources": {
-      "Auxilia_Caucasia": [
-        "rex_rom_legionis_galatarum",
-        "rex_rom_legionis_pontinenses",
-        "rex_rom_legionis_scythae"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_galatarum",
+      "rex_rom_legionis_pontinenses",
+      "rex_rom_legionis_scythae"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_galatarum",
+      "rex_rom_legionis_pontinenses",
+      "rex_rom_legionis_scythae"
+    ]
   },
   "att_reg_spahan_issatis": {
-    "resources": {
-      "Auxilia_Persian": [
-        "rex_east_kurds",
-        "rex_east_lakhmids",
-        "rex_east_daylamites",
-        "rex_east_chionites",
-        "rex_east_daylamites_infantry",
-        "rex_east_kadisins",
-        "rex_east_huns_sabirs",
-        "rex_east_sas_eran_savaran0",
-        "rex_east_sas_clibanarius0",
-        "rex_east_arab_spearmen"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_east_kurds"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_east_kurds"
+    ]
   },
   "att_reg_asia_cyzicus": {
-    "resources": {
-      "Auxilia_Caucasia": [
-        "rex_rom_legionis_galatarum",
-        "rex_rom_legionis_pontinenses",
-        "rex_rom_legionis_scythae"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_galatarum",
+      "rex_rom_legionis_pontinenses",
+      "rex_rom_legionis_scythae"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_galatarum",
+      "rex_rom_legionis_pontinenses",
+      "rex_rom_legionis_scythae"
+    ]
   },
-  "att_reg_armenia_payttakaran": {
-    "resources": {
-      "Auxilia_local_Phazania_Libue_Aithiops": [
-        "rex_east_armenian_ayrudzi0",
-        "rex_east_armenian_ayrudzi_archers0"
-      ]
-    }
-  },
+  "att_reg_armenia_payttakaran": {},
   "att_reg_palaestinea_aelia_capitolina": {
-    "resources": {
-      "Auxilia_Arabian": [
-        "rex_rom_legionis_arabum",
-        "rex_rom_legionis_palaestinorum",
-        "rex_rom_legionis_euphratensis",
-        "rex_rom_equites_saraceni",
-        "rex_rom_ala_dromedariorum_z",
-        "att_rom_imperial_dromedarii",
-        "rex_rom_cuneus_clibanariorum_palmirenorum"
-      ]
-    }
+    "att_sub_cult_roman_east": [
+      "rex_rom_legionis_arabum",
+      "rex_rom_legionis_palaestinorum",
+      "rex_rom_legionis_euphratensis",
+      "rex_rom_equites_saraceni",
+      "rex_rom_ala_dromedariorum_z",
+      "att_rom_imperial_dromedarii",
+      "rex_rom_cuneus_clibanariorum_palmirenorum"
+    ],
+    "att_sub_cult_roman_west": [
+      "rex_rom_legionis_arabum",
+      "rex_rom_legionis_palaestinorum",
+      "rex_rom_legionis_euphratensis",
+      "rex_rom_equites_saraceni",
+      "rex_rom_ala_dromedariorum_z",
+      "att_rom_imperial_dromedarii",
+      "rex_rom_cuneus_clibanariorum_palmirenorum"
+    ]
   }
 }

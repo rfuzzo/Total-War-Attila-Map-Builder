@@ -22,22 +22,16 @@ from PIL import Image
 # ------------------------------------------------------------
 #  Input data paths
 # ------------------------------------------------------------
-regions_csv = "data/regions.csv"
-regions_units = "data/start_pos_regions_to_unit_resources.csv"
+
 lookup_image = "data/main_attila_lookup.tga"
+
 units_folder = ["data/units"]
 
-# ------------------------------------------------------------
-#  Helper: load TGA/PNG via Pillow (handles alpha properly)
-# ------------------------------------------------------------
-def load_lookup(path: Path):
-    im = Image.open(path).convert("RGBA")
-    arr = np.array(im)
-    h, w = arr.shape[:2]
-    # Convert RGBA -> BGRA for OpenCV
-    #img_bgra = arr[:, :, ::-1].copy()
-    #return img_bgra, w, h
-    return arr, w, h
+regions_csv = "data/regions.csv"
+regions_units = "data/start_pos_regions_to_unit_resources.csv"
+lookup_factions = "data/_rex_factions.tsv"
+lookup_buildings = "data/building_culture_variants.tsv"
+lookup_building_units = "data/_rex_building_units_allowed.tsv"
 
 # ------------------------------------------------------------
 #  CSV mapping: 
@@ -59,7 +53,61 @@ def load_auxilia_mapping(csv_path):
     return mapping
 
 # ------------------------------------------------------------
-#  CSV mapping: 
+#  TSV mapping: 
+#  _rex_factions.tsv:                  faction -> subculture
+# ------------------------------------------------------------
+def load_building_unit_mapping(csv_path):
+    mapping = {}
+    with open(csv_path, newline="", encoding="utf-8", errors="replace") as f:
+        reader = csv.DictReader(f, delimiter="\t")
+        for row in reader:
+            # csv with columns: building, unit
+            building = row.get("building", "").strip()
+            unit = row.get("unit", "").strip()
+            # one building can can have multiple units, in a new line
+            if building and unit:
+                if building not in mapping:
+                    mapping[building] = []
+                mapping[building].append(unit)
+            
+    return mapping
+
+# ------------------------------------------------------------
+#  TSV mapping: 
+#  _rex_factions.tsv:                  faction -> subculture
+# ------------------------------------------------------------
+def load_faction_mapping(csv_path):
+    mapping = {}
+    with open(csv_path, newline="", encoding="utf-8", errors="replace") as f:
+        reader = csv.DictReader(f, delimiter="\t")
+        for row in reader:
+            # csv with columns: key, subculture
+            region = row.get("key", "").strip()
+            subculture = row.get("subculture", "").strip()
+            if region and subculture:
+                mapping[region] = subculture
+    return mapping
+
+# ------------------------------------------------------------
+#  TSV mapping: 
+#  building_culture_variants.tsv:     subculture -> building
+# ------------------------------------------------------------
+def load_buildings_mapping(csv_path):
+    mapping = {}
+    with open(csv_path, newline="", encoding="utf-8", errors="replace") as f:
+        reader = csv.DictReader(f, delimiter="\t")
+        for row in reader:
+            # csv with columns: building, subculture
+            building = row.get("building", "").strip()
+            subculture = row.get("subculture", "").strip()
+            if building and subculture:
+                if subculture not in mapping:
+                    mapping[subculture] = []
+                mapping[subculture].append(building)
+    return mapping
+
+# ------------------------------------------------------------
+#  TSV mapping: 
 #   _rex_other_main_units.tsv:                  unit resource -> unit
 # ------------------------------------------------------------
 def load_unit_mappings(folder_path):
@@ -177,7 +225,17 @@ def path_d_from_contours(contours, simplify_pct=0.3, scale_divisor=1.0):
     # return one big SVG "d" string, joining multiple disjoint polygons
     return " ".join(parts)
 
-
+# ------------------------------------------------------------
+#  Helper: load TGA/PNG via Pillow (handles alpha properly)
+# ------------------------------------------------------------
+def load_lookup(path: Path):
+    im = Image.open(path).convert("RGBA")
+    arr = np.array(im)
+    h, w = arr.shape[:2]
+    # Convert RGBA -> BGRA for OpenCV
+    #img_bgra = arr[:, :, ::-1].copy()
+    #return img_bgra, w, h
+    return arr, w, h
 
 
 # ------------------------------------------------------------
@@ -200,22 +258,53 @@ def main():
     # DATA
 
     # regions -> unit resources
-    resource_to_region = load_auxilia_mapping(regions_units)
-    print(f"Loaded {len(resource_to_region)} resource to region mappings from {regions_units}")
+    region_to_resource = load_auxilia_mapping(regions_units)
+    print(f"Loaded {len(region_to_resource)} resource to region mappings from {regions_units}")
     
     # unit resources -> units
-    unit_resource_to_unit = load_unit_mappings(units_folder)
-    print(f"Loaded {len(unit_resource_to_unit)} unit resource to unit mappings from {units_folder}")
+    resource_to_unit = load_unit_mappings(units_folder)
+    print(f"Loaded {len(resource_to_unit)} unit resource to unit mappings from {units_folder}")
 
-    # now we can map region -> [unit resources] -> [units]
-    # each regions should have a list of resources, each resources a list of units
+    # faction -> subculture
+    faction_to_subculture = load_faction_mapping(lookup_factions)
+    print(f"Loaded {len(faction_to_subculture)} faction to subculture mappings from {lookup_factions}")
+
+    # subculture -> buildings
+    subculture_to_building = load_buildings_mapping(lookup_buildings)
+    print(f"Loaded {len(subculture_to_building)} subculture to building mappings from {lookup_buildings}")
+    # building -> units
+    building_to_unit = load_building_unit_mapping(lookup_building_units)
+    print(f"Loaded {len(building_to_unit)} building to unit mappings from {lookup_building_units}")
+
+    # unit -> subculture via building
+    unit_to_subculture = {}
+    for subculture, buildings in subculture_to_building.items():
+        for building in buildings:
+            units = building_to_unit.get(building, [])
+            for unit in units:
+                if unit not in unit_to_subculture:
+                    unit_to_subculture[unit] = []
+                # avoid duplicates
+                if subculture not in unit_to_subculture[unit]:
+                    unit_to_subculture[unit].append(subculture)
+   
+    # ------------------------------------------------------------
+    # what I need is: for each region: the subcultures: the units available
+    # we can check if a region has a resource, then find the units for that resource
+    # and then for each unit, find its subculture via building -> subculture mapping
+
     region_data = {}
-    for region, resources in resource_to_region.items():
+    for region, resources in region_to_resource.items():
+        region_data[region] = {}
         for resource in resources:
-            units = unit_resource_to_unit.get(resource, [])
-            if region not in region_data:
-                region_data[region] = {"resources": {}}
-            region_data[region]["resources"][resource] = units
+            units = resource_to_unit.get(resource, [])
+            for unit in units:
+                subcultures = unit_to_subculture.get(unit, [])
+                for subculture in subcultures:
+                    if subculture not in region_data[region]:
+                        region_data[region][subculture] = []
+                    if unit not in region_data[region][subculture]:
+                        region_data[region][subculture].append(unit)
 
     # save to json
     (outdir / "region_data.json").write_text(

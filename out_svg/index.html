@@ -446,23 +446,7 @@
         </svg>
     </div>
 
-    <script>
-        const tip = document.getElementById('tip');
-        const svg = document.getElementById('map');
-
-        svg.addEventListener('mousemove', (e) => {
-            const t = e.target;
-            if (t.classList && t.classList.contains('province')) {
-                const label = t.getAttribute('data-name') || t.id || '(unnamed)';
-                tip.textContent = label;
-                tip.style.left = e.clientX + 'px';
-                tip.style.top = e.clientY + 'px';
-                tip.style.display = 'block';
-            } else {
-                tip.style.display = 'none';
-            }
-        });
-    </script>
+    <script src="map-tooltips.js" defer></script>
 </body>
 
 </html>
