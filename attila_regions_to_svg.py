@@ -27,6 +27,7 @@ lookup_image = "data/main_attila_lookup.tga"
 
 units_folder = ["data/units"]
 units_to_groupings_military_permissions_tables = ["data/units_to_groupings_military_permissions_tables"]
+building_units_allowed_tables = ["data/building_units_allowed_tables"]
 
 regions_csv = "data/regions.csv"
 regions_units = "data/_rex_start_pos_regions_to_unit_resources.csv"
@@ -49,6 +50,48 @@ loc_sources = {
     }
 }
 
+# ------------------------------------------------------------
+#  TSV mapping: building -> unit
+# ------------------------------------------------------------
+def load_building_unit_mapping(folder_path):
+    mapping = {}
+
+    files = []
+    for folder in folder_path:
+        p = Path(folder)
+        files.extend(p.glob("*.tsv"))
+
+    for path in files:
+        with open(path, newline="", encoding="utf-8", errors="replace") as f:
+            reader = csv.DictReader(f, delimiter="\t")
+            for row in reader:
+                # csv with columns: building, unit
+                building = row.get("building", "").strip()
+                unit = row.get("unit", "").strip()
+                # one building can can have multiple units, in a new line
+                if building and unit:
+                    if building not in mapping:
+                        mapping[building] = []
+                    mapping[building].append(unit)
+
+    return mapping
+
+# ------------------------------------------------------------
+#  TSV mapping:  subculture -> building
+# ------------------------------------------------------------
+def load_buildings_mapping(path):
+    mapping = {}
+    with open(path, newline="", encoding="utf-8", errors="replace") as f:
+        reader = csv.DictReader(f, delimiter="\t")
+        for row in reader:
+            # csv with columns: building, subculture
+            building = row.get("building", "").strip()
+            subculture = row.get("subculture", "").strip()
+            if building and subculture:
+                if subculture not in mapping:
+                    mapping[subculture] = []
+                mapping[subculture].append(building)
+    return mapping
 
 # ------------------------------------------------------------
 #  TSV mapping: 
@@ -62,7 +105,7 @@ def load_loc_tsv(path, mapping, prefix):
             key = row.get("key", "").strip()
             text = row.get("text", "").strip()
             if key and text:
-                # strip "land_units_onscreen_name_" prefix from key
+                # strip prefix from key
                 if key.startswith(prefix):
                     key = key[len(prefix):]
                     mapping[key] = text
@@ -71,7 +114,7 @@ def load_loc_tsv(path, mapping, prefix):
 
 # ------------------------------------------------------------
 #  TSV mapping: 
-#  _rex_factions.tsv:                  faction -> military_group
+#  _rex_factions.tsv:                  faction -> (military_group, subculture)
 # ------------------------------------------------------------
 def load_faction_mapping(path):
     mapping = {}
@@ -95,8 +138,11 @@ def load_faction_mapping(path):
                 continue
 
             military_group = row.get("military_group", "").strip()
-            if faction and military_group:
-                mapping[faction] = military_group
+            subculture = row.get("subculture", "").strip()
+            
+            # store all
+            if faction and military_group and subculture:
+                mapping[faction] = (military_group, subculture)
     return mapping
 
 # ------------------------------------------------------------
@@ -144,13 +190,15 @@ def load_unit_mappings(folder_path):
                 unit = row.get("unit", "").strip()
                 alias = row.get("land_unit", "").strip()
 
-                if alias and unit:
-                    unit_alias[unit] = alias
-
-                if resource and unit:
+                if resource and alias:
                     if resource not in mapping:
                         mapping[resource] = []
                     mapping[resource].append(unit)
+
+                if resource and unit and alias:
+                    if alias != unit:
+                        unit_alias[unit] = alias
+
     return mapping, unit_alias
 
 # ------------------------------------------------------------
@@ -300,26 +348,66 @@ def main():
     # DATA
     # ------------------------------------------------------------
 
-    # regions -> unit resources
-    region_to_resource = load_auxilia_mapping(regions_units)
-    print(f"Loaded {len(region_to_resource)} resource to region mappings from {regions_units}")
-    
-    # unit resources -> units
-    resource_to_unit, unit_alias = load_unit_mappings(units_folder)
-    print(f"Loaded {len(resource_to_unit)} unit resource to unit mappings from {units_folder}")
-
     # military_group -> faction
     faction_to_military_group = load_faction_mapping(lookup_factions)
     print(f"Loaded {len(faction_to_military_group)} faction to military_group mappings from {lookup_factions}")
 
+    # regions -> auxilia
+    region_to_resource = load_auxilia_mapping(regions_units)
+    print(f"Loaded {len(region_to_resource)} resource to region mappings from {regions_units}")
+
+    # auxilia -> units (these may be aliased)
+    resource_to_unit, unit_alias = load_unit_mappings(units_folder)
+    print(f"Loaded {len(resource_to_unit)} auxilia to unit mappings from {units_folder}")
+       
     # unit -> military_group
     unit_to_military_group = load_unit_military_mapping(units_to_groupings_military_permissions_tables)
     print(f"Loaded {len(unit_to_military_group)} unit to military_group mappings from {units_to_groupings_military_permissions_tables}")
+
+    # subculture -> buildings
+    subculture_to_building = load_buildings_mapping(lookup_buildings)
+    print(f"Loaded {len(subculture_to_building)} subculture to building mappings from {lookup_buildings}")
+    # building -> units
+    building_to_unit = load_building_unit_mapping(building_units_allowed_tables)
+    print(f"Loaded {len(building_to_unit)} building to unit mappings from {building_units_allowed_tables}")
+
 
     # ------------------------------------------------------------
     # REGION DATA MAPPING
     # ------------------------------------------------------------
    
+    # militarty group -> faction lookup
+    mg_to_faction = {}
+    for faction, (mg, _) in faction_to_military_group.items():
+        if mg not in mg_to_faction:
+            mg_to_faction[mg] = []
+        mg_to_faction[mg].append(faction)
+
+
+    # unit -> subculture via building
+    # unit_to_subculture = {}
+    # for subculture, buildings in subculture_to_building.items():
+    #     for building in buildings:
+    #         units = building_to_unit.get(building, [])
+    #         for unit in units:
+    #             if unit not in unit_to_subculture:
+    #                 unit_to_subculture[unit] = []
+    #             if subculture not in unit_to_subculture[unit]:
+    #                 unit_to_subculture[unit].append(subculture)
+    #             # also check alias
+                
+
+    # # check that we have a subculture for each unit
+    # missing_subculture_units = []
+    # for unit in unit_to_military_group:
+    #     if unit not in unit_to_subculture:
+    #         missing_subculture_units.append(unit)
+    # if missing_subculture_units:
+    #     print(f"Warning: Missing subculture for {len(missing_subculture_units)} units:")
+    #     for mu in missing_subculture_units:
+    #         print(f"  - {mu}")
+
+
     region_data = {}
     for region, resources in region_to_resource.items():
         region_data[region] = {}
@@ -329,23 +417,38 @@ def main():
             units = resource_to_unit.get(resource, [])
             # now go through each unit and get its military group
             for unit in units:
+                # get the subculture for this unit
+                # subcultures = unit_to_subculture.get(unit, [])
+
+                factions = []
+                # get the military groups for this unit
                 military_groups = unit_to_military_group.get(unit, [])
                 for military_group in military_groups:
-                    # find which faction this military group belongs to
-                    faction = None
-                    for fct, mg in faction_to_military_group.items():
-                        if mg == military_group:
-                            faction = fct
-                            break
-                    if not faction:
-                        continue
+                    # get the factions for this military group
+                    fcts = mg_to_faction.get(military_group, [])
+                    for fct in fcts:
+                        if fct not in factions:
+                            factions.append(fct)
+                
+                # go through subcultures
+                final_factions = []
+                final_factions = factions
+                # for subculture in subcultures:
+                #     for faction in factions:
+                #         # check if faction matches subculture
+                #         _, fct_subculture = faction_to_military_group.get(faction, (None, None))
+                #         if fct_subculture != subculture:
+                #             continue
+                #         final_factions.append(faction)
 
+                # add to region data
+                for faction in final_factions:
                     if faction not in region_data[region]:
                         region_data[region][faction] = []
                     if unit not in region_data[region][faction]:
                         # use the alias if available
-                        if unit in unit_alias:
-                            unit = unit_alias[unit]
+                        # if unit in unit_alias:
+                        #     unit = unit_alias[unit]
                         region_data[region][faction].append(unit)
 
     # save to json
