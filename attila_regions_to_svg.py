@@ -473,7 +473,7 @@ def main():
     # LOCALIZATION
     # ------------------------------------------------------------
 
-    # create metadata struct and json
+    # TODO create metadata struct and json
     # unit metadata: { key, english name, icon }
     loc_data = {}
     for key in loc_sources:
@@ -484,6 +484,11 @@ def main():
             loc_sources[key]["prefix"]
         )
         print(f"Loaded {len(loc_data[key])} localization entries from {loc_sources[key]['metadata']}")
+
+    # add unit aliases
+    for alias,unit in unit_alias.items():
+        if unit in loc_data["units"]:
+            loc_data["units"][alias] = loc_data["units"][unit]
 
     # save to json
     (outdir / "loc_data.json").write_text(
